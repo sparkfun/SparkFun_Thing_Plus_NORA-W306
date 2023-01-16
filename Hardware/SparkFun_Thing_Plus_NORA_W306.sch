@@ -30083,6 +30083,11 @@ to free up GPIO</text>
 <wire x1="241.3" y1="114.3" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="160.02" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<label x="162.56" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A4"/>
+</segment>
 </net>
 <net name="PA8/UART-LOG-RXD" class="0">
 <segment>
@@ -30094,6 +30099,11 @@ to free up GPIO</text>
 <pinref part="U2" gate="G$1" pin="TXD"/>
 <wire x1="391.16" y1="254" x2="393.7" y2="254" width="0.1524" layer="91"/>
 <label x="393.7" y="254" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<label x="162.56" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -30494,6 +30504,11 @@ to free up GPIO</text>
 <wire x1="398.78" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
 <label x="401.32" y="55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="DMIC_DATA" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
+<label x="162.56" y="129.54" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="PB23" class="0">
