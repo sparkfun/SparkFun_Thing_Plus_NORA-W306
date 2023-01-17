@@ -28636,7 +28636,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <connect gate="G$1" pin="VREGIN" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15885" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
