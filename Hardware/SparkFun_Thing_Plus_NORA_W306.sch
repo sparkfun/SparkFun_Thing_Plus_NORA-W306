@@ -28954,8 +28954,8 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="DMIC_CLK" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
-<part name="DMIC_DATA" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="USER"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="CHG" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
@@ -29050,8 +29050,9 @@ to disable PWR LED</text>
 <text x="149.86" y="43.18" size="2.54" layer="94" font="vector" align="center">Fuel Gauge</text>
 <text x="121.92" y="2.54" size="1.778" layer="97" font="vector">Unshifted 7-bit I2C address: 0x36</text>
 <text x="383.54" y="99.06" size="2.54" layer="94" font="vector" align="center">Microphone</text>
-<text x="391.16" y="78.74" size="2.032" layer="97" font="vector">Cut DMIC Jumpers
-to free up GPIO</text>
+<text x="391.16" y="78.74" size="2.032" layer="97" font="vector">Cut JP1 and JP2
+To disconnect MIC
+from A2 and A0</text>
 <wire x1="106.68" y1="0" x2="106.68" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="106.68" y1="45.72" x2="106.68" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="106.68" y1="86.36" x2="106.68" y2="182.88" width="0.2032" layer="97" style="longdash"/>
@@ -29487,11 +29488,11 @@ to free up GPIO</text>
 <instance part="SUPPLY28" gate="G$1" x="342.9" y="68.58" smashed="yes">
 <attribute name="VALUE" x="342.9" y="71.374" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="DMIC_CLK" gate="G$1" x="393.7" y="66.04" smashed="yes">
+<instance part="JP1" gate="G$1" x="393.7" y="66.04" smashed="yes">
 <attribute name="NAME" x="393.7" y="69.088" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="393.7" y="62.992" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="DMIC_DATA" gate="G$1" x="393.7" y="55.88" smashed="yes">
+<instance part="JP2" gate="G$1" x="393.7" y="55.88" smashed="yes">
 <attribute name="NAME" x="393.7" y="58.928" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="393.7" y="52.832" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
@@ -30476,6 +30477,11 @@ to free up GPIO</text>
 <wire x1="160.02" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <label x="162.56" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="290.068" y1="35.814" x2="287.528" y2="35.814" width="0.1524" layer="91"/>
+<label x="287.528" y="35.814" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PB22" class="0">
 <segment>
@@ -30503,7 +30509,7 @@ to free up GPIO</text>
 <segment>
 <wire x1="398.78" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
 <label x="401.32" y="55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="DMIC_DATA" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
@@ -30522,11 +30528,6 @@ to free up GPIO</text>
 <wire x1="160.02" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
 <label x="162.56" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="290.068" y1="35.814" x2="287.528" y2="35.814" width="0.1524" layer="91"/>
-<label x="287.528" y="35.814" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -30544,7 +30545,7 @@ to free up GPIO</text>
 <segment>
 <wire x1="398.78" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="91"/>
 <label x="401.32" y="66.04" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="DMIC_CLK" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <label x="162.56" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -30557,14 +30558,14 @@ to free up GPIO</text>
 <pinref part="E1" gate="E1" pin="DATA"/>
 <wire x1="375.92" y1="63.5" x2="383.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="63.5" x2="383.54" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="DMIC_DATA" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="383.54" y1="55.88" x2="388.62" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="E1" gate="E1" pin="CLK"/>
-<pinref part="DMIC_CLK" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="66.04" x2="375.92" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
