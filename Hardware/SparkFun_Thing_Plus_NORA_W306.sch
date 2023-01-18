@@ -30470,11 +30470,6 @@ mic data from D15</text>
 <wire x1="160.02" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <label x="162.56" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="290.068" y1="35.814" x2="287.528" y2="35.814" width="0.1524" layer="91"/>
-<label x="287.528" y="35.814" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="PB22" class="0">
 <segment>
@@ -30520,6 +30515,11 @@ mic data from D15</text>
 <pinref part="J1" gate="G$1" pin="GPIO1"/>
 <wire x1="160.02" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <label x="162.56" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="290.068" y1="35.814" x2="287.528" y2="35.814" width="0.1524" layer="91"/>
+<label x="287.528" y="35.814" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$28" class="0">
