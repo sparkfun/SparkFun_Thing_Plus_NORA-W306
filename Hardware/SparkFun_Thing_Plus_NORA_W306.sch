@@ -28995,10 +28995,10 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <text x="218.44" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Buttons</text>
 <text x="209.296" y="155.702" size="1.905" layer="97" font="vector">Auto program circuit
 DTR    RTS    EN    LOG_TXD
-1      1      1      1
-0      0      1      1
-1      0      0      1
-0      1      1      0</text>
+1        1            1           1
+0        0            1           1
+1        0            0           1
+0        1            1           0</text>
 <text x="233.68" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Auto-Reset</text>
 <wire x1="187.96" y1="45.72" x2="187.96" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="284.48" y1="106.68" x2="284.48" y2="182.88" width="0.2032" layer="97" style="longdash"/>
@@ -29050,6 +29050,12 @@ from A2 and A0</text>
 <wire x1="358.14" y1="106.68" x2="358.14" y2="182.88" width="0.2032" layer="97" style="longdash"/>
 <text x="111.76" y="76.2" size="2.032" layer="97" font="vector">Cut JP3 to disconnect
 mic data from D15</text>
+<text x="38.1" y="45.72" size="2.032" layer="97" font="vector">***Boot Strap Pins***
+(Include internal pull-ups)
+See DS PG 10 for more info.
+PA30 (D3/SCK)
+PB19/SWD_DATA (D13)
+PA7/UART-LOG-TXD (D1)</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="228.6" y="78.74" smashed="yes">
@@ -29255,11 +29261,11 @@ mic data from D15</text>
 <attribute name="VALUE" x="420.624" y="211.836" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="LOGO6" gate="G$1" x="78.994" y="13.462" smashed="yes"/>
-<instance part="GND18" gate="1" x="27.94" y="58.42" smashed="yes">
-<attribute name="VALUE" x="25.4" y="55.88" size="1.778" layer="96" font="vector"/>
+<instance part="GND18" gate="1" x="27.94" y="73.66" smashed="yes">
+<attribute name="VALUE" x="25.4" y="71.12" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="27.94" y="132.08" smashed="yes">
-<attribute name="VALUE" x="26.924" y="135.636" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY11" gate="G$1" x="27.94" y="147.32" smashed="yes">
+<attribute name="VALUE" x="26.924" y="150.876" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="274.32" y="243.84" smashed="yes">
 <attribute name="VALUE" x="270.256" y="246.888" size="1.778" layer="96" font="vector"/>
@@ -29297,15 +29303,15 @@ mic data from D15</text>
 <attribute name="NAME" x="234.696" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="237.744" y="22.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="12.7" y="144.78" smashed="yes">
-<attribute name="NAME" x="14.224" y="147.701" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="14.224" y="142.621" size="1.778" layer="96" font="vector"/>
+<instance part="C4" gate="G$1" x="12.7" y="160.02" smashed="yes">
+<attribute name="NAME" x="14.224" y="162.941" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="14.224" y="157.861" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND25" gate="1" x="12.7" y="137.16" smashed="yes">
-<attribute name="VALUE" x="10.16" y="134.62" size="1.778" layer="96" font="vector"/>
+<instance part="GND25" gate="1" x="12.7" y="152.4" smashed="yes">
+<attribute name="VALUE" x="10.16" y="149.86" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="12.7" y="152.4" smashed="yes">
-<attribute name="VALUE" x="11.684" y="155.956" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY16" gate="G$1" x="12.7" y="167.64" smashed="yes">
+<attribute name="VALUE" x="11.684" y="171.196" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="144.78" y="132.08" smashed="yes">
 <attribute name="NAME" x="141.732" y="165.862" size="1.778" layer="95" font="vector"/>
@@ -29375,9 +29381,9 @@ mic data from D15</text>
 <attribute name="VALUE" x="302.26" y="225.044" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="8.636" y="5.842" smashed="yes"/>
-<instance part="U1" gate="G$1" x="55.88" y="104.14" smashed="yes">
-<attribute name="NAME" x="55.88" y="132.842" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="55.88" y="59.69" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="U1" gate="G$1" x="55.88" y="119.38" smashed="yes">
+<attribute name="NAME" x="55.88" y="148.082" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="55.88" y="74.93" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="H3" gate="G$1" x="419.1" y="33.02" smashed="yes"/>
 <instance part="H4" gate="G$1" x="419.1" y="30.48" smashed="yes"/>
@@ -29562,13 +29568,13 @@ mic data from D15</text>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="27.94" y1="132.08" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="147.32" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
-<wire x1="12.7" y1="152.4" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="167.64" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -29704,8 +29710,8 @@ mic data from D15</text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="30.48" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="63.5" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
@@ -29746,7 +29752,7 @@ mic data from D15</text>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="12.7" y1="139.7" x2="12.7" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="154.94" x2="12.7" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="USBSHLD" gate="G$1" pin="1"/>
@@ -30052,8 +30058,8 @@ mic data from D15</text>
 </net>
 <net name="PA7/UART-LOG-TXD" class="0">
 <segment>
-<wire x1="30.48" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<label x="27.94" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<label x="27.94" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA7/UART_LOG_TXD/!DWNLD!"/>
 </segment>
 <segment>
@@ -30085,8 +30091,8 @@ mic data from D15</text>
 </net>
 <net name="PA8/UART-LOG-RXD" class="0">
 <segment>
-<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
-<label x="27.94" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="27.94" y="132.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA8/UART_LOG_RXD"/>
 </segment>
 <segment>
@@ -30109,8 +30115,8 @@ mic data from D15</text>
 </net>
 <net name="N_RESET" class="0">
 <segment>
-<wire x1="30.48" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
+<label x="27.94" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="NRESET"/>
 </segment>
 <segment>
@@ -30256,8 +30262,8 @@ mic data from D15</text>
 <net name="PB3/ADC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3/SWD_CLK/ADC"/>
-<wire x1="30.48" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="27.94" y="73.66" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="27.94" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
@@ -30268,8 +30274,8 @@ mic data from D15</text>
 <net name="PB20/SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB20/HS_USI_I2C_SCL/I2S_CLK"/>
-<wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="27.94" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="27.94" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
@@ -30290,8 +30296,8 @@ mic data from D15</text>
 <net name="PB21/SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX"/>
-<wire x1="30.48" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="27.94" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="27.94" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
@@ -30312,8 +30318,8 @@ mic data from D15</text>
 <net name="PA30/SCK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7"/>
-<wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<label x="27.94" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="27.94" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
@@ -30329,8 +30335,8 @@ mic data from D15</text>
 <net name="PA28/CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF"/>
-<wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<label x="27.94" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<label x="27.94" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <label x="162.56" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30346,8 +30352,8 @@ mic data from D15</text>
 <net name="PA25/POCI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_I2C_SDA"/>
-<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="27.94" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
@@ -30363,8 +30369,8 @@ mic data from D15</text>
 <net name="PA25/PICO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_I2C_SCL"/>
-<wire x1="30.48" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="27.94" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
@@ -30380,8 +30386,8 @@ mic data from D15</text>
 <net name="PA13/LP_UART_RXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1"/>
-<wire x1="30.48" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
-<label x="27.94" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="27.94" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="160.02" x2="162.56" y2="160.02" width="0.1524" layer="91"/>
@@ -30392,8 +30398,8 @@ mic data from D15</text>
 <net name="PA12/LP_UART_TXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK"/>
-<wire x1="30.48" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<label x="27.94" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="27.94" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
@@ -30404,8 +30410,8 @@ mic data from D15</text>
 <net name="PA14" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2"/>
-<wire x1="30.48" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<label x="27.94" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="27.94" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO5"/>
@@ -30416,8 +30422,8 @@ mic data from D15</text>
 <net name="PA15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS"/>
-<wire x1="30.48" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<label x="27.94" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="27.94" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO6"/>
@@ -30428,8 +30434,8 @@ mic data from D15</text>
 <net name="PA27" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT"/>
-<wire x1="30.48" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<label x="27.94" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<label x="27.94" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="FREEBIE"/>
@@ -30440,8 +30446,8 @@ mic data from D15</text>
 <net name="PB18" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB18/HS_USI_USART0_RXD/SWD_CL"/>
-<wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="27.94" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="27.94" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO3"/>
@@ -30462,8 +30468,8 @@ mic data from D15</text>
 <net name="PB19" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0"/>
-<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="27.94" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="27.94" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO4"/>
@@ -30474,8 +30480,8 @@ mic data from D15</text>
 <net name="PB22" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB"/>
-<wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="27.94" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="27.94" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO2"/>
@@ -30491,8 +30497,8 @@ mic data from D15</text>
 <net name="PB2/DMIC_DATA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC"/>
-<wire x1="30.48" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<label x="27.94" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="27.94" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="398.78" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
@@ -30508,8 +30514,8 @@ mic data from D15</text>
 <net name="PB23" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB23/I2S_MCLK/QDEC_PHA"/>
-<wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="27.94" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<label x="27.94" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO1"/>
@@ -30532,8 +30538,8 @@ mic data from D15</text>
 <net name="PB1/ADC/DMIC_CLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB1/LP_UART_TXD/DMIC_CLK/ADC"/>
-<wire x1="30.48" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<label x="27.94" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="27.94" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="398.78" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="91"/>
