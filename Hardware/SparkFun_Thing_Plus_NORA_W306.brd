@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -18,7 +18,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -13303,7 +13303,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$31" library="output" package="#14#14" value="" x="3.1648375" y="39.40301875" smashed="yes" rot="MR0"/>
 <element name="U$32" library="output" package="#15#15" value="" x="3.147059375" y="36.83" smashed="yes" rot="MR0"/>
 <element name="U$33" library="output" package="#16#16" value="" x="3.126740625" y="34.3001625" smashed="yes" rot="MR0"/>
-<element name="U$34" library="output" package="1417" value="" x="16.73351875" y="25.661621875" smashed="yes"/>
+<element name="U$34" library="output" package="1417" value="" x="16.86051875" y="25.788621875" smashed="yes"/>
 <element name="U$1" library="output" package="#9#91420" value="" x="2.778759375" y="52.0827" smashed="yes"/>
 <element name="U$35" library="output" package="#10#91420" value="" x="3.159759375" y="49.552859375" smashed="yes"/>
 <element name="U$36" library="output" package="#11#91420" value="" x="3.032759375" y="46.979840625" smashed="yes"/>
@@ -14262,7 +14262,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="18.37181875" y1="35.9156" x2="18.37181875" y2="36.621715625" width="0.1778" layer="1"/>
 <wire x1="18.37181875" y1="36.621715625" x2="18.580103125" y2="36.83" width="0.1778" layer="1"/>
 </signal>
-<signal name="PA25/POCI">
+<signal name="PA26/POCI">
 <contactref element="U1" pad="C1"/>
 <contactref element="J1" pad="16"/>
 <contactref element="J4" pad="7"/>
