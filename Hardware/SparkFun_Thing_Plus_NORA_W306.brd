@@ -13236,10 +13236,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <vertex x="7.09" y="-3.99"/>
 <vertex x="7.09" y="-2.99"/>
 <vertex x="7.81" y="-2.99"/>
-<vertex x="7.81" y="-3.99"/>
-<vertex x="8.25" y="-3.99"/>
-<vertex x="8.25" y="4.01"/>
-<vertex x="7.81" y="4.01"/>
+<vertex x="7.81" y="-7.8"/>
+<vertex x="9.52" y="-7.8"/>
+<vertex x="9.52" y="7.82"/>
+<vertex x="7.81" y="7.82"/>
 <vertex x="7.81" y="2.99"/>
 <vertex x="7.09" y="2.99"/>
 <vertex x="7.09" y="4.01"/>
@@ -13250,10 +13250,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <vertex x="7.09" y="-3.99"/>
 <vertex x="7.09" y="-2.99"/>
 <vertex x="7.81" y="-2.99"/>
-<vertex x="7.81" y="-3.99"/>
-<vertex x="8.25" y="-3.99"/>
-<vertex x="8.25" y="4.01"/>
-<vertex x="7.81" y="4.01"/>
+<vertex x="7.81" y="-7.8"/>
+<vertex x="9.52" y="-7.8"/>
+<vertex x="9.52" y="7.82"/>
+<vertex x="7.81" y="7.82"/>
 <vertex x="7.81" y="2.99"/>
 <vertex x="7.09" y="2.99"/>
 <vertex x="7.09" y="4.01"/>
@@ -14446,8 +14446,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="C1" pad="2"/>
 <contactref element="D3" pad="C"/>
 <polygon width="0.2032" layer="2" isolate="0.3048">
-<vertex x="0" y="58.41955"/>
-<vertex x="7.1628" y="58.39415"/>
+<vertex x="0" y="57.52591875"/>
 <vertex x="7.1628" y="57.50051875"/>
 <vertex x="8.328659375" y="57.50051875"/>
 <vertex x="8.328659375" y="57.109359375"/>
@@ -14457,9 +14456,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="15.687040625" y="57.109359375"/>
 <vertex x="14.5288" y="57.109359375"/>
 <vertex x="14.5288" y="57.508140625"/>
-<vertex x="15.6718" y="57.508140625"/>
-<vertex x="15.6718" y="58.42"/>
-<vertex x="22.86" y="58.42"/>
+<vertex x="22.86" y="57.508140625"/>
 <vertex x="22.86" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
