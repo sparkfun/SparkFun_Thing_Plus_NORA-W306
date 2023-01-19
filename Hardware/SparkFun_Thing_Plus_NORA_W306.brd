@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -14208,7 +14208,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.586540625" y1="50.454459375" x2="2.8840875" y2="50.454459375" width="0.1778" layer="1"/>
 <wire x1="2.8840875" y1="50.454459375" x2="1.27" y2="52.068546875" width="0.1778" layer="1"/>
 <wire x1="1.27" y1="52.07" x2="1.27" y2="52.068546875" width="0.1778" layer="1"/>
-<wire x1="1.27" y1="52.07" x2="2.85241875" y2="50.48758125" width="0.1778" layer="16"/>
+<wire x1="2.85241875" y1="50.23358125" x2="1.27" y2="51.816" width="0.1778" layer="16"/>
+<wire x1="1.27" y1="52.07" x2="1.27" y2="51.816" width="0.1778" layer="16"/>
 <via x="3.86841875" y="8.892540625" extent="1-16" drill="0.254"/>
 <wire x1="2.85241875" y1="33.2300625" x2="2.97688125" y2="33.1056" width="0.1778" layer="16"/>
 <wire x1="2.97688125" y1="9.784078125" x2="3.86841875" y2="8.892540625" width="0.1778" layer="16"/>
@@ -14216,7 +14217,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="2.97688125" y1="32.235140625" x2="2.97688125" y2="9.784078125" width="0.1778" layer="16"/>
 <wire x1="3.86841875" y1="8.892540625" x2="5.074540625" y2="8.892540625" width="0.1778" layer="1"/>
 <wire x1="5.074540625" y1="8.892540625" x2="5.08" y2="8.898" width="0.1778" layer="1"/>
-<wire x1="2.85241875" y1="50.48758125" x2="2.85241875" y2="33.2300625" width="0.1778" layer="16"/>
+<wire x1="2.85241875" y1="50.23358125" x2="2.85241875" y2="33.2300625" width="0.1778" layer="16"/>
 <wire x1="4.309684375" y1="31.36078125" x2="4.309684375" y2="31.87769375" width="0.1778" layer="1"/>
 <wire x1="3.9522375" y1="32.235140625" x2="2.97688125" y2="32.235140625" width="0.1778" layer="1"/>
 <via x="2.97688125" y="32.235140625" extent="1-16" drill="0.254"/>
