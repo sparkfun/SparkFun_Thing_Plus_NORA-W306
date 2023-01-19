@@ -27073,7 +27073,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="DGND">
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
@@ -29233,6 +29233,8 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="R28" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="LED1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29494,12 +29496,12 @@ I2C pullups.</text>
 to disable Stat LED</text>
 </plain>
 <instances>
-<instance part="S1" gate="G$1" x="261.62" y="78.74" smashed="yes">
-<attribute name="NAME" x="261.62" y="83.566" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="261.62" y="75.946" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="S1" gate="G$1" x="261.62" y="83.82" smashed="yes">
+<attribute name="NAME" x="261.62" y="88.646" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="261.62" y="81.026" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="269.24" y="71.12" smashed="yes">
-<attribute name="VALUE" x="266.7" y="68.58" size="1.778" layer="96" font="vector"/>
+<instance part="GND1" gate="1" x="269.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="266.7" y="73.66" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -29965,6 +29967,13 @@ to disable Stat LED</text>
 <attribute name="NAME" x="299.72" y="30.988" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="299.72" y="24.892" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
+<instance part="C11" gate="G$1" x="243.84" y="76.2" smashed="yes">
+<attribute name="NAME" x="245.364" y="79.121" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="245.364" y="74.041" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND7" gate="1" x="243.84" y="68.58" smashed="yes">
+<attribute name="VALUE" x="241.3" y="66.04" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30197,12 +30206,12 @@ to disable Stat LED</text>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="S1" gate="G$1" pin="4"/>
-<wire x1="266.7" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="81.28" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="266.7" y1="78.74" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="78.74" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<junction x="269.24" y="76.2"/>
-<wire x1="269.24" y1="73.66" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="83.82" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
+<junction x="269.24" y="81.28"/>
+<wire x1="269.24" y1="78.74" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -30298,6 +30307,11 @@ to disable Stat LED</text>
 <wire x1="358.14" y1="210.82" x2="358.14" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="213.36" x2="360.68" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -30581,13 +30595,17 @@ to disable Stat LED</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="254" y1="76.2" x2="254" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="254" y1="81.28" x2="254" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="254" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
-<junction x="254" y="78.74"/>
-<label x="251.46" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="83.82" x2="254" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="254" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
+<junction x="254" y="83.82"/>
+<label x="241.3" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="81.28" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
+<junction x="243.84" y="83.82"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>

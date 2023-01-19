@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -14307,6 +14307,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="4.6228" y="33.825178125" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
 <element name="U$73" library="output" package="#ST#4" value="" x="5.7937375" y="31.53918125" smashed="yes" rot="MR90"/>
+<element name="C11" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="21.59" y="9.017" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.352" y="9.017" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-15083" x="21.59" y="9.017" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" x="20.828" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -14662,6 +14667,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="10.226040625" y="31.353759375" extent="1-16" drill="0.254"/>
 <via x="8.897621875" y="33.67278125" extent="1-16" drill="0.254"/>
 <via x="11.277596875" y="17.8282625" extent="1-16" drill="0.254"/>
+<contactref element="C11" pad="2"/>
 </signal>
 <signal name="V_USB">
 <contactref element="U4" pad="4"/>
@@ -14958,11 +14964,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J1" pad="28"/>
 <contactref element="U1" pad="J3"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="15.9132" y1="12.464" x2="15.9132" y2="9.79931875" width="0.1778" layer="1"/>
-<wire x1="15.9132" y1="9.79931875" x2="15.9132" y2="8.364" width="0.1778" layer="1"/>
-<wire x1="21.59" y1="13.97" x2="21.59" y2="10.441940625" width="0.1778" layer="1"/>
-<wire x1="20.947378125" y1="9.79931875" x2="15.9132" y2="9.79931875" width="0.1778" layer="1"/>
-<wire x1="21.59" y1="10.441940625" x2="20.947378125" y2="9.79931875" width="0.1778" layer="1"/>
+<wire x1="15.9132" y1="12.464" x2="15.9132" y2="9.525" width="0.1778" layer="1"/>
+<wire x1="15.9132" y1="9.525" x2="15.9132" y2="8.364" width="0.1778" layer="1"/>
 <wire x1="21.59" y1="13.97" x2="20.10918125" y2="15.45081875" width="0.1778" layer="16"/>
 <wire x1="20.10918125" y1="22.86508125" x2="20.193" y2="22.9489" width="0.1778" layer="16"/>
 <via x="20.193" y="22.9489" extent="1-16" drill="0.254"/>
@@ -14994,6 +14997,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="15.775940625" y1="23.97251875" x2="15.1638" y2="23.360378125" width="0.1778" layer="16"/>
 <wire x1="17.5869625" y1="40.332659375" x2="17.5869625" y2="38.45814375" width="0.1778" layer="1"/>
 <wire x1="15.775940625" y1="36.642040625" x2="15.775940625" y2="23.97251875" width="0.1778" layer="16"/>
+<contactref element="C11" pad="1"/>
+<wire x1="21.59" y1="13.97" x2="21.59" y2="9.517" width="0.1778" layer="1"/>
+<wire x1="21.59" y1="9.517" x2="15.9212" y2="9.517" width="0.1778" layer="1"/>
+<wire x1="15.9212" y1="9.517" x2="15.9132" y2="9.525" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R15" pad="2"/>
