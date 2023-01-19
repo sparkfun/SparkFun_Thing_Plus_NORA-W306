@@ -28222,6 +28222,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </polygon>
 <text x="0" y="5.588" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.127" y="-5.588" size="0.6096" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-6.4532" y1="5.4032" x2="-6.4532" y2="-5.4032" width="0.1524" layer="21"/>
+<wire x1="8.2532" y1="5.4032" x2="8.2532" y2="-5.4032" width="0.1524" layer="21"/>
+<wire x1="-6.4532" y1="5.4032" x2="8.2532" y2="5.4032" width="0.1524" layer="21"/>
+<wire x1="-6.4532" y1="-5.4032" x2="8.2532" y2="-5.4032" width="0.1524" layer="21"/>
 </package>
 <package name="QFN28">
 <description>QFN24 Package</description>
@@ -28994,7 +28998,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <wire x1="228.6" y1="106.68" x2="228.6" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <text x="251.46" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Buttons</text>
 <text x="239.776" y="155.702" size="1.905" layer="97" font="vector">Auto program circuit
-DTR    RTS    EN    LOG_TXD
+DTR    RTS         EN         LOG_TXD
 1        1            1           1
 0        0            1           1
 1        0            0           1
