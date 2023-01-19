@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -13235,12 +13235,12 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <vertex x="4.71" y="-3.99"/>
 <vertex x="7.09" y="-3.99"/>
 <vertex x="7.09" y="-2.99"/>
-<vertex x="7.71" y="-2.99"/>
-<vertex x="7.71" y="-3.99"/>
+<vertex x="7.81" y="-2.99"/>
+<vertex x="7.81" y="-3.99"/>
 <vertex x="8.25" y="-3.99"/>
 <vertex x="8.25" y="4.01"/>
-<vertex x="7.71" y="4.01"/>
-<vertex x="7.71" y="2.99"/>
+<vertex x="7.81" y="4.01"/>
+<vertex x="7.81" y="2.99"/>
 <vertex x="7.09" y="2.99"/>
 <vertex x="7.09" y="4.01"/>
 <vertex x="4.71" y="4.01"/>
@@ -13249,12 +13249,12 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <vertex x="4.71" y="-3.99"/>
 <vertex x="7.09" y="-3.99"/>
 <vertex x="7.09" y="-2.99"/>
-<vertex x="7.71" y="-2.99"/>
-<vertex x="7.71" y="-3.99"/>
+<vertex x="7.81" y="-2.99"/>
+<vertex x="7.81" y="-3.99"/>
 <vertex x="8.25" y="-3.99"/>
 <vertex x="8.25" y="4.01"/>
-<vertex x="7.71" y="4.01"/>
-<vertex x="7.71" y="2.99"/>
+<vertex x="7.81" y="4.01"/>
+<vertex x="7.81" y="2.99"/>
 <vertex x="7.09" y="2.99"/>
 <vertex x="7.09" y="4.01"/>
 <vertex x="4.71" y="4.01"/>
