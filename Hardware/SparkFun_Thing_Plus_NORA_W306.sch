@@ -28754,10 +28754,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <pin name="VDD" x="-25.4" y="25.4" visible="pin" length="short"/>
 <pin name="VSS" x="-25.4" y="-40.64" visible="pin" length="short"/>
 <pin name="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
-<pin name="PA25/HS_USI_SPI_PICO/HSDM/LP_I2C_SCL" x="-25.4" y="2.54" visible="pin" length="short"/>
+<pin name="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" x="-25.4" y="2.54" visible="pin" length="short"/>
 <pin name="NRESET" x="-25.4" y="20.32" visible="pin" length="short"/>
 <pin name="PB1/LP_UART_TXD/DMIC_CLK/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
-<pin name="PA26/HS_USI_SPI_POCI/HSDP/LP_I2C_SDA" x="-25.4" y="5.08" visible="pin" length="short"/>
+<pin name="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" x="-25.4" y="5.08" visible="pin" length="short"/>
 <pin name="PA30/HS_USI_SPI_CLK/HS_PWM7" x="-25.4" y="10.16" visible="pin" length="short"/>
 <pin name="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" x="-25.4" y="-27.94" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" x="-25.4" y="-33.02" visible="pin" length="short"/>
@@ -28826,8 +28826,8 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <connect gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" pad="J8"/>
 <connect gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" pad="H9"/>
 <connect gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS" pad="H8"/>
-<connect gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_I2C_SCL" pad="C2"/>
-<connect gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_I2C_SDA" pad="C1"/>
+<connect gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" pad="C2"/>
+<connect gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" pad="C1"/>
 <connect gate="G$1" pin="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT" pad="H2"/>
 <connect gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF" pad="B3"/>
 <connect gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7" pad="B1"/>
@@ -29367,17 +29367,17 @@ Pin Mapping</text>
 <text x="124.46" y="121.92" size="1.778" layer="97" font="vector" align="bottom-center">14</text>
 <text x="111.76" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">PA8</text>
 <text x="111.76" y="88.9" size="1.778" layer="97" font="vector" align="bottom-center">PA7</text>
-<text x="111.76" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">PA28</text>
-<text x="111.76" y="93.98" size="1.778" layer="97" font="vector" align="bottom-center">PA30</text>
-<text x="111.76" y="96.52" size="1.778" layer="97" font="vector" align="bottom-center">PA25</text>
-<text x="111.76" y="99.06" size="1.778" layer="97" font="vector" align="bottom-center">PA26</text>
-<text x="111.76" y="101.6" size="1.778" layer="97" font="vector" align="bottom-center">PA13</text>
-<text x="111.76" y="104.14" size="1.778" layer="97" font="vector" align="bottom-center">PA12</text>
+<text x="111.76" y="91.44" size="1.778" layer="97" font="vector" align="bottom-center">PA15</text>
+<text x="111.76" y="93.98" size="1.778" layer="97" font="vector" align="bottom-center">PA14</text>
+<text x="111.76" y="96.52" size="1.778" layer="97" font="vector" align="bottom-center">PA12</text>
+<text x="111.76" y="99.06" size="1.778" layer="97" font="vector" align="bottom-center">PA13</text>
+<text x="111.76" y="101.6" size="1.778" layer="97" font="vector" align="bottom-center">PA25</text>
+<text x="111.76" y="104.14" size="1.778" layer="97" font="vector" align="bottom-center">PA26</text>
 <text x="111.76" y="106.68" size="1.778" layer="97" font="vector" align="bottom-center">PA27</text>
 <text x="111.76" y="109.22" size="1.778" layer="97" font="vector" align="bottom-center">PB21</text>
 <text x="111.76" y="111.76" size="1.778" layer="97" font="vector" align="bottom-center">PB20</text>
-<text x="111.76" y="114.3" size="1.778" layer="97" font="vector" align="bottom-center">PA15</text>
-<text x="111.76" y="116.84" size="1.778" layer="97" font="vector" align="bottom-center">PA14</text>
+<text x="111.76" y="114.3" size="1.778" layer="97" font="vector" align="bottom-center">PA30</text>
+<text x="111.76" y="116.84" size="1.778" layer="97" font="vector" align="bottom-center">PA28</text>
 <text x="111.76" y="119.38" size="1.778" layer="97" font="vector" align="bottom-center">PB19</text>
 <text x="111.76" y="121.92" size="1.778" layer="97" font="vector" align="bottom-center">PB18</text>
 <text x="111.76" y="124.46" size="1.778" layer="97" font="vector" align="bottom-center">PB22</text>
@@ -30805,12 +30805,7 @@ to disable Stat LED</text>
 <label x="419.1" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PA30/SCK" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7"/>
-<wire x1="30.48" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
-<label x="27.94" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
+<net name="PA14/SCK" class="0">
 <segment>
 <wire x1="200.66" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <label x="203.2" y="142.24" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30821,13 +30816,13 @@ to disable Stat LED</text>
 <label x="314.96" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="J1" pin="CLK/SCK"/>
 </segment>
-</net>
-<net name="PA28/CS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF"/>
-<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
-<label x="27.94" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2"/>
+<wire x1="30.48" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="27.94" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="PA15/CS" class="0">
 <segment>
 <label x="203.2" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="A5"/>
@@ -30838,13 +30833,13 @@ to disable Stat LED</text>
 <pinref part="J4" gate="J1" pin="DAT3/!CS!"/>
 <wire x1="317.5" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PA26/POCI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_I2C_SDA"/>
-<wire x1="30.48" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS"/>
+<wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="27.94" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="PA13/POCI" class="0">
 <segment>
 <wire x1="200.66" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="203.2" y="147.32" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30855,13 +30850,13 @@ to disable Stat LED</text>
 <label x="314.96" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="J1" pin="DAT0/SDO"/>
 </segment>
-</net>
-<net name="PA25/PICO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_I2C_SCL"/>
-<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1"/>
+<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="27.94" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="PA12/PICO" class="0">
 <segment>
 <wire x1="200.66" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="203.2" y="144.78" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30872,53 +30867,22 @@ to disable Stat LED</text>
 <label x="314.96" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="J1" pin="CMD/SDI"/>
 </segment>
-</net>
-<net name="PA13/LP_UART_RXD" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1"/>
-<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="27.94" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
-<label x="203.2" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="RX"/>
-</segment>
-</net>
-<net name="PA12/LP_UART_TXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK"/>
 <wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <label x="27.94" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="PA26/LP_UART_TXD" class="0">
 <segment>
 <wire x1="200.66" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <label x="203.2" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="TX"/>
 </segment>
-</net>
-<net name="PA14" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2"/>
-<wire x1="30.48" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="27.94" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GPIO5"/>
-<wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="203.2" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="PA15" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS"/>
-<wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="27.94" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GPIO6"/>
-<wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="203.2" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD"/>
+<wire x1="30.48" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA27" class="0">
@@ -31095,6 +31059,42 @@ to disable Stat LED</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="27.94" x2="307.34" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PA30" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7"/>
+<wire x1="30.48" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="27.94" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<label x="203.2" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO6"/>
+</segment>
+</net>
+<net name="PA28" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF"/>
+<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<label x="27.94" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
+<label x="203.2" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO5"/>
+</segment>
+</net>
+<net name="PA25/LP_UART_RXD" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD"/>
+<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="27.94" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="203.2" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="RX"/>
 </segment>
 </net>
 </nets>
