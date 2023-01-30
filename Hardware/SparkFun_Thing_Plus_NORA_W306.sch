@@ -29267,7 +29267,7 @@ R_PROG=10k : I_CHG=100mA</text>
 <wire x1="279.4" y1="106.68" x2="279.4" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">u-blox NORA-W306 Module</text>
 <text x="182.88" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Thing Plus Headers</text>
-<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v01</text>
+<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v02</text>
 <text x="391.16" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">QWIIC Connector &amp; I2C Pullups</text>
 <text x="353.314" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="304.8" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Power &amp; GPIO LEDs</text>
