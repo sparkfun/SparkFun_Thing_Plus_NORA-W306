@@ -29451,7 +29451,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_SMD-UNSHROUDED" value="SWD"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_SMD-UNSHROUDED" value="SWD (DNP)"/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
@@ -29486,7 +29486,7 @@ R_PROG=10k : I_CHG=100mA</text>
 <wire x1="279.4" y1="106.68" x2="279.4" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">u-blox NORA-W306 Module</text>
 <text x="182.88" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Thing Plus Headers</text>
-<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v02</text>
+<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v03</text>
 <text x="391.16" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">QWIIC Connector &amp; I2C Pullups</text>
 <text x="353.314" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="304.8" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Power &amp; GPIO LEDs</text>

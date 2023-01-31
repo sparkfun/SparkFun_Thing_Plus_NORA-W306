@@ -204,7 +204,7 @@
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="20" curve="90"/>
 <wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.2032" layer="20"/>
 <wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.2032" layer="20" curve="90"/>
-<text x="0.782321875" y="23.0759" size="1.016" layer="16" font="vector" ratio="20" rot="MR270" align="center-left">v02</text>
+<text x="0.782321875" y="23.0759" size="1.016" layer="16" font="vector" ratio="20" rot="MR270" align="center-left">v03</text>
 <text x="0.6223" y="17.604740625" size="0.8128" layer="1" font="vector" ratio="20">1</text>
 <text x="1.3843" y="17.604740625" size="0.8128" layer="2" font="vector" ratio="20">2</text>
 <text x="0.6223" y="16.715740625" size="0.8128" layer="15" font="vector" ratio="20">3</text>
@@ -14718,7 +14718,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$74" library="output" package="#JP4#0" value="" x="5.78611875" y="31.480759375" smashed="yes" rot="MR90"/>
 <element name="U$73" library="output" package="RGB_155" value="" x="14.937740625" y="37.472621875" smashed="yes"/>
-<element name="J6" library="SparkFun-Connectors" package="2X5-SMD-UNSHROUDED" value="SWD" x="11.869421875" y="18.77568125" smashed="yes" rot="MR270">
+<element name="J6" library="SparkFun-Connectors" package="2X5-SMD-UNSHROUDED" value="SWD (DNP)" x="11.869421875" y="18.77568125" smashed="yes" rot="MR270">
 <attribute name="NAME" x="7.823421875" y="22.88168125" size="1.27" layer="26" rot="MR270"/>
 <attribute name="PROD_ID" value="CONN-15353" x="11.869421875" y="18.77568125" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
 <attribute name="VALUE" x="17.649421875" y="22.58568125" size="1.27" layer="28" rot="MR270"/>
