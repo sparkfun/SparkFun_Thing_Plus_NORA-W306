@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="11" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="11" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="13" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -25185,6 +25185,41 @@ Puhs-Push type.
 <wire x1="-0.6" y1="-3.29" x2="0.6" y2="-3.29" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-3.29" x2="0.6" y2="-3.09" width="0.127" layer="21"/>
 </package>
+<package name="2X5-SMD-UNSHROUDED_DNP_NO_PASTE">
+<description>&lt;h3&gt;SMD - 2x5 Unshrouded ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.27mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;a href=http://www.4uconnector.com/online/object/4udrawing/21200.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;</description>
+<wire x1="-3.26" y1="1.715" x2="-3.26" y2="-1.715" width="0.2" layer="21"/>
+<wire x1="3.26" y1="-1.715" x2="3.26" y2="1.715" width="0.2" layer="21"/>
+<wire x1="-3.175" y1="-1.715" x2="-3.175" y2="1.715" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.1" layer="51"/>
+<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.1" layer="51"/>
+<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.1" layer="51"/>
+<text x="-4.106" y="4.046" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.78" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.425" y1="-3.17" x2="-3.425" y2="3.17" width="0.05" layer="39"/>
+<wire x1="-3.425" y1="3.17" x2="3.425" y2="3.17" width="0.05" layer="39"/>
+<wire x1="3.425" y1="3.17" x2="3.425" y2="-3.17" width="0.05" layer="39"/>
+<wire x1="3.425" y1="-3.17" x2="-3.425" y2="-3.17" width="0.05" layer="39"/>
+<circle x="-3.79" y="-2.035" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.79" y="-2.035" radius="0.1" width="0.2" layer="51"/>
+<smd name="5" x="0" y="-1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="6" x="0" y="1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="7" x="1.27" y="-1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="8" x="1.27" y="1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="9" x="2.54" y="-1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="10" x="2.54" y="1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="1" x="-2.54" y="-1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="2" x="-2.54" y="1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="3" x="-1.27" y="-1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<smd name="4" x="-1.27" y="1.88" dx="0.74" dy="2.38" layer="1" cream="no"/>
+<wire x1="-0.6" y1="-3.09" x2="-0.6" y2="-3.29" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-3.29" x2="0.6" y2="-3.29" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-3.29" x2="0.6" y2="-3.09" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_02">
@@ -25901,6 +25936,19 @@ PTH and SMD connector options available.&lt;/p&gt;
 </technology>
 </technologies>
 </device>
+<device name="_SMD_UNSHROUDED_DNP_NO_PASTE" package="2X5-SMD-UNSHROUDED_DNP_NO_PASTE">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND" pad="3 5 9"/>
+<connect gate="G$1" pin="SWDCLK" pad="4"/>
+<connect gate="G$1" pin="SWDIO" pad="2"/>
+<connect gate="G$1" pin="SWO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -26443,9 +26491,10 @@ Used in manufacturing several products at SparkFun.
 &lt;p&gt;Used in manufacturing of most products at SparkFun&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://docs.avagotech.com/docs/AV02-0551EN"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603 - KB&lt;/b&gt; - KingBright (DIO-17976) SMD 0603 package &lt;a href="https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"&gt;[Datasheet]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - (DIO-00819, &lt;b&gt;has gone EOL&lt;/b&gt;) SMD 0603 package &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/a&gt;&lt;/li&gt;
 &lt;ul&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
@@ -26537,6 +26586,17 @@ Used in manufacturing several products at SparkFun.
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16865"/>
 <attribute name="VALUE" value="RED"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603-KB" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-17976" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -29451,7 +29511,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_SMD-UNSHROUDED" value="SWD (DNP)"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_SMD_UNSHROUDED_DNP_NO_PASTE" value="SWD (DNP)"/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
@@ -29486,7 +29546,7 @@ R_PROG=10k : I_CHG=100mA</text>
 <wire x1="279.4" y1="106.68" x2="279.4" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">u-blox NORA-W306 Module</text>
 <text x="182.88" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Thing Plus Headers</text>
-<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v03</text>
+<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v04</text>
 <text x="391.16" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">QWIIC Connector &amp; I2C Pullups</text>
 <text x="353.314" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="304.8" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Power &amp; GPIO LEDs</text>
