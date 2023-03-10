@@ -846,23 +846,23 @@
 <wire x1="-22.86" y1="-43.18" x2="-22.86" y2="27.94" width="0.1524" layer="94"/>
 <pin name="VDD" x="-25.4" y="25.4" visible="pin" length="short"/>
 <pin name="VSS" x="-25.4" y="-40.64" visible="pin" length="short"/>
-<pin name="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
+<pin name="PB2/LP_UART_RXD/PCM_CLK/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
 <pin name="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" x="-25.4" y="2.54" visible="pin" length="short"/>
 <pin name="NRESET" x="-25.4" y="20.32" visible="pin" length="short"/>
-<pin name="PB1/LP_UART_TXD/DMIC_CLK/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
+<pin name="PB1/LP_UART_TXD/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
 <pin name="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" x="-25.4" y="5.08" visible="pin" length="short"/>
 <pin name="PA30/HS_USI_SPI_CLK/HS_PWM7" x="-25.4" y="10.16" visible="pin" length="short"/>
 <pin name="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" x="-25.4" y="-27.94" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" x="-25.4" y="-33.02" visible="pin" length="short"/>
 <pin name="PA15/LP_UART_CTS/SPI1_CS" x="-25.4" y="-25.4" visible="pin" length="short"/>
-<pin name="PB18/HS_USI_USART0_RXD/SWD_CL" x="-25.4" y="-20.32" visible="pin" length="short"/>
+<pin name="PB18/HS_USI_USART0_RXD" x="-25.4" y="-20.32" visible="pin" length="short"/>
 <pin name="PB3/SWD_CLK/ADC" x="-25.4" y="-30.48" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK" x="-25.4" y="-35.56" visible="pin" length="short"/>
 <pin name="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT" x="-25.4" y="-22.86" visible="pin" length="short"/>
 <pin name="PB22/I2S_SD_RX/QDEC_PHB" x="-25.4" y="-10.16" visible="pin" length="short"/>
 <pin name="PB23/I2S_MCLK/QDEC_PHA" x="-25.4" y="-2.54" visible="pin" length="short"/>
 <pin name="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" x="-25.4" y="-12.7" visible="pin" length="short"/>
-<pin name="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
+<pin name="PB19/HS_UART0_TXD/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
 <pin name="PB20/HS_USI_I2C_SCL/I2S_CLK" x="-25.4" y="-15.24" visible="pin" length="short"/>
 <pin name="PA7/UART_LOG_TXD/!DWNLD!" x="-25.4" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART_LOG_RXD" x="-25.4" y="12.7" visible="pin" length="short"/>
@@ -926,10 +926,10 @@
 <connect gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7" pad="B1"/>
 <connect gate="G$1" pin="PA7/UART_LOG_TXD/!DWNLD!" pad="A5"/>
 <connect gate="G$1" pin="PA8/UART_LOG_RXD" pad="A6"/>
-<connect gate="G$1" pin="PB1/LP_UART_TXD/DMIC_CLK/ADC" pad="D8"/>
-<connect gate="G$1" pin="PB18/HS_USI_USART0_RXD/SWD_CL" pad="G9"/>
-<connect gate="G$1" pin="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0" pad="G8"/>
-<connect gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC" pad="E8"/>
+<connect gate="G$1" pin="PB1/LP_UART_TXD/ADC" pad="D8"/>
+<connect gate="G$1" pin="PB18/HS_USI_USART0_RXD" pad="G9"/>
+<connect gate="G$1" pin="PB19/HS_UART0_TXD/I2S_TX0" pad="G8"/>
+<connect gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC" pad="E8"/>
 <connect gate="G$1" pin="PB20/HS_USI_I2C_SCL/I2S_CLK" pad="F9"/>
 <connect gate="G$1" pin="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" pad="F8"/>
 <connect gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB" pad="E9"/>

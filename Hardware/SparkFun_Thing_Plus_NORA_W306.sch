@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="11" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="11" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="13" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -29029,23 +29029,23 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="-22.86" y1="-43.18" x2="-22.86" y2="27.94" width="0.1524" layer="94"/>
 <pin name="VDD" x="-25.4" y="25.4" visible="pin" length="short"/>
 <pin name="VSS" x="-25.4" y="-40.64" visible="pin" length="short"/>
-<pin name="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
+<pin name="PB2/LP_UART_RXD/PCM_CLK/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
 <pin name="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" x="-25.4" y="2.54" visible="pin" length="short"/>
 <pin name="NRESET" x="-25.4" y="20.32" visible="pin" length="short"/>
-<pin name="PB1/LP_UART_TXD/DMIC_CLK/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
+<pin name="PB1/LP_UART_TXD/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
 <pin name="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" x="-25.4" y="5.08" visible="pin" length="short"/>
 <pin name="PA30/HS_USI_SPI_CLK/HS_PWM7" x="-25.4" y="10.16" visible="pin" length="short"/>
 <pin name="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" x="-25.4" y="-27.94" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" x="-25.4" y="-33.02" visible="pin" length="short"/>
 <pin name="PA15/LP_UART_CTS/SPI1_CS" x="-25.4" y="-25.4" visible="pin" length="short"/>
-<pin name="PB18/HS_USI_USART0_RXD/SWD_CL" x="-25.4" y="-20.32" visible="pin" length="short"/>
+<pin name="PB18/HS_USI_USART0_RXD" x="-25.4" y="-20.32" visible="pin" length="short"/>
 <pin name="PB3/SWD_CLK/ADC" x="-25.4" y="-30.48" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK" x="-25.4" y="-35.56" visible="pin" length="short"/>
 <pin name="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT" x="-25.4" y="-22.86" visible="pin" length="short"/>
 <pin name="PB22/I2S_SD_RX/QDEC_PHB" x="-25.4" y="-10.16" visible="pin" length="short"/>
 <pin name="PB23/I2S_MCLK/QDEC_PHA" x="-25.4" y="-2.54" visible="pin" length="short"/>
 <pin name="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" x="-25.4" y="-12.7" visible="pin" length="short"/>
-<pin name="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
+<pin name="PB19/HS_UART0_TXD/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
 <pin name="PB20/HS_USI_I2C_SCL/I2S_CLK" x="-25.4" y="-15.24" visible="pin" length="short"/>
 <pin name="PA7/UART_LOG_TXD/!DWNLD!" x="-25.4" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART_LOG_RXD" x="-25.4" y="12.7" visible="pin" length="short"/>
@@ -29109,10 +29109,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <connect gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7" pad="B1"/>
 <connect gate="G$1" pin="PA7/UART_LOG_TXD/!DWNLD!" pad="A5"/>
 <connect gate="G$1" pin="PA8/UART_LOG_RXD" pad="A6"/>
-<connect gate="G$1" pin="PB1/LP_UART_TXD/DMIC_CLK/ADC" pad="D8"/>
-<connect gate="G$1" pin="PB18/HS_USI_USART0_RXD/SWD_CL" pad="G9"/>
-<connect gate="G$1" pin="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0" pad="G8"/>
-<connect gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC" pad="E8"/>
+<connect gate="G$1" pin="PB1/LP_UART_TXD/ADC" pad="D8"/>
+<connect gate="G$1" pin="PB18/HS_USI_USART0_RXD" pad="G9"/>
+<connect gate="G$1" pin="PB19/HS_UART0_TXD/I2S_TX0" pad="G8"/>
+<connect gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC" pad="E8"/>
 <connect gate="G$1" pin="PB20/HS_USI_I2C_SCL/I2S_CLK" pad="F9"/>
 <connect gate="G$1" pin="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" pad="F8"/>
 <connect gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB" pad="E9"/>
@@ -29167,190 +29167,6 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="IC-15885" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SPH0641LM4H-1_MICROPHONE">
-<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
-&lt;a href = "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0641LM4H-1.pdf"&gt;Datasheet&lt;/a&gt;
-
-&lt;h4&gt;Specifications&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 5
-&lt;li&gt; Devices: SPH061LM4H-1 Microphone
-&lt;/ul&gt;</description>
-<wire x1="1.524" y1="1.424" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.932" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-1.524" x2="1.524" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-2.032" x2="1.016" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-2.032" x2="-1.016" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.932" x2="-1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="1.932" x2="-1.524" y2="1.424" width="0.1524" layer="21"/>
-<smd name="4" x="0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
-<hole x="0" y="-1" drill="0.8"/>
-<smd name="5" x="0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
-<smd name="1" x="-0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
-<smd name="2" x="-0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
-<circle x="0" y="-1" radius="0.6625" width="0.6" layer="29"/>
-<smd name="3" x="0" y="-1.65" dx="0.5" dy="0.2" layer="1"/>
-<text x="-1.6" y="2.2" size="0.6" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.6" y="-2.9" size="0.6" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="0.652" y="-1.44" curve="70"/>
-<vertex x="0.652" y="-0.56"/>
-<vertex x="0.445" y="-0.7" curve="-70"/>
-<vertex x="0.445" y="-1.3"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.652" y="-0.56" curve="70"/>
-<vertex x="-0.652" y="-1.44"/>
-<vertex x="-0.445" y="-1.3" curve="-70"/>
-<vertex x="-0.445" y="-0.7"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="0.44" y="-0.348" curve="70"/>
-<vertex x="-0.44" y="-0.348"/>
-<vertex x="-0.3" y="-0.555" curve="-70"/>
-<vertex x="0.3" y="-0.555"/>
-</polygon>
-<smd name="6" x="-0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R90"/>
-<smd name="7" x="0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R270"/>
-<smd name="8" x="0" y="-0.35" dx="0.5" dy="0.2" layer="1"/>
-<polygon width="0.01" layer="1">
-<vertex x="-0.51" y="-1" curve="-90"/>
-<vertex x="0" y="-0.49"/>
-<vertex x="0" y="-0.19" curve="90"/>
-<vertex x="-0.81" y="-1"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0" y="-1.51" curve="-90"/>
-<vertex x="-0.51" y="-1"/>
-<vertex x="-0.81" y="-1" curve="90"/>
-<vertex x="0" y="-1.81"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0.51" y="-1" curve="-90"/>
-<vertex x="0" y="-1.51"/>
-<vertex x="0" y="-1.81" curve="90"/>
-<vertex x="0.81" y="-1"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0" y="-0.49" curve="-90"/>
-<vertex x="0.51" y="-1"/>
-<vertex x="0.81" y="-1" curve="90"/>
-<vertex x="0" y="-0.19"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="SPH0641LM4H-1_MICROPHONE">
-<description>&lt;h3&gt; SPH0641LM4H-1 Microphone&lt;/h3&gt;
-
-
-A miniature, high-performance, low power,
-bottom port silicon digital microphone with a single bit PDM output.</description>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
-<pin name="VDD" x="-5.08" y="7.62" visible="off" length="short" direction="pwr" rot="R270"/>
-<pin name="GND" x="-5.08" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="SEL" x="12.7" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="CLK" x="12.7" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="DATA" x="12.7" y="0" visible="pin" length="short" direction="out" rot="R180"/>
-<text x="1.524" y="6.604" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="2.286" y="-6.604" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<wire x1="-2.286" y1="-1.27" x2="0.508" y2="-1.27" width="0.3048" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="0.508" y2="1.27" width="0.3048" layer="94"/>
-<circle x="-5.08" y="0" radius="3.048" width="0.3048" layer="94"/>
-<wire x1="-8.128" y1="-3.048" x2="-8.128" y2="3.048" width="0.3048" layer="94"/>
-<text x="-7.112" y="-0.762" size="1.778" layer="94" ratio="15">MIC</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPH0641LM4H-1_MICROPHONE" prefix="E">
-<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
-
-A miniature, high-performance, low power,
-bottom port silicon digital microphone with a single bit PDM output.</description>
-<gates>
-<gate name="E1" symbol="SPH0641LM4H-1_MICROPHONE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPH0641LM4H-1_MICROPHONE">
-<connects>
-<connect gate="E1" pin="CLK" pad="4"/>
-<connect gate="E1" pin="DATA" pad="1"/>
-<connect gate="E1" pin="GND" pad="3 6 7 8"/>
-<connect gate="E1" pin="SEL" pad="2"/>
-<connect gate="E1" pin="VDD" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14361" constant="no"/>
-<attribute name="VALUE" value="SPH0641LM4H-1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -29488,15 +29304,6 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
-<part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="E1" library="SparkFun-Sensors" deviceset="SPH0641LM4H-1_MICROPHONE" device="" value="SPH0641LM4H-1"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
-<part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="USER"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="CHG" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
@@ -29604,10 +29411,6 @@ to disable PWR LED</text>
 <text x="187.96" y="83.82" size="2.54" layer="94" font="vector" align="bottom-center">RGB Status LED</text>
 <text x="187.96" y="38.1" size="2.54" layer="94" font="vector" align="bottom-center">Fuel Gauge</text>
 <text x="162.56" y="2.54" size="1.778" layer="97" font="vector">Unshifted 7-bit I2C address: 0x36</text>
-<text x="381" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Microphone</text>
-<text x="391.16" y="78.74" size="2.032" layer="97" font="vector">Cut JP1 and JP2
-To disconnect MIC
-from A2 and A0</text>
 <wire x1="147.32" y1="0" x2="147.32" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="45.72" x2="147.32" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="91.44" x2="147.32" y2="182.88" width="0.2032" layer="97" style="longdash"/>
@@ -30171,37 +29974,6 @@ to disable Stat LED</text>
 <instance part="SUPPLY24" gate="G$1" x="162.56" y="27.94" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="162.56" y="30.734" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND29" gate="1" x="358.14" y="50.8" smashed="yes">
-<attribute name="VALUE" x="355.6" y="48.26" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="E1" gate="E1" x="363.22" y="63.5" smashed="yes">
-<attribute name="NAME" x="364.744" y="70.104" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="370.586" y="56.896" size="1.778" layer="96" font="vector" align="center"/>
-</instance>
-<instance part="C9" gate="G$1" x="342.9" y="60.96" smashed="yes">
-<attribute name="NAME" x="344.424" y="63.881" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="343.662" y="58.801" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND30" gate="1" x="342.9" y="53.34" smashed="yes">
-<attribute name="VALUE" x="342.9" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="SUPPLY26" gate="G$1" x="358.14" y="73.66" smashed="yes">
-<attribute name="VALUE" x="358.14" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY27" gate="G$1" x="378.46" y="71.12" smashed="yes">
-<attribute name="VALUE" x="378.46" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY28" gate="G$1" x="342.9" y="68.58" smashed="yes">
-<attribute name="VALUE" x="342.9" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="JP1" gate="G$1" x="393.7" y="66.04" smashed="yes">
-<attribute name="NAME" x="393.7" y="69.088" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="393.7" y="62.992" size="1.778" layer="96" font="vector" align="center"/>
-</instance>
-<instance part="JP2" gate="G$1" x="393.7" y="55.88" smashed="yes">
-<attribute name="NAME" x="393.7" y="58.928" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="393.7" y="52.832" size="1.778" layer="96" font="vector" align="center"/>
-</instance>
 <instance part="S3" gate="G$1" x="261.62" y="55.88" smashed="yes">
 <attribute name="NAME" x="261.62" y="60.706" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="261.62" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -30356,22 +30128,6 @@ to disable Stat LED</text>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="66.04" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
-<wire x1="358.14" y1="73.66" x2="358.14" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="E1" gate="E1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
-<wire x1="378.46" y1="71.12" x2="378.46" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="E1" gate="E1" pin="SEL"/>
-<wire x1="378.46" y1="60.96" x2="375.92" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
-<wire x1="342.9" y1="68.58" x2="342.9" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
@@ -30576,16 +30332,6 @@ to disable Stat LED</text>
 <wire x1="162.56" y1="17.78" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="358.14" y1="53.34" x2="358.14" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="E1" gate="E1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="58.42" x2="342.9" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
@@ -31043,7 +30789,7 @@ to disable Stat LED</text>
 <pinref part="D6" gate="D1" pin="3"/>
 </segment>
 </net>
-<net name="PB3/ADC" class="0">
+<net name="PB3/ADC/SWD_CLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3/SWD_CLK/ADC"/>
 <wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
@@ -31053,6 +30799,11 @@ to disable Stat LED</text>
 <wire x1="200.66" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
 <label x="203.2" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<label x="124.46" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="SWDCLK"/>
+<wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB20/SCL" class="0">
@@ -31191,7 +30942,7 @@ to disable Stat LED</text>
 <label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PA27" class="0">
+<net name="PA27/SWD_DATA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT"/>
 <wire x1="30.48" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
@@ -31202,10 +30953,15 @@ to disable Stat LED</text>
 <wire x1="200.66" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="203.2" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="PB18/SWD_CL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB18/HS_USI_USART0_RXD/SWD_CL"/>
+<label x="124.46" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="SWDIO"/>
+<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PB18" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB18/HS_USI_USART0_RXD"/>
 <wire x1="30.48" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="27.94" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -31224,15 +30980,10 @@ to disable Stat LED</text>
 <junction x="254" y="55.88"/>
 <label x="251.46" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<wire x1="121.92" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<label x="124.46" y="50.8" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="SWDCLK"/>
-</segment>
 </net>
-<net name="PB19/SWD_DATA" class="0">
+<net name="PB19" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB19/HS_UART0_TXD/SWD_DATA/I2S_TX0"/>
+<pinref part="U1" gate="G$1" pin="PB19/HS_UART0_TXD/I2S_TX0"/>
 <wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="27.94" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -31240,11 +30991,6 @@ to disable Stat LED</text>
 <pinref part="J1" gate="G$1" pin="GPIO4"/>
 <wire x1="200.66" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
 <label x="203.2" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="121.92" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="124.46" y="53.34" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="SWDIO"/>
 </segment>
 </net>
 <net name="PB22" class="0">
@@ -31264,16 +31010,11 @@ to disable Stat LED</text>
 <pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PB2/DMIC_DATA" class="0">
+<net name="PB2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/DMIC_DATA/ADC"/>
+<pinref part="U1" gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC"/>
 <wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="27.94" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="398.78" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
-<label x="401.32" y="55.88" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
@@ -31305,37 +31046,16 @@ to disable Stat LED</text>
 <wire x1="198.12" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB1/ADC/DMIC_CLK" class="0">
+<net name="PB1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB1/LP_UART_TXD/DMIC_CLK/ADC"/>
+<pinref part="U1" gate="G$1" pin="PB1/LP_UART_TXD/ADC"/>
 <wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="27.94" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="398.78" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="401.32" y="66.04" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <label x="203.2" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="A0"/>
 <wire x1="203.2" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="E1" gate="E1" pin="DATA"/>
-<wire x1="375.92" y1="63.5" x2="383.54" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="63.5" x2="383.54" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="383.54" y1="55.88" x2="388.62" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="E1" gate="E1" pin="CLK"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="66.04" x2="375.92" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
