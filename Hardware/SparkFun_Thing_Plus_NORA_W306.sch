@@ -28781,245 +28781,6 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <rectangle x1="7.144728125" y1="-4.65311875" x2="7.644728125" y2="-4.15311875" layer="31"/>
 <rectangle x1="5.646128125" y1="-4.65311875" x2="6.146128125" y2="-4.15311875" layer="31"/>
 </package>
-<package name="QFN28">
-<description>QFN24 Package</description>
-<smd name="24" x="0.5" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-1.62" y="2.79"/>
-<vertex x="-1.38" y="2.79"/>
-<vertex x="-1.38" y="2.01"/>
-<vertex x="-1.62" y="2.01"/>
-</polygon>
-<smd name="23" x="1" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-1.12" y="2.79"/>
-<vertex x="-0.88" y="2.79"/>
-<vertex x="-0.88" y="2.01"/>
-<vertex x="-1.12" y="2.01"/>
-</polygon>
-<smd name="22" x="1.5" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-0.62" y="2.79"/>
-<vertex x="-0.38" y="2.79"/>
-<vertex x="-0.38" y="2.01"/>
-<vertex x="-0.62" y="2.01"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.12" y="2.79"/>
-<vertex x="0.12" y="2.79"/>
-<vertex x="0.12" y="2.01"/>
-<vertex x="-0.12" y="2.01"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.38" y="2.79"/>
-<vertex x="0.62" y="2.79"/>
-<vertex x="0.62" y="2.01"/>
-<vertex x="0.38" y="2.01"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.88" y="2.79"/>
-<vertex x="1.12" y="2.79"/>
-<vertex x="1.12" y="2.01"/>
-<vertex x="0.88" y="2.01"/>
-</polygon>
-<smd name="18" x="2.4" y="0" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="1.62"/>
-<vertex x="2.79" y="1.38"/>
-<vertex x="2.01" y="1.38"/>
-<vertex x="2.01" y="1.62"/>
-</polygon>
-<smd name="17" x="2.4" y="-0.5" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="1.12"/>
-<vertex x="2.79" y="0.88"/>
-<vertex x="2.01" y="0.88"/>
-<vertex x="2.01" y="1.12"/>
-</polygon>
-<smd name="16" x="2.4" y="-1" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="0.62"/>
-<vertex x="2.79" y="0.38"/>
-<vertex x="2.01" y="0.38"/>
-<vertex x="2.01" y="0.62"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="0.12"/>
-<vertex x="2.79" y="-0.12"/>
-<vertex x="2.01" y="-0.12"/>
-<vertex x="2.01" y="0.12"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="-0.38"/>
-<vertex x="2.79" y="-0.62"/>
-<vertex x="2.01" y="-0.62"/>
-<vertex x="2.01" y="-0.38"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="-0.88"/>
-<vertex x="2.79" y="-1.12"/>
-<vertex x="2.01" y="-1.12"/>
-<vertex x="2.01" y="-0.88"/>
-</polygon>
-<smd name="6" x="-2.4" y="-1" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="5" x="-2.4" y="-0.5" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="4" x="-2.4" y="0" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="3" x="-2.4" y="0.5" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="2" x="-2.4" y="1" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="1" x="-2.4" y="1.5" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="12" x="0.5" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="11" x="0" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="10" x="-0.5" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="9" x="-1" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="8" x="-1.5" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<circle x="-2.743" y="2.723" radius="0.1555625" width="0.3" layer="21"/>
-<polygon width="0.127" layer="31">
-<vertex x="-1" y="1"/>
-<vertex x="-0.25" y="1"/>
-<vertex x="-0.25" y="0.25"/>
-<vertex x="-1" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="1" y="1"/>
-<vertex x="0.25" y="1"/>
-<vertex x="0.25" y="0.25"/>
-<vertex x="1" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="1" y="-1"/>
-<vertex x="1" y="-0.25"/>
-<vertex x="0.25" y="-0.25"/>
-<vertex x="0.25" y="-1"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-1" y="-1"/>
-<vertex x="-1" y="-0.25"/>
-<vertex x="-0.25" y="-0.25"/>
-<vertex x="-0.25" y="-1"/>
-</polygon>
-<text x="0" y="3.048" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.127" y="-3.048" size="0.6096" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="3.35" dy="3.35" layer="1" cream="no"/>
-<wire x1="-2.35" y1="2.35" x2="2.35" y2="2.35" width="0.1524" layer="51"/>
-<wire x1="2.35" y1="2.35" x2="2.35" y2="-2.35" width="0.1524" layer="51"/>
-<wire x1="2.35" y1="-2.35" x2="-2.35" y2="-2.35" width="0.1524" layer="51"/>
-<wire x1="-2.35" y1="-2.35" x2="-2.35" y2="2.35" width="0.1524" layer="51"/>
-<wire x1="-2.35" y1="-2.35" x2="-2.05" y2="-2.35" width="0.1524" layer="21"/>
-<wire x1="-2.35" y1="-2.35" x2="-2.35" y2="-2.05" width="0.1524" layer="21"/>
-<wire x1="2.35" y1="-2.35" x2="2.35" y2="-2.05" width="0.1524" layer="21"/>
-<wire x1="2.35" y1="-2.35" x2="2.05" y2="-2.35" width="0.1524" layer="21"/>
-<wire x1="2.35" y1="2.35" x2="2.05" y2="2.35" width="0.1524" layer="21"/>
-<wire x1="2.35" y1="2.05" x2="2.35" y2="2.35" width="0.1524" layer="21"/>
-<wire x1="-2.05" y1="2.35" x2="-2.35" y2="2.35" width="0.1524" layer="21"/>
-<wire x1="-2.35" y1="2.35" x2="-2.35" y2="2.05" width="0.1524" layer="21"/>
-<smd name="7" x="-2.4" y="-1.5" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<smd name="13" x="1" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="14" x="1.5" y="-2.4" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<smd name="15" x="2.4" y="-1.5" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<smd name="19" x="2.4" y="0.5" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<smd name="20" x="2.4" y="1" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<smd name="21" x="2.4" y="1.5" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<smd name="25" x="0" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<smd name="26" x="-0.5" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<smd name="27" x="-1" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<smd name="28" x="-1.5" y="2.4" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="1.38" y="2.79"/>
-<vertex x="1.62" y="2.79"/>
-<vertex x="1.62" y="2.01"/>
-<vertex x="1.38" y="2.01"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.79" y="-1.38"/>
-<vertex x="2.79" y="-1.62"/>
-<vertex x="2.01" y="-1.62"/>
-<vertex x="2.01" y="-1.38"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="1.62"/>
-<vertex x="-2.02" y="1.38"/>
-<vertex x="-2.8" y="1.38"/>
-<vertex x="-2.8" y="1.62"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="1.12"/>
-<vertex x="-2.02" y="0.88"/>
-<vertex x="-2.8" y="0.88"/>
-<vertex x="-2.8" y="1.12"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="0.62"/>
-<vertex x="-2.02" y="0.38"/>
-<vertex x="-2.8" y="0.38"/>
-<vertex x="-2.8" y="0.62"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="0.12"/>
-<vertex x="-2.02" y="-0.12"/>
-<vertex x="-2.8" y="-0.12"/>
-<vertex x="-2.8" y="0.12"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="-0.38"/>
-<vertex x="-2.02" y="-0.62"/>
-<vertex x="-2.8" y="-0.62"/>
-<vertex x="-2.8" y="-0.38"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="-0.88"/>
-<vertex x="-2.02" y="-1.12"/>
-<vertex x="-2.8" y="-1.12"/>
-<vertex x="-2.8" y="-0.88"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.02" y="-1.38"/>
-<vertex x="-2.02" y="-1.62"/>
-<vertex x="-2.8" y="-1.62"/>
-<vertex x="-2.8" y="-1.38"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.62" y="-2"/>
-<vertex x="-1.38" y="-2"/>
-<vertex x="-1.38" y="-2.78"/>
-<vertex x="-1.62" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.12" y="-2"/>
-<vertex x="-0.88" y="-2"/>
-<vertex x="-0.88" y="-2.78"/>
-<vertex x="-1.12" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.62" y="-2"/>
-<vertex x="-0.38" y="-2"/>
-<vertex x="-0.38" y="-2.78"/>
-<vertex x="-0.62" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.12" y="-2"/>
-<vertex x="0.12" y="-2"/>
-<vertex x="0.12" y="-2.78"/>
-<vertex x="-0.12" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.38" y="-2"/>
-<vertex x="0.62" y="-2"/>
-<vertex x="0.62" y="-2.78"/>
-<vertex x="0.38" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.88" y="-2"/>
-<vertex x="1.12" y="-2"/>
-<vertex x="1.12" y="-2.78"/>
-<vertex x="0.88" y="-2.78"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.38" y="-2"/>
-<vertex x="1.62" y="-2"/>
-<vertex x="1.62" y="-2.78"/>
-<vertex x="1.38" y="-2.78"/>
-</polygon>
-</package>
 </packages>
 <symbols>
 <symbol name="UBLOX-NORA-W306">
@@ -29052,41 +28813,6 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <text x="0" y="28.702" size="1.778" layer="95" font="vector" align="bottom-center">&gt;Name</text>
 <text x="0" y="-44.45" size="1.778" layer="96" font="vector" align="top-center">&gt;Value</text>
 <pin name="PA28/HS_USI_SPI_CS/BT_CK/RREF" x="-25.4" y="7.62" visible="pin" length="short"/>
-</symbol>
-<symbol name="CP2102N_QFN28">
-<wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
-<pin name="!RI!/CLK" x="20.32" y="0" length="short" rot="R180"/>
-<pin name="GND" x="-20.32" y="-20.32" length="short"/>
-<pin name="D+" x="-20.32" y="5.08" length="short"/>
-<pin name="D-" x="-20.32" y="2.54" length="short"/>
-<pin name="VDD" x="-20.32" y="20.32" length="short"/>
-<pin name="VREGIN" x="-20.32" y="10.16" length="short"/>
-<pin name="VBUS" x="-20.32" y="7.62" length="short"/>
-<pin name="!RSTB" x="-20.32" y="15.24" length="short"/>
-<pin name="GPIO3/WAKEUP" x="20.32" y="-17.78" length="short" rot="R180"/>
-<pin name="GPIO2/RS485" x="20.32" y="-20.32" length="short" rot="R180"/>
-<pin name="GPIO1/RXT" x="20.32" y="-12.7" length="short" rot="R180"/>
-<pin name="GPIO0/TXT" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="SUSPENDB" x="20.32" y="-7.62" length="short" rot="R180"/>
-<pin name="SUSPEND" x="20.32" y="-5.08" length="short" rot="R180"/>
-<pin name="CTS" x="20.32" y="2.54" length="short" rot="R180"/>
-<pin name="RTS" x="20.32" y="5.08" length="short" rot="R180"/>
-<pin name="RXD" x="20.32" y="17.78" length="short" rot="R180"/>
-<pin name="TXD" x="20.32" y="20.32" length="short" rot="R180"/>
-<pin name="DSR" x="20.32" y="7.62" length="short" rot="R180"/>
-<pin name="DTR" x="20.32" y="10.16" length="short" rot="R180"/>
-<pin name="DCD" x="20.32" y="12.7" length="short" rot="R180"/>
-<text x="-17.78" y="23.114" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CHREN" x="-20.32" y="-2.54" length="short"/>
-<pin name="CHR1" x="-20.32" y="-5.08" length="short"/>
-<pin name="CHR0" x="-20.32" y="-7.62" length="short"/>
-<pin name="GPIO4" x="-20.32" y="-10.16" length="short"/>
-<pin name="GPIO5" x="-20.32" y="-12.7" length="short"/>
-<pin name="GPIO6" x="-20.32" y="-15.24" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -29129,44 +28855,301 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </device>
 </devices>
 </deviceset>
-<deviceset name="CP2102N_QFN28" prefix="U">
+</devicesets>
+</library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="QFN24">
+<description>QFN24 Package</description>
+<smd name="24" x="-1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-1.37" y="2.44"/>
+<vertex x="-1.13" y="2.44"/>
+<vertex x="-1.13" y="1.66"/>
+<vertex x="-1.37" y="1.66"/>
+</polygon>
+<smd name="23" x="-0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.87" y="2.44"/>
+<vertex x="-0.63" y="2.44"/>
+<vertex x="-0.63" y="1.66"/>
+<vertex x="-0.87" y="1.66"/>
+</polygon>
+<smd name="22" x="-0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.37" y="2.44"/>
+<vertex x="-0.13" y="2.44"/>
+<vertex x="-0.13" y="1.66"/>
+<vertex x="-0.37" y="1.66"/>
+</polygon>
+<smd name="21" x="0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.13" y="2.44"/>
+<vertex x="0.37" y="2.44"/>
+<vertex x="0.37" y="1.66"/>
+<vertex x="0.13" y="1.66"/>
+</polygon>
+<smd name="20" x="0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.63" y="2.44"/>
+<vertex x="0.87" y="2.44"/>
+<vertex x="0.87" y="1.66"/>
+<vertex x="0.63" y="1.66"/>
+</polygon>
+<smd name="19" x="1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="1.13" y="2.44"/>
+<vertex x="1.37" y="2.44"/>
+<vertex x="1.37" y="1.66"/>
+<vertex x="1.13" y="1.66"/>
+</polygon>
+<smd name="18" x="2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="1.37"/>
+<vertex x="2.44" y="1.13"/>
+<vertex x="1.66" y="1.13"/>
+<vertex x="1.66" y="1.37"/>
+</polygon>
+<smd name="17" x="2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="0.87"/>
+<vertex x="2.44" y="0.63"/>
+<vertex x="1.66" y="0.63"/>
+<vertex x="1.66" y="0.87"/>
+</polygon>
+<smd name="16" x="2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="0.37"/>
+<vertex x="2.44" y="0.13"/>
+<vertex x="1.66" y="0.13"/>
+<vertex x="1.66" y="0.37"/>
+</polygon>
+<smd name="15" x="2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-0.13"/>
+<vertex x="2.44" y="-0.37"/>
+<vertex x="1.66" y="-0.37"/>
+<vertex x="1.66" y="-0.13"/>
+</polygon>
+<smd name="14" x="2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-0.63"/>
+<vertex x="2.44" y="-0.87"/>
+<vertex x="1.66" y="-0.87"/>
+<vertex x="1.66" y="-0.63"/>
+</polygon>
+<smd name="13" x="2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-1.13"/>
+<vertex x="2.44" y="-1.37"/>
+<vertex x="1.66" y="-1.37"/>
+<vertex x="1.66" y="-1.13"/>
+</polygon>
+<smd name="6" x="-2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-1.37"/>
+<vertex x="-2.44" y="-1.13"/>
+<vertex x="-1.66" y="-1.13"/>
+<vertex x="-1.66" y="-1.37"/>
+</polygon>
+<smd name="5" x="-2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-0.87"/>
+<vertex x="-2.44" y="-0.63"/>
+<vertex x="-1.66" y="-0.63"/>
+<vertex x="-1.66" y="-0.87"/>
+</polygon>
+<smd name="4" x="-2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-0.37"/>
+<vertex x="-2.44" y="-0.13"/>
+<vertex x="-1.66" y="-0.13"/>
+<vertex x="-1.66" y="-0.37"/>
+</polygon>
+<smd name="3" x="-2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="0.13"/>
+<vertex x="-2.44" y="0.37"/>
+<vertex x="-1.66" y="0.37"/>
+<vertex x="-1.66" y="0.13"/>
+</polygon>
+<smd name="2" x="-2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="0.63"/>
+<vertex x="-2.44" y="0.87"/>
+<vertex x="-1.66" y="0.87"/>
+<vertex x="-1.66" y="0.63"/>
+</polygon>
+<smd name="1" x="-2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="1.13"/>
+<vertex x="-2.44" y="1.37"/>
+<vertex x="-1.66" y="1.37"/>
+<vertex x="-1.66" y="1.13"/>
+</polygon>
+<smd name="12" x="1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="1.37" y="-2.44"/>
+<vertex x="1.13" y="-2.44"/>
+<vertex x="1.13" y="-1.66"/>
+<vertex x="1.37" y="-1.66"/>
+</polygon>
+<smd name="11" x="0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.87" y="-2.44"/>
+<vertex x="0.63" y="-2.44"/>
+<vertex x="0.63" y="-1.66"/>
+<vertex x="0.87" y="-1.66"/>
+</polygon>
+<smd name="10" x="0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.37" y="-2.44"/>
+<vertex x="0.13" y="-2.44"/>
+<vertex x="0.13" y="-1.66"/>
+<vertex x="0.37" y="-1.66"/>
+</polygon>
+<smd name="9" x="-0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.13" y="-2.44"/>
+<vertex x="-0.37" y="-2.44"/>
+<vertex x="-0.37" y="-1.66"/>
+<vertex x="-0.13" y="-1.66"/>
+</polygon>
+<smd name="8" x="-0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.63" y="-2.44"/>
+<vertex x="-0.87" y="-2.44"/>
+<vertex x="-0.87" y="-1.66"/>
+<vertex x="-0.63" y="-1.66"/>
+</polygon>
+<smd name="7" x="-1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-1.13" y="-2.44"/>
+<vertex x="-1.37" y="-2.44"/>
+<vertex x="-1.37" y="-1.66"/>
+<vertex x="-1.13" y="-1.66"/>
+</polygon>
+<circle x="-2.52" y="2.5" radius="0.1555625" width="0.127" layer="21"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1" y="1"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="-0.25" y="0.25"/>
+<vertex x="-1" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1" y="1"/>
+<vertex x="0.25" y="1"/>
+<vertex x="0.25" y="0.25"/>
+<vertex x="1" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1" y="-1"/>
+<vertex x="1" y="-0.25"/>
+<vertex x="0.25" y="-0.25"/>
+<vertex x="0.25" y="-1"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1" y="-1"/>
+<vertex x="-1" y="-0.25"/>
+<vertex x="-0.25" y="-0.25"/>
+<vertex x="-0.25" y="-1"/>
+</polygon>
+<text x="0" y="2.794" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0.127" y="-2.667" size="0.6096" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="2.55" dy="2.55" layer="1" cream="no"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1524" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1524" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1524" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1524" layer="51"/>
+<wire x1="-2" y1="-2" x2="-1.7" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.7" width="0.1524" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.7" width="0.1524" layer="21"/>
+<wire x1="2" y1="-2" x2="1.7" y2="-2" width="0.1524" layer="21"/>
+<wire x1="2" y1="2" x2="1.7" y2="2" width="0.1524" layer="21"/>
+<wire x1="2" y1="1.7" x2="2" y2="2" width="0.1524" layer="21"/>
+<wire x1="-1.7" y1="2" x2="-2" y2="2" width="0.1524" layer="21"/>
+<wire x1="-2" y1="2" x2="-2" y2="1.7" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CP2102N">
+<wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
+<pin name="!RI!/CLK" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="GND" x="-20.32" y="-20.32" length="short"/>
+<pin name="D+" x="-20.32" y="0" length="short"/>
+<pin name="D-" x="-20.32" y="-2.54" length="short"/>
+<pin name="VIO" x="-20.32" y="17.78" length="short"/>
+<pin name="VDD" x="-20.32" y="20.32" length="short"/>
+<pin name="VREGIN" x="-20.32" y="5.08" length="short"/>
+<pin name="VBUS" x="-20.32" y="2.54" length="short"/>
+<pin name="!RSTB" x="-20.32" y="15.24" length="short"/>
+<pin name="GPIO3/WAKEUP" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="GPIO2/RS485" x="20.32" y="-20.32" length="short" rot="R180"/>
+<pin name="GPIO1/RXT" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="GPIO0/TXT" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="SUSPENDB" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="SUSPEND" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="CTS" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="RTS" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="RXD" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="TXD" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="DSR" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="DTR" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="DCD" x="20.32" y="12.7" length="short" rot="R180"/>
+<text x="-17.78" y="23.114" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CP2102N" prefix="U">
 <gates>
-<gate name="G$1" symbol="CP2102N_QFN28" x="0" y="0"/>
+<gate name="G$1" symbol="CP2102N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN28">
+<device name="" package="QFN24">
 <connects>
-<connect gate="G$1" pin="!RI!/CLK" pad="2"/>
+<connect gate="G$1" pin="!RI!/CLK" pad="1"/>
 <connect gate="G$1" pin="!RSTB" pad="9"/>
-<connect gate="G$1" pin="CHR0" pad="15"/>
-<connect gate="G$1" pin="CHR1" pad="14"/>
-<connect gate="G$1" pin="CHREN" pad="13"/>
-<connect gate="G$1" pin="CTS" pad="23"/>
-<connect gate="G$1" pin="D+" pad="4"/>
-<connect gate="G$1" pin="D-" pad="5"/>
-<connect gate="G$1" pin="DCD" pad="1"/>
-<connect gate="G$1" pin="DSR" pad="27"/>
-<connect gate="G$1" pin="DTR" pad="28"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="GPIO0/TXT" pad="19"/>
-<connect gate="G$1" pin="GPIO1/RXT" pad="18"/>
-<connect gate="G$1" pin="GPIO2/RS485" pad="17"/>
-<connect gate="G$1" pin="GPIO3/WAKEUP" pad="16"/>
-<connect gate="G$1" pin="GPIO4" pad="22"/>
-<connect gate="G$1" pin="GPIO5" pad="21"/>
-<connect gate="G$1" pin="GPIO6" pad="20"/>
-<connect gate="G$1" pin="RTS" pad="24"/>
-<connect gate="G$1" pin="RXD" pad="25"/>
-<connect gate="G$1" pin="SUSPEND" pad="12"/>
-<connect gate="G$1" pin="SUSPENDB" pad="11"/>
-<connect gate="G$1" pin="TXD" pad="26"/>
+<connect gate="G$1" pin="CTS" pad="18"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="4"/>
+<connect gate="G$1" pin="DCD" pad="24"/>
+<connect gate="G$1" pin="DSR" pad="22"/>
+<connect gate="G$1" pin="DTR" pad="23"/>
+<connect gate="G$1" pin="GND" pad="2 PAD"/>
+<connect gate="G$1" pin="GPIO0/TXT" pad="14"/>
+<connect gate="G$1" pin="GPIO1/RXT" pad="13"/>
+<connect gate="G$1" pin="GPIO2/RS485" pad="12"/>
+<connect gate="G$1" pin="GPIO3/WAKEUP" pad="11"/>
+<connect gate="G$1" pin="RTS" pad="19"/>
+<connect gate="G$1" pin="RXD" pad="20"/>
+<connect gate="G$1" pin="SUSPEND" pad="17"/>
+<connect gate="G$1" pin="SUSPENDB" pad="15"/>
+<connect gate="G$1" pin="TXD" pad="21"/>
 <connect gate="G$1" pin="VBUS" pad="8"/>
 <connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VIO" pad="5"/>
 <connect gate="G$1" pin="VREGIN" pad="7"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-15885" constant="no"/>
+<attribute name="PROD_ID" value="IC-14020"/>
 </technology>
 </technologies>
 </device>
@@ -29307,9 +29290,8 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="USER"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="CHG" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
-<part name="U6" library="nora-w306" deviceset="CP2102N_QFN28" device=""/>
+<part name="U6" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -29694,12 +29676,12 @@ to disable Stat LED</text>
 <instance part="GND6" gate="1" x="375.92" y="134.62" smashed="yes">
 <attribute name="VALUE" x="373.38" y="132.08" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R1" gate="G$1" x="340.36" y="256.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="336.804" y="256.794" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="343.408" y="256.54" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R1" gate="G$1" x="350.52" y="246.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="346.964" y="246.634" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="353.568" y="246.38" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="347.98" y="259.08" smashed="yes">
-<attribute name="VALUE" x="347.98" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="358.14" y="259.08" smashed="yes">
+<attribute name="VALUE" x="358.14" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="167.64" y="165.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="165.608" y="170.18" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -29753,12 +29735,12 @@ to disable Stat LED</text>
 <attribute name="NAME" x="328.676" y="248.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="331.724" y="248.92" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="330.2" y="228.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="328.676" y="228.6" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="331.724" y="228.6" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R9" gate="G$1" x="330.2" y="223.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="328.676" y="223.52" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="331.724" y="223.52" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND3" gate="1" x="330.2" y="218.44" smashed="yes">
-<attribute name="VALUE" x="327.66" y="215.9" size="1.778" layer="96" font="vector"/>
+<instance part="GND3" gate="1" x="330.2" y="213.36" smashed="yes">
+<attribute name="VALUE" x="327.66" y="210.82" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="406.4" y="200.66" smashed="yes">
 <attribute name="NAME" x="407.924" y="203.581" size="1.778" layer="95" font="vector"/>
@@ -29992,9 +29974,6 @@ to disable Stat LED</text>
 <instance part="GND32" gate="1" x="358.14" y="208.28" smashed="yes">
 <attribute name="VALUE" x="355.6" y="205.74" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY29" gate="G$1" x="340.36" y="264.16" smashed="yes">
-<attribute name="VALUE" x="340.36" y="266.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="JP3" gate="G$1" x="170.18" y="60.96" smashed="yes">
 <attribute name="NAME" x="170.18" y="64.008" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="170.18" y="57.912" size="1.778" layer="96" font="vector" align="center"/>
@@ -30061,19 +30040,23 @@ to disable Stat LED</text>
 <wire x1="375.92" y1="142.24" x2="375.92" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY29" gate="G$1" pin="3.3V"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="261.62" x2="340.36" y2="264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-<junction x="347.98" y="254"/>
-<wire x1="347.98" y1="243.84" x2="347.98" y2="254" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="254" x2="347.98" y2="259.08" width="0.1524" layer="91"/>
+<junction x="358.14" y="254"/>
+<wire x1="358.14" y1="238.76" x2="358.14" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="251.46" x2="358.14" y2="254" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="254" x2="358.14" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="VDD"/>
-<wire x1="347.98" y1="254" x2="360.68" y2="254" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="256.54" x2="358.14" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="254" x2="360.68" y2="254" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="VREGIN"/>
-<wire x1="347.98" y1="243.84" x2="360.68" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="238.76" x2="360.68" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="350.52" y1="251.46" x2="350.52" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="256.54" x2="350.52" y2="256.54" width="0.1524" layer="91"/>
+<junction x="358.14" y="256.54"/>
+<pinref part="U6" gate="G$1" pin="VIO"/>
+<wire x1="360.68" y1="251.46" x2="358.14" y2="251.46" width="0.1524" layer="91"/>
+<junction x="358.14" y="251.46"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
@@ -30215,7 +30198,7 @@ to disable Stat LED</text>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="223.52" x2="330.2" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="218.44" x2="330.2" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -30496,9 +30479,11 @@ to disable Stat LED</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="248.92" x2="340.36" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="238.76" x2="350.52" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="238.76" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="!RSTB"/>
-<wire x1="340.36" y1="248.92" x2="360.68" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="238.76" x2="355.6" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="248.92" x2="360.68" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -30530,10 +30515,10 @@ to disable Stat LED</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="233.68" x2="330.2" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="241.3" x2="330.2" y2="243.84" width="0.1524" layer="91"/>
-<junction x="330.2" y="241.3"/>
-<wire x1="360.68" y1="241.3" x2="330.2" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="228.6" x2="330.2" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="236.22" x2="330.2" y2="243.84" width="0.1524" layer="91"/>
+<junction x="330.2" y="236.22"/>
+<wire x1="360.68" y1="236.22" x2="330.2" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
@@ -30759,7 +30744,9 @@ to disable Stat LED</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="360.68" y1="238.76" x2="320.04" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="233.68" x2="325.12" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="233.68" x2="325.12" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="238.76" x2="320.04" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="D6" gate="D1" pin="6"/>
 <pinref part="U6" gate="G$1" pin="D+"/>
 </segment>
@@ -30773,8 +30760,8 @@ to disable Stat LED</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="360.68" y1="236.22" x2="325.12" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="236.22" x2="325.12" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="231.14" x2="325.12" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="231.14" x2="325.12" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="228.6" x2="320.04" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="D6" gate="D1" pin="4"/>
 <pinref part="U6" gate="G$1" pin="D-"/>
