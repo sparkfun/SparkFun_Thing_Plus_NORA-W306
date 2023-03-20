@@ -24834,76 +24834,6 @@ part number 2062-2P from STA</description>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="PAD.02X.02">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="0" dx="0.508" dy="0.508" layer="1" cream="no"/>
-</package>
-<package name="PAD.03X.03">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.05">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.04">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="TP_15TH">
-<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area:0.015"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-</package>
-<package name="1X01_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="0.95" diameter="1.6" rot="R90"/>
-<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="MICRO-SD-SOCKET">
 <description>&lt;h3&gt;microSD Socket SMD&lt;/h3&gt;
 Puhs-Push type.
@@ -25274,13 +25204,6 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <pin name="D-" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="CC2" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="SHLD" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-</symbol>
-<symbol name="TEST-POINT">
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 <symbol name="MICROSD-SDIO">
 <wire x1="-5.08" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
@@ -25730,68 +25653,6 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14122"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEST-POINT" prefix="TP">
-<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
-&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2" package="PAD.02X.02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3" package="PAD.03X.03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X5" package="PAD.03X.05">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X4" package="PAD.03X.04">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TP_15TH_THRU" package="TP_15TH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGO_PTH" package="1X01_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -28791,28 +28652,28 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <pin name="VDD" x="-25.4" y="25.4" visible="pin" length="short"/>
 <pin name="VSS" x="-25.4" y="-40.64" visible="pin" length="short"/>
 <pin name="PB2/LP_UART_RXD/PCM_CLK/ADC" x="-25.4" y="-7.62" visible="pin" length="short"/>
-<pin name="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" x="-25.4" y="2.54" visible="pin" length="short"/>
+<pin name="PA25/LP_I2C_SCL/HSDM/LP_UART_RXD" x="-25.4" y="2.54" visible="pin" length="short"/>
 <pin name="NRESET" x="-25.4" y="20.32" visible="pin" length="short"/>
 <pin name="PB1/LP_UART_TXD/ADC" x="-25.4" y="-5.08" visible="pin" length="short"/>
-<pin name="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" x="-25.4" y="5.08" visible="pin" length="short"/>
-<pin name="PA30/HS_USI_SPI_CLK/HS_PWM7" x="-25.4" y="10.16" visible="pin" length="short"/>
-<pin name="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" x="-25.4" y="-27.94" visible="pin" length="short"/>
+<pin name="PA26/LP_I2C_SDA/HSDP/LP_UART_TXD" x="-25.4" y="5.08" visible="pin" length="short"/>
+<pin name="PA30/HS_PWM7" x="-25.4" y="10.16" visible="pin" length="short"/>
+<pin name="PA14/LP_UART_RTS/SPI1_CLK/I2S_SD_TX2" x="-25.4" y="-27.94" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" x="-25.4" y="-33.02" visible="pin" length="short"/>
 <pin name="PA15/LP_UART_CTS/SPI1_CS" x="-25.4" y="-25.4" visible="pin" length="short"/>
-<pin name="PB18/HS_USI_USART0_RXD" x="-25.4" y="-20.32" visible="pin" length="short"/>
+<pin name="PB18/SPI0_PICO" x="-25.4" y="-20.32" visible="pin" length="short"/>
 <pin name="PB3/SWD_CLK/ADC" x="-25.4" y="-30.48" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK" x="-25.4" y="-35.56" visible="pin" length="short"/>
 <pin name="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT" x="-25.4" y="-22.86" visible="pin" length="short"/>
 <pin name="PB22/I2S_SD_RX/QDEC_PHB" x="-25.4" y="-10.16" visible="pin" length="short"/>
 <pin name="PB23/I2S_MCLK/QDEC_PHA" x="-25.4" y="-2.54" visible="pin" length="short"/>
-<pin name="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" x="-25.4" y="-12.7" visible="pin" length="short"/>
-<pin name="PB19/HS_UART0_TXD/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
-<pin name="PB20/HS_USI_I2C_SCL/I2S_CLK" x="-25.4" y="-15.24" visible="pin" length="short"/>
+<pin name="PB21/SPI0_CS/I2S_WS/QDEC_IDX" x="-25.4" y="-12.7" visible="pin" length="short"/>
+<pin name="PB19/SPI0_POCI/I2S_TX0" x="-25.4" y="-17.78" visible="pin" length="short"/>
+<pin name="PB20/SPI0_CLK/I2S_CLK" x="-25.4" y="-15.24" visible="pin" length="short"/>
 <pin name="PA7/UART_LOG_TXD/!DWNLD!" x="-25.4" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART_LOG_RXD" x="-25.4" y="12.7" visible="pin" length="short"/>
 <text x="0" y="28.702" size="1.778" layer="95" font="vector" align="bottom-center">&gt;Name</text>
 <text x="0" y="-44.45" size="1.778" layer="96" font="vector" align="top-center">&gt;Value</text>
-<pin name="PA28/HS_USI_SPI_CS/BT_CK/RREF" x="-25.4" y="7.62" visible="pin" length="short"/>
+<pin name="PA28/BT_CK/RREF" x="-25.4" y="7.62" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -28826,21 +28687,21 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <connect gate="G$1" pin="NRESET" pad="J3"/>
 <connect gate="G$1" pin="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK" pad="J9"/>
 <connect gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1" pad="J8"/>
-<connect gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2" pad="H9"/>
+<connect gate="G$1" pin="PA14/LP_UART_RTS/SPI1_CLK/I2S_SD_TX2" pad="H9"/>
 <connect gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS" pad="H8"/>
-<connect gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD" pad="C2"/>
-<connect gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD" pad="C1"/>
+<connect gate="G$1" pin="PA25/LP_I2C_SCL/HSDM/LP_UART_RXD" pad="C2"/>
+<connect gate="G$1" pin="PA26/LP_I2C_SDA/HSDP/LP_UART_TXD" pad="C1"/>
 <connect gate="G$1" pin="PA27/SWD_DATA/LP_UART_RTS/WLAN_ACT" pad="H2"/>
-<connect gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF" pad="B3"/>
-<connect gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7" pad="B1"/>
+<connect gate="G$1" pin="PA28/BT_CK/RREF" pad="B3"/>
+<connect gate="G$1" pin="PA30/HS_PWM7" pad="B1"/>
 <connect gate="G$1" pin="PA7/UART_LOG_TXD/!DWNLD!" pad="A5"/>
 <connect gate="G$1" pin="PA8/UART_LOG_RXD" pad="A6"/>
 <connect gate="G$1" pin="PB1/LP_UART_TXD/ADC" pad="D8"/>
-<connect gate="G$1" pin="PB18/HS_USI_USART0_RXD" pad="G9"/>
-<connect gate="G$1" pin="PB19/HS_UART0_TXD/I2S_TX0" pad="G8"/>
+<connect gate="G$1" pin="PB18/SPI0_PICO" pad="G9"/>
+<connect gate="G$1" pin="PB19/SPI0_POCI/I2S_TX0" pad="G8"/>
 <connect gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC" pad="E8"/>
-<connect gate="G$1" pin="PB20/HS_USI_I2C_SCL/I2S_CLK" pad="F9"/>
-<connect gate="G$1" pin="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX" pad="F8"/>
+<connect gate="G$1" pin="PB20/SPI0_CLK/I2S_CLK" pad="F9"/>
+<connect gate="G$1" pin="PB21/SPI0_CS/I2S_WS/QDEC_IDX" pad="F8"/>
 <connect gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB" pad="E9"/>
 <connect gate="G$1" pin="PB23/I2S_MCLK/QDEC_PHA" pad="C8"/>
 <connect gate="G$1" pin="PB3/SWD_CLK/ADC" pad="J2"/>
@@ -29279,7 +29140,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 <part name="U5" library="SparkFun-IC-Power" deviceset="MAX17048" device="DFN8" value="MAX17048"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29400,7 +29260,7 @@ to disable PWR LED</text>
 <wire x1="147.32" y1="45.72" x2="228.6" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="353.06" y1="106.68" x2="353.06" y2="182.88" width="0.2032" layer="97" style="longdash"/>
 <text x="152.4" y="76.2" size="2.032" layer="97" font="vector">Cut JP3 to disconnect
-mic data from D15</text>
+mic data from GPIO pin.</text>
 <text x="38.1" y="45.72" size="2.032" layer="97" font="vector">***Boot Strap Pins***
 (Include internal pull-ups)
 See DS PG 10 for more info.
@@ -29919,19 +29779,15 @@ to disable Stat LED</text>
 <attribute name="NAME" x="192.786" y="66.294" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="193.548" y="56.134" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="210.82" y="58.42" smashed="yes">
-<attribute name="NAME" x="212.344" y="61.341" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="212.344" y="56.261" size="1.778" layer="96" font="vector"/>
+<instance part="C8" gate="G$1" x="218.44" y="58.42" smashed="yes">
+<attribute name="NAME" x="219.964" y="61.341" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="219.964" y="56.261" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="210.82" y="66.04" smashed="yes">
-<attribute name="VALUE" x="210.82" y="68.834" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY21" gate="G$1" x="218.44" y="66.04" smashed="yes">
+<attribute name="VALUE" x="218.44" y="68.834" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND27" gate="1" x="210.82" y="50.8" smashed="yes">
-<attribute name="VALUE" x="210.82" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="TP2" gate="G$1" x="200.66" y="60.96" smashed="yes">
-<attribute name="NAME" x="204.216" y="59.944" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="198.12" y="58.42" size="1.778" layer="96" font="vector" display="off"/>
+<instance part="GND27" gate="1" x="218.44" y="50.8" smashed="yes">
+<attribute name="VALUE" x="218.44" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="U5" gate="U1" x="190.5" y="22.86" smashed="yes">
 <attribute name="NAME" x="180.34" y="33.528" size="1.778" layer="95" font="vector"/>
@@ -30110,7 +29966,7 @@ to disable Stat LED</text>
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="66.04" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="66.04" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
@@ -30293,7 +30149,7 @@ to disable Stat LED</text>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="210.82" y1="55.88" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="55.88" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="CTG"/>
@@ -30585,14 +30441,14 @@ to disable Stat LED</text>
 <wire x1="271.78" y1="114.3" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
-<label x="203.2" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="A4"/>
-</segment>
-<segment>
 <wire x1="401.32" y1="251.46" x2="403.86" y2="251.46" width="0.1524" layer="91"/>
 <label x="403.86" y="251.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U6" gate="G$1" pin="RXD"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="203.2" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="PA8/UART-LOG-RXD" class="0">
@@ -30602,14 +30458,14 @@ to disable Stat LED</text>
 <pinref part="U1" gate="G$1" pin="PA8/UART_LOG_RXD"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
-<label x="203.2" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="A3"/>
-</segment>
-<segment>
 <wire x1="401.32" y1="254" x2="403.86" y2="254" width="0.1524" layer="91"/>
 <label x="403.86" y="254" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U6" gate="G$1" pin="TXD"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="203.2" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -30776,29 +30632,24 @@ to disable Stat LED</text>
 <pinref part="D6" gate="D1" pin="3"/>
 </segment>
 </net>
-<net name="PB3/ADC/SWD_CLK" class="0">
+<net name="PB3/SWD_CLK/A0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3/SWD_CLK/ADC"/>
 <wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="27.94" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
-<label x="203.2" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="A1"/>
-</segment>
-<segment>
 <label x="124.46" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J6" gate="G$1" pin="SWDCLK"/>
 <wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PB20/SCL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB20/HS_USI_I2C_SCL/I2S_CLK"/>
-<wire x1="30.48" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="27.94" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="200.66" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
+<label x="203.2" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A0"/>
 </segment>
+</net>
+<net name="PA25/SCL" class="0">
 <segment>
 <wire x1="200.66" y1="152.4" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
 <label x="203.2" y="152.4" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30820,13 +30671,13 @@ to disable Stat LED</text>
 <label x="401.32" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="403.86" y1="134.62" x2="401.32" y2="134.62" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PB21/SDA" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB21/HS_USI_I2C_SDA/SPI0_CS/I2S_WS/QDEC_IDX"/>
-<wire x1="30.48" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA25/LP_I2C_SCL/HSDM/LP_UART_RXD"/>
+<wire x1="27.94" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="PA26/SDA" class="0">
 <segment>
 <wire x1="200.66" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
 <label x="203.2" y="154.94" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30848,8 +30699,13 @@ to disable Stat LED</text>
 <wire x1="421.64" y1="134.62" x2="421.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="419.1" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA26/LP_I2C_SDA/HSDP/LP_UART_TXD"/>
+<wire x1="27.94" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="PA14/SCK" class="0">
+<net name="PB20/SPI0_CLK" class="0">
 <segment>
 <wire x1="200.66" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <label x="203.2" y="142.24" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30861,12 +30717,12 @@ to disable Stat LED</text>
 <pinref part="J4" gate="J1" pin="CLK/SCK"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA14/LP_UART_RTS/SPI1CLK/I2S_SD_TX2"/>
-<wire x1="30.48" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="27.94" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB20/SPI0_CLK/I2S_CLK"/>
+<wire x1="27.94" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA15/CS" class="0">
+<net name="PB21/SPI0_CS" class="0">
 <segment>
 <label x="203.2" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="A5"/>
@@ -30878,12 +30734,12 @@ to disable Stat LED</text>
 <wire x1="317.5" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS"/>
-<wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="27.94" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB21/SPI0_CS/I2S_WS/QDEC_IDX"/>
+<wire x1="27.94" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA13/POCI" class="0">
+<net name="PB19/SPI0_POCI" class="0">
 <segment>
 <wire x1="200.66" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="203.2" y="147.32" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30895,12 +30751,12 @@ to disable Stat LED</text>
 <pinref part="J4" gate="J1" pin="DAT0/SDO"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1"/>
-<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="27.94" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB19/SPI0_POCI/I2S_TX0"/>
+<wire x1="27.94" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA12/PICO" class="0">
+<net name="PB18/SPI0_PICO" class="0">
 <segment>
 <wire x1="200.66" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="203.2" y="144.78" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -30912,21 +30768,21 @@ to disable Stat LED</text>
 <pinref part="J4" gate="J1" pin="CMD/SDI"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK"/>
-<wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="27.94" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB18/SPI0_PICO"/>
+<wire x1="27.94" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA26/LP_UART_TXD" class="0">
+<net name="PB1/LP_UART_TXD/A2" class="0">
 <segment>
 <wire x1="200.66" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <label x="203.2" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="TX"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA26/HS_USI_SPI_POCI/HSDP/LP_UART_TXD"/>
-<wire x1="30.48" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="27.94" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB1/LP_UART_TXD/ADC"/>
+<wire x1="27.94" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA27/SWD_DATA" class="0">
@@ -30946,16 +30802,40 @@ to disable Stat LED</text>
 <wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB18" class="0">
+<net name="PA12" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB18/HS_USI_USART0_RXD"/>
-<wire x1="30.48" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<label x="27.94" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="27.94" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA12/LP_UART_TXD/SPI1_PICO/I2S_MCLK"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GPIO3"/>
-<wire x1="200.66" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
-<label x="203.2" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="162.56" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
+<label x="203.2" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO5"/>
+</segment>
+</net>
+<net name="PA13" class="0">
+<segment>
+<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="27.94" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA13/LP_UART_RXD/SPI1_POCI/I2S_SD_TX1"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<label x="203.2" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO6"/>
+</segment>
+</net>
+<net name="PB22" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB"/>
+<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="27.94" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="S3" gate="G$1" pin="1"/>
@@ -30967,46 +30847,27 @@ to disable Stat LED</text>
 <junction x="254" y="55.88"/>
 <label x="251.46" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="PB19" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB19/HS_UART0_TXD/I2S_TX0"/>
-<wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="27.94" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<label x="203.2" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO1"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GPIO4"/>
-<wire x1="200.66" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
-<label x="203.2" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="294.64" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91"/>
+<label x="292.1" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PB22" class="0">
+<net name="PA14" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB22/I2S_SD_RX/QDEC_PHB"/>
-<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="27.94" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="27.94" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PA14/LP_UART_RTS/SPI1_CLK/I2S_SD_TX2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GPIO2"/>
-<wire x1="200.66" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
-<label x="203.2" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<label x="162.56" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="165.1" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC"/>
-<wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<label x="27.94" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="200.66" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
-<label x="203.2" y="134.62" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="A2"/>
+<wire x1="200.66" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
+<label x="203.2" y="114.3" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO3"/>
 </segment>
 </net>
 <net name="PB23" class="0">
@@ -31016,33 +30877,33 @@ to disable Stat LED</text>
 <label x="27.94" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GPIO1"/>
-<wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
-<label x="203.2" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="294.64" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91"/>
-<label x="292.1" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
+<label x="203.2" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO2"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="WS2812-DO" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="DO"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
+<label x="200.66" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+<label x="203.2" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO0"/>
 </segment>
 </net>
-<net name="PB1" class="0">
+<net name="PA15" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB1/LP_UART_TXD/ADC"/>
-<wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<label x="27.94" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="27.94" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PA15/LP_UART_CTS/SPI1_CS"/>
 </segment>
 <segment>
-<label x="203.2" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="A0"/>
-<wire x1="203.2" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
+<label x="203.2" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="203.2" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GPIO4"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -31086,38 +30947,38 @@ to disable Stat LED</text>
 </net>
 <net name="PA30" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA30/HS_USI_SPI_CLK/HS_PWM7"/>
+<pinref part="U1" gate="G$1" pin="PA30/HS_PWM7"/>
 <wire x1="30.48" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <label x="27.94" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="203.2" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GPIO6"/>
+<wire x1="200.66" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<label x="203.2" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="PA28" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA28/HS_USI_SPI_CS/BT_CK/RREF"/>
+<pinref part="U1" gate="G$1" pin="PA28/BT_CK/RREF"/>
 <wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <label x="27.94" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="203.2" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GPIO5"/>
+<wire x1="200.66" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<label x="203.2" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="A4"/>
 </segment>
 </net>
-<net name="PA25/LP_UART_RXD" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA25/HS_USI_SPI_PICO/HSDM/LP_UART_RXD"/>
-<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
+<net name="PB2/LP_UART_RXD/A1" class="0">
 <segment>
 <wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 <label x="203.2" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="RX"/>
+</segment>
+<segment>
+<label x="27.94" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB2/LP_UART_RXD/PCM_CLK/ADC"/>
+<wire x1="27.94" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
