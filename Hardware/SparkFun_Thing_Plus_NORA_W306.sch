@@ -29152,12 +29152,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CHG" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="U6" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R28" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_SMD_UNSHROUDED_DNP_NO_PASTE" value="SWD (DNP)"/>
@@ -29264,9 +29264,9 @@ mic data from GPIO pin.</text>
 <text x="38.1" y="45.72" size="2.032" layer="97" font="vector">***Boot Strap Pins***
 (Include internal pull-ups)
 See DS PG 10 for more info.
-PA30 (D3/SCK)
-PB19/SWD_DATA (D13)
-PA7/UART-LOG-TXD (D1)</text>
+PA30
+PB19/SWD_DATA
+PA7/UART-LOG-TXD</text>
 <text x="119.38" y="140.716" size="1.778" layer="97" font="vector" align="bottom-center">Arduino
 Pin Mapping</text>
 <text x="124.46" y="119.38" size="1.778" layer="97" font="vector" align="bottom-center">13</text>
@@ -29830,7 +29830,7 @@ to disable Stat LED</text>
 <instance part="GND32" gate="1" x="358.14" y="208.28" smashed="yes">
 <attribute name="VALUE" x="355.6" y="205.74" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="JP3" gate="G$1" x="170.18" y="60.96" smashed="yes">
+<instance part="JP1" gate="G$1" x="170.18" y="60.96" smashed="yes">
 <attribute name="NAME" x="170.18" y="64.008" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="170.18" y="57.912" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
@@ -29849,7 +29849,7 @@ to disable Stat LED</text>
 <attribute name="NAME" x="420.116" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="423.164" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="299.72" y="27.94" smashed="yes">
+<instance part="JP2" gate="G$1" x="299.72" y="27.94" smashed="yes">
 <attribute name="NAME" x="299.72" y="30.988" size="1.778" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="299.72" y="24.892" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
@@ -30811,7 +30811,7 @@ to disable Stat LED</text>
 <segment>
 <label x="162.56" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
@@ -30855,7 +30855,7 @@ to disable Stat LED</text>
 <segment>
 <wire x1="294.64" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91"/>
 <label x="292.1" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PA14" class="0">
@@ -30918,7 +30918,7 @@ to disable Stat LED</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="DI"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30941,7 +30941,7 @@ to disable Stat LED</text>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="27.94" x2="307.34" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
