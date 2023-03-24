@@ -29479,6 +29479,74 @@ to disable Stat LED</text>
 <wire x1="134.62" y1="126.746" x2="134.62" y2="119.126" width="0.2032" layer="97"/>
 <text x="111.76" y="121.92" size="1.778" layer="97" font="vector" align="bottom-center">MODULE</text>
 <text x="127" y="121.92" size="1.778" layer="97" font="vector" align="bottom-center">ARDUINO</text>
+<text x="403.86" y="92.456" size="1.778" layer="97" font="vector" align="bottom-center">Silkcreen
+Label
+Abbreviations</text>
+<text x="414.02" y="78.74" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
+<text x="414.02" y="63.5" size="1.778" layer="97" font="vector" align="bottom-center">No Connect</text>
+<text x="414.02" y="81.28" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
+<text x="414.02" y="76.2" size="1.778" layer="97" font="vector" align="bottom-center">VUSB</text>
+<text x="414.02" y="73.66" size="1.778" layer="97" font="vector" align="bottom-center">Enable</text>
+<text x="414.02" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">VBATT</text>
+<text x="414.02" y="68.58" size="1.778" layer="97" font="vector" align="bottom-center">3V3</text>
+<text x="414.02" y="66.04" size="1.778" layer="97" font="vector" align="bottom-center">GND</text>
+<text x="393.7" y="68.58" size="1.778" layer="97" font="vector" align="bottom-center">3V</text>
+<text x="393.7" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">VB</text>
+<text x="393.7" y="66.04" size="1.778" layer="97" font="vector" align="bottom-center">G</text>
+<text x="393.7" y="78.74" size="1.778" layer="97" font="vector" align="bottom-center">LED_DO</text>
+<text x="393.7" y="63.5" size="1.778" layer="97" font="vector" align="bottom-center">NC</text>
+<text x="393.7" y="76.2" size="1.778" layer="97" font="vector" align="bottom-center">VU</text>
+<text x="393.7" y="73.66" size="1.778" layer="97" font="vector" align="bottom-center">EN</text>
+<text x="393.7" y="81.28" size="1.778" layer="97" font="vector" align="bottom-center">LD</text>
+<wire x1="403.86" y1="83.566" x2="403.86" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="81.026" x2="403.86" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="78.486" x2="403.86" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="75.946" x2="403.86" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="73.406" x2="403.86" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="70.866" x2="403.86" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="68.326" x2="403.86" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="65.786" x2="403.86" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="63.246" x2="383.54" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="65.786" x2="383.54" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="68.326" x2="383.54" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="70.866" x2="383.54" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="73.406" x2="383.54" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="75.946" x2="383.54" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="78.486" x2="383.54" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="81.026" x2="383.54" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="83.566" x2="424.18" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="81.026" x2="424.18" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="78.486" x2="424.18" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="75.946" x2="424.18" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="73.406" x2="424.18" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="70.866" x2="424.18" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="68.326" x2="424.18" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="65.786" x2="424.18" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="63.246" x2="403.86" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="63.246" x2="383.54" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="65.786" x2="383.54" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="68.326" x2="383.54" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="70.866" x2="383.54" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="73.406" x2="383.54" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="75.946" x2="383.54" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="78.486" x2="383.54" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="81.026" x2="383.54" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="65.786" x2="403.86" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="68.326" x2="403.86" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="70.866" x2="403.86" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="73.406" x2="403.86" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="75.946" x2="403.86" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="78.486" x2="403.86" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="81.026" x2="403.86" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="83.566" x2="403.86" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="83.566" x2="383.54" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="91.186" x2="383.54" y2="91.186" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="91.186" x2="403.86" y2="91.186" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="91.186" x2="403.86" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="83.566" x2="383.54" y2="91.186" width="0.2032" layer="97"/>
+<wire x1="424.18" y1="91.186" x2="424.18" y2="83.566" width="0.2032" layer="97"/>
+<text x="393.7" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">LABEL</text>
+<text x="414.02" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">FULL NAME</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="261.62" y="83.82" smashed="yes">
@@ -29586,7 +29654,7 @@ to disable Stat LED</text>
 <instance part="GND41" gate="1" x="134.62" y="226.06" smashed="yes">
 <attribute name="VALUE" x="132.08" y="223.52" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="410.464" y="80.264" smashed="yes"/>
+<instance part="LOGO2" gate="G$1" x="354.584" y="85.344" smashed="yes"/>
 <instance part="J3" gate="G$1" x="365.76" y="142.24" smashed="yes">
 <attribute name="VALUE" x="359.41" y="136.398" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="363.474" y="150.622" size="1.778" layer="95" font="vector"/>
@@ -29683,7 +29751,7 @@ to disable Stat LED</text>
 <instance part="SUPPLY10" gate="G$1" x="421.64" y="208.28" smashed="yes">
 <attribute name="VALUE" x="420.624" y="211.836" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="LOGO6" gate="G$1" x="411.734" y="64.262" smashed="yes"/>
+<instance part="LOGO6" gate="G$1" x="355.854" y="69.342" smashed="yes"/>
 <instance part="GND18" gate="1" x="27.94" y="55.88" smashed="yes">
 <attribute name="VALUE" x="25.4" y="53.34" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -29803,7 +29871,7 @@ to disable Stat LED</text>
 <attribute name="NAME" x="308.61" y="242.062" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="302.26" y="225.044" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="LOGO3" gate="G$1" x="341.376" y="56.642" smashed="yes"/>
+<instance part="LOGO3" gate="G$1" x="338.836" y="36.322" smashed="yes"/>
 <instance part="U1" gate="G$1" x="55.88" y="101.6" smashed="yes">
 <attribute name="NAME" x="55.88" y="130.302" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="55.88" y="57.15" size="1.778" layer="96" font="vector" align="top-center"/>
