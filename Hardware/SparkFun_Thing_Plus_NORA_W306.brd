@@ -16797,8 +16797,19 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.8359" y1="31.442275" x2="7.8359" y2="32.400240625" width="0.1778" layer="1"/>
 <via x="3.6068" y="31.0388" extent="1-16" drill="0.254"/>
 <via x="1.831340625" y="30.48" extent="1-16" drill="0.254"/>
-<wire x1="15.265478125" y1="57.311459375" x2="14.73" y2="57.311" width="0" layer="19" extent="1-1"/>
-<wire x1="8.13" y1="57.311" x2="7.565478125" y2="57.311459375" width="0" layer="19" extent="1-1"/>
+<wire x1="14.531340625" y1="25.1841" x2="15.115540625" y2="25.7683" width="0.1778" layer="1"/>
+<wire x1="15.115540625" y1="25.7683" x2="15.115540625" y2="26.04008125" width="0.1778" layer="1"/>
+<wire x1="15.115540625" y1="26.04008125" x2="15.857" y2="26.781540625" width="0.1778" layer="1"/>
+<wire x1="15.857" y1="26.781540625" x2="15.9132" y2="26.781540625" width="0.1778" layer="1"/>
+<via x="6.3271375" y="48.719740625" extent="1-16" drill="0.254"/>
+<wire x1="15.265478125" y1="57.311459375" x2="15.26501875" y2="57.311" width="0.1778" layer="1"/>
+<wire x1="15.26501875" y1="57.311" x2="15.118078125" y2="57.311" width="0.1778" layer="1"/>
+<wire x1="15.118078125" y1="57.311" x2="15.1185375" y2="57.311459375" width="0.1778" layer="1"/>
+<wire x1="15.1185375" y1="57.311459375" x2="15.265478125" y2="57.311459375" width="0.1778" layer="1"/>
+<wire x1="14.73" y1="57.311" x2="14.730459375" y2="57.311459375" width="0.1778" layer="1"/>
+<wire x1="14.730459375" y1="57.311459375" x2="15.265478125" y2="57.311459375" width="0.1778" layer="1"/>
+<wire x1="8.13" y1="57.311" x2="7.5659375" y2="57.311" width="0.1778" layer="1"/>
+<wire x1="7.5659375" y1="57.311" x2="7.565478125" y2="57.311459375" width="0.1778" layer="1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="U4" pad="4"/>
@@ -17899,7 +17910,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="5,1,eca902161c44104d"/>
 <approved hash="19,16,6d82eed52cad2c99"/>
 <approved hash="19,16,d6bcd3ce25f239a6"/>
-<approved hash="23,1,fdd7dbefd865fe5d"/>
 <approved hash="5,1,9b7c31c2b26a73a1"/>
 <approved hash="5,1,2f805b74e9e236f7"/>
 <approved hash="5,1,9c274d542d4350a0"/>
@@ -17908,6 +17918,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="5,1,4686a093b4c40ef5"/>
 <approved hash="5,1,2c264801a288dfd5"/>
 <approved hash="5,1,c534bca2a8fd8200"/>
+<approved hash="6,1,0bae159877137feb"/>
+<approved hash="6,1,862db352fc563055"/>
+<approved hash="6,1,7cd55c920d1ad549"/>
+<approved hash="6,1,0792e7da1ceb84af"/>
+<approved hash="23,1,fdd7dbefd865fe5d"/>
 </errors>
 </board>
 </drawing>
