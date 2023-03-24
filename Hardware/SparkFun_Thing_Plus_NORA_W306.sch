@@ -28690,6 +28690,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <rectangle x1="7.096759375" y1="-3.599178125" x2="7.703815625" y2="-2.999740625" layer="41"/>
 <rectangle x1="7.096759375" y1="2.9972" x2="7.701278125" y2="3.60171875" layer="41"/>
 <rectangle x1="7.096759375" y1="-2.997196875" x2="7.805415625" y2="2.994659375" layer="41"/>
+<wire x1="8.5725" y1="5.715" x2="-6.7945" y2="5.715" width="0.0762" layer="39"/>
+<wire x1="-6.7945" y1="5.715" x2="-6.7945" y2="-5.715" width="0.0762" layer="39"/>
+<wire x1="-6.7945" y1="-5.715" x2="8.5725" y2="-5.715" width="0.0762" layer="39"/>
+<wire x1="8.5725" y1="-5.715" x2="8.5725" y2="5.715" width="0.0762" layer="39"/>
 </package>
 </packages>
 <symbols>
