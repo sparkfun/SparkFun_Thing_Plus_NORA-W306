@@ -29803,9 +29803,9 @@ power to D5</text>
 they should also cut JP1,
 to prevent backpowering D5</text>
 <text x="293.878" y="167.386" size="2.032" layer="97" font="vector" align="center-left">*WARNING: To avoid damaging GPIO*
-If SDPC enabled,
-do not write other
-SD data lines as outputs.</text>
+While uSD card is UN-powered,
+do not write other SPI pins
+as outputs.</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="261.62" y="83.82" smashed="yes">
