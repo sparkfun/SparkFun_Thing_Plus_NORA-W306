@@ -1,12 +1,14 @@
-panel size, 131x139mm
+panel size, 84x78mm
 PCB thickness, 1.6mm
 number of layers, 4
+controlled impedance, JLC7628
+material, TG155
 soldermask color, Red
 silkscreen color, White
 oz copper, 1oz
 finish, HASL lead free
 stencils, top+bottom
-pcs per panel, 10
+pcs per panel, 3
 min trace width, 0.1778mm / 0.0070in
 min drill size, 0.2540mm / 0.0100in
 filename to layer stackup 1/2/3/4: GTL, GL2, GL3, GBL
