@@ -29538,11 +29538,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="MICRO-SD" device="FRICTION" value="SDFRICTION"/>
-<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D5" library="SparkFun-LED" deviceset="WS2812" device="_2020" value="WS2812"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U5" library="SparkFun-IC-Power" deviceset="MAX17048" device="DFN8" value="MAX17048"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
@@ -29583,6 +29581,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29679,7 +29679,7 @@ to disable PWR LED</text>
 <wire x1="147.32" y1="91.44" x2="228.6" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="45.72" x2="228.6" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="388.62" y1="106.68" x2="388.62" y2="182.88" width="0.2032" layer="97" style="longdash"/>
-<text x="152.4" y="76.2" size="2.032" layer="97" font="vector">Cut JP3 to disconnect
+<text x="152.4" y="50.8" size="2.032" layer="97" font="vector">Cut JP1 to disconnect
 mic data from GPIO pin.</text>
 <text x="38.1" y="27.94" size="2.032" layer="97" font="vector">***Boot Strap Pins***
 (W306 includes internal pull-ups)
@@ -29931,6 +29931,8 @@ LOW = uSD ON</text>
 only when V_USB is present.
 *Useful for some deepsleep 
 applications.</text>
+<text x="190.5" y="73.66" size="2.032" layer="97" font="vector">Cut JP3 to disconnect
+power to D5</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="261.62" y="83.82" smashed="yes">
@@ -30267,9 +30269,6 @@ applications.</text>
 <attribute name="NAME" x="368.3" y="140.208" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="368.3" y="111.76" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY19" gate="G$1" x="187.96" y="71.12" smashed="yes">
-<attribute name="VALUE" x="187.96" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="GND23" gate="1" x="187.96" y="50.8" smashed="yes">
 <attribute name="VALUE" x="187.96" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -30280,9 +30279,6 @@ applications.</text>
 <instance part="C8" gate="G$1" x="218.44" y="58.42" smashed="yes">
 <attribute name="NAME" x="219.964" y="61.341" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="219.964" y="56.261" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="SUPPLY21" gate="G$1" x="218.44" y="66.04" smashed="yes">
-<attribute name="VALUE" x="218.44" y="68.834" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND27" gate="1" x="218.44" y="50.8" smashed="yes">
 <attribute name="VALUE" x="218.44" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -30423,6 +30419,13 @@ applications.</text>
 <instance part="SUPPLY28" gate="G$1" x="335.28" y="261.62" smashed="yes">
 <attribute name="VALUE" x="335.28" y="264.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="JP3" gate="G$1" x="180.34" y="71.12" smashed="yes">
+<attribute name="NAME" x="180.34" y="74.168" size="1.778" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="180.34" y="68.072" size="1.778" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="172.72" y="73.66" smashed="yes">
+<attribute name="VALUE" x="172.72" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30472,16 +30475,6 @@ applications.</text>
 <wire x1="289.56" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
-<wire x1="187.96" y1="68.58" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="66.04" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
 <pinref part="I2C" gate="G$1" pin="2"/>
 <wire x1="414.02" y1="157.48" x2="414.02" y2="154.94" width="0.1524" layer="91"/>
@@ -30511,6 +30504,12 @@ applications.</text>
 <pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
 <wire x1="335.28" y1="259.08" x2="335.28" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="172.72" y1="71.12" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -31624,6 +31623,18 @@ applications.</text>
 <wire x1="345.44" y1="205.74" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 <junction x="345.44" y="205.74"/>
 <junction x="345.44" y="236.22"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="VCC"/>
+<wire x1="187.96" y1="71.12" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
+<junction x="187.96" y="71.12"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="71.12" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
