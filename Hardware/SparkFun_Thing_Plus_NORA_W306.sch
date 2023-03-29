@@ -29679,8 +29679,8 @@ to disable PWR LED</text>
 <wire x1="147.32" y1="91.44" x2="228.6" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="45.72" x2="228.6" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="388.62" y1="106.68" x2="388.62" y2="182.88" width="0.2032" layer="97" style="longdash"/>
-<text x="152.4" y="50.8" size="2.032" layer="97" font="vector">Cut JP1 to disconnect
-mic data from GPIO pin.</text>
+<text x="149.606" y="52.07" size="2.032" layer="97" font="vector">Cut JP1 to disconnect
+WS2812B DI from GPIO pin.</text>
 <text x="38.1" y="27.94" size="2.032" layer="97" font="vector">***Boot Strap Pins***
 (W306 includes internal pull-ups)
 See DS PG 10 for more info.
