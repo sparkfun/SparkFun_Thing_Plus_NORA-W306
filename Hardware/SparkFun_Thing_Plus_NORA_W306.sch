@@ -29448,6 +29448,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R21" library="SparkFun-Resistors" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" value="100"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -30276,8 +30277,8 @@ SD data lines as outputs.</text>
 <attribute name="NAME" x="324.104" y="254" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="321.056" y="254" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="312.42" y="238.76" smashed="yes">
-<attribute name="VALUE" x="308.356" y="241.808" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY20" gate="G$1" x="312.42" y="251.46" smashed="yes">
+<attribute name="VALUE" x="308.356" y="254.508" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND30" gate="1" x="322.58" y="228.6" smashed="yes">
 <attribute name="VALUE" x="320.04" y="226.06" size="1.778" layer="96" font="vector"/>
@@ -30302,6 +30303,10 @@ SD data lines as outputs.</text>
 <instance part="R22" gate="G$1" x="314.96" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="314.96" y="115.316" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="314.96" y="118.364" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+</instance>
+<instance part="R23" gate="G$1" x="312.42" y="243.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="313.944" y="243.84" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="310.896" y="243.84" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -30673,9 +30678,8 @@ SD data lines as outputs.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="G$1" pin="V_USB"/>
-<wire x1="312.42" y1="236.22" x2="312.42" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="NMOS" pin="G"/>
-<wire x1="314.96" y1="236.22" x2="312.42" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="248.92" x2="312.42" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -31528,6 +31532,14 @@ SD data lines as outputs.</text>
 <wire x1="322.58" y1="116.84" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SDPC" gate="G$1" pin="3"/>
 <wire x1="322.58" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="Q5" gate="NMOS" pin="G"/>
+<wire x1="314.96" y1="236.22" x2="312.42" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="236.22" x2="312.42" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
