@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="11" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="11" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="13" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -29530,7 +29530,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D6" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device="BLANK" value="SFE_LOGO_NAME_FLAMEBLANK"/>
 <part name="U1" library="nora-w306" deviceset="UBLOX_NORA_W306" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="" value="STAND-OFF"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device="" value="STAND-OFF"/>
@@ -29574,7 +29574,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SD" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value=""/>
+<part name="SDPC" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-RE1C002UNTCL" value="20V/0.2A/8MHz/1.2Ω/1Vth"/>
@@ -29848,14 +29848,14 @@ to disable Stat LED</text>
 <text x="403.86" y="92.456" size="1.778" layer="97" font="vector" align="bottom-center">Silkcreen
 Label
 Abbreviations</text>
-<text x="414.02" y="78.74" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
-<text x="414.02" y="63.5" size="1.778" layer="97" font="vector" align="bottom-center">No Connect</text>
-<text x="414.02" y="81.28" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
-<text x="414.02" y="76.2" size="1.778" layer="97" font="vector" align="bottom-center">VUSB</text>
-<text x="414.02" y="73.66" size="1.778" layer="97" font="vector" align="bottom-center">Enable</text>
-<text x="414.02" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">VBATT</text>
-<text x="414.02" y="68.58" size="1.778" layer="97" font="vector" align="bottom-center">3V3</text>
-<text x="414.02" y="66.04" size="1.778" layer="97" font="vector" align="bottom-center">GND</text>
+<text x="416.56" y="78.74" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
+<text x="416.56" y="63.5" size="1.778" layer="97" font="vector" align="bottom-center">No Connect</text>
+<text x="416.56" y="81.28" size="1.778" layer="97" font="vector" align="bottom-center">LED Data Out</text>
+<text x="416.56" y="76.2" size="1.778" layer="97" font="vector" align="bottom-center">VUSB</text>
+<text x="416.56" y="73.66" size="1.778" layer="97" font="vector" align="bottom-center">Enable</text>
+<text x="416.56" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">VBATT</text>
+<text x="416.56" y="68.58" size="1.778" layer="97" font="vector" align="bottom-center">3V3</text>
+<text x="416.56" y="66.04" size="1.778" layer="97" font="vector" align="bottom-center">GND</text>
 <text x="393.7" y="68.58" size="1.778" layer="97" font="vector" align="bottom-center">3V</text>
 <text x="393.7" y="71.12" size="1.778" layer="97" font="vector" align="bottom-center">VB</text>
 <text x="393.7" y="66.04" size="1.778" layer="97" font="vector" align="bottom-center">G</text>
@@ -29880,15 +29880,15 @@ Abbreviations</text>
 <wire x1="383.54" y1="75.946" x2="383.54" y2="78.486" width="0.2032" layer="97"/>
 <wire x1="383.54" y1="78.486" x2="383.54" y2="81.026" width="0.2032" layer="97"/>
 <wire x1="383.54" y1="81.026" x2="383.54" y2="83.566" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="83.566" x2="424.18" y2="81.026" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="81.026" x2="424.18" y2="78.486" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="78.486" x2="424.18" y2="75.946" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="75.946" x2="424.18" y2="73.406" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="73.406" x2="424.18" y2="70.866" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="70.866" x2="424.18" y2="68.326" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="68.326" x2="424.18" y2="65.786" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="65.786" x2="424.18" y2="63.246" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="63.246" x2="403.86" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="83.566" x2="429.26" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="81.026" x2="429.26" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="78.486" x2="429.26" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="75.946" x2="429.26" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="73.406" x2="429.26" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="70.866" x2="429.26" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="68.326" x2="429.26" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="65.786" x2="429.26" y2="63.246" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="63.246" x2="403.86" y2="63.246" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="63.246" x2="383.54" y2="63.246" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="65.786" x2="383.54" y2="65.786" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="68.326" x2="383.54" y2="68.326" width="0.2032" layer="97"/>
@@ -29897,27 +29897,40 @@ Abbreviations</text>
 <wire x1="403.86" y1="75.946" x2="383.54" y2="75.946" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="78.486" x2="383.54" y2="78.486" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="81.026" x2="383.54" y2="81.026" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="65.786" x2="403.86" y2="65.786" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="68.326" x2="403.86" y2="68.326" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="70.866" x2="403.86" y2="70.866" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="73.406" x2="403.86" y2="73.406" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="75.946" x2="403.86" y2="75.946" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="78.486" x2="403.86" y2="78.486" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="81.026" x2="403.86" y2="81.026" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="83.566" x2="403.86" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="65.786" x2="403.86" y2="65.786" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="68.326" x2="403.86" y2="68.326" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="70.866" x2="403.86" y2="70.866" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="73.406" x2="403.86" y2="73.406" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="75.946" x2="403.86" y2="75.946" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="78.486" x2="403.86" y2="78.486" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="81.026" x2="403.86" y2="81.026" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="83.566" x2="403.86" y2="83.566" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="83.566" x2="383.54" y2="83.566" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="91.186" x2="383.54" y2="91.186" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="91.186" x2="403.86" y2="91.186" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="91.186" x2="403.86" y2="91.186" width="0.2032" layer="97"/>
 <wire x1="403.86" y1="91.186" x2="403.86" y2="83.566" width="0.2032" layer="97"/>
 <wire x1="383.54" y1="83.566" x2="383.54" y2="91.186" width="0.2032" layer="97"/>
-<wire x1="424.18" y1="91.186" x2="424.18" y2="83.566" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="91.186" x2="429.26" y2="83.566" width="0.2032" layer="97"/>
 <text x="393.7" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">LABEL</text>
-<text x="414.02" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">FULL NAME</text>
+<text x="416.56" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">FULL NAME</text>
 <text x="345.44" y="162.56" size="2.032" layer="97" font="vector" align="center-left">uSD power Default ON
 To control via GPIO, 
-modify SD jumper,
+modify SDPC jumper,
 then write control 
-GPIO output.</text>
+GPIO output.
+HIGH = uSD OFF
+LOW = uSD ON</text>
+<wire x1="403.86" y1="60.706" x2="383.54" y2="60.706" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="60.706" x2="403.86" y2="60.706" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="63.246" x2="403.86" y2="60.706" width="0.2032" layer="97"/>
+<wire x1="429.26" y1="63.246" x2="429.26" y2="60.706" width="0.2032" layer="97"/>
+<wire x1="383.54" y1="60.706" x2="383.54" y2="63.246" width="0.2032" layer="97"/>
+<text x="393.7" y="60.96" size="1.778" layer="97" font="vector" align="bottom-center">SDPC</text>
+<text x="416.56" y="60.96" size="1.778" layer="97" font="vector" align="bottom-center">uSD Power Control</text>
+<text x="358.14" y="251.46" size="2.032" layer="97" font="vector" rot="MR180" align="top-left">Q4 and Q5 enable CP2102
+only when V_USB is present.
+*Useful for some deepsleep 
+applications.</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="261.62" y="83.82" smashed="yes">
@@ -30381,8 +30394,8 @@ GPIO output.</text>
 <instance part="SUPPLY13" gate="G$1" x="314.96" y="154.94" smashed="yes">
 <attribute name="VALUE" x="314.96" y="157.734" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SD" gate="G$1" x="314.96" y="124.46" smashed="yes" rot="MR270">
-<attribute name="NAME" x="313.436" y="122.555" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="SDPC" gate="G$1" x="314.96" y="124.46" smashed="yes" rot="MR270">
+<attribute name="NAME" x="311.912" y="122.555" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="315.341" y="121.92" size="1.778" layer="96" font="vector" rot="MR270" align="top-left"/>
 </instance>
 <instance part="GND29" gate="1" x="322.58" y="119.38" smashed="yes">
@@ -30720,7 +30733,7 @@ GPIO output.</text>
 <wire x1="330.2" y1="121.92" x2="330.2" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SD" gate="G$1" pin="3"/>
+<pinref part="SDPC" gate="G$1" pin="3"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="322.58" y1="121.92" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
@@ -31401,7 +31414,7 @@ GPIO output.</text>
 <pinref part="J1" gate="G$1" pin="GPIO3"/>
 </segment>
 </net>
-<net name="PB23" class="0">
+<net name="PB23/SDPC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB23/I2S_MCLK/QDEC_PHA"/>
 <wire x1="30.48" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
@@ -31413,14 +31426,9 @@ GPIO output.</text>
 <pinref part="J1" gate="G$1" pin="GPIO2"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="254" y1="53.34" x2="254" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
-<junction x="254" y="55.88"/>
-<label x="251.46" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="307.34" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="307.34" y1="124.46" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SDPC" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="WS2812-DO" class="0">
@@ -31497,6 +31505,16 @@ GPIO output.</text>
 <label x="203.2" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="A3"/>
 </segment>
+<segment>
+<pinref part="S3" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="254" y1="53.34" x2="254" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
+<junction x="254" y="55.88"/>
+<label x="251.46" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PA28" class="0">
 <segment>
@@ -31563,16 +31581,9 @@ GPIO output.</text>
 <wire x1="320.04" y1="132.08" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="132.08" x2="314.96" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SD" gate="G$1" pin="2"/>
+<pinref part="SDPC" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="129.54" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="314.96" y="132.08"/>
-</segment>
-</net>
-<net name="SD_EN" class="0">
-<segment>
-<pinref part="SD" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="124.46" x2="307.34" y2="124.46" width="0.1524" layer="91"/>
-<label x="307.34" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$27" class="0">
