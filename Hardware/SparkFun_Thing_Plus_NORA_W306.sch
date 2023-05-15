@@ -23040,13 +23040,13 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -24785,42 +24785,6 @@ part number 2062-2P from STA</description>
 <wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
 <wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
-<package name="JST04_1MM_VERT">
-<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
-
-&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
-&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
-&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
-&lt;li&gt;ROHS Compliant&lt;/li&gt;
-&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
-&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
-&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
-<text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="-0.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="0.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="1.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="NC1" x="-2.778" y="3.2" dx="1.2" dy="2" layer="1"/>
-<smd name="NC2" x="2.822" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="1.912" y1="3.87" x2="-1.878" y2="3.87" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="1.33" x2="-3.218" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="0.68" x2="-2.458" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="1.35" x2="3.272" y2="0.66" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="0.66" x2="2.542" y2="0.66" width="0.2032" layer="21"/>
-<circle x="-1.948" y="-0.43" radius="0.2032" width="0" layer="21"/>
-<wire x1="-2.921" y1="3.556" x2="-3.302" y2="3.556" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.556" x2="-3.302" y2="3.175" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.175" x2="-2.921" y2="3.175" width="0.1" layer="51"/>
-<wire x1="2.945" y1="3.154" x2="3.326" y2="3.154" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.154" x2="3.326" y2="3.535" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.535" x2="2.945" y2="3.535" width="0.1" layer="51"/>
-</package>
 <package name="1X02_1.5MM_NO_SILK">
 <description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -25149,6 +25113,41 @@ Puhs-Push type.
 <wire x1="-0.6" y1="-3.09" x2="-0.6" y2="-3.29" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="-3.29" x2="0.6" y2="-3.29" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-3.29" x2="0.6" y2="-3.09" width="0.127" layer="21"/>
+</package>
+<package name="JST04_1MM_VERT">
+<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
+
+&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
+&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
+&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
+&lt;li&gt;ROHS Compliant&lt;/li&gt;
+&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
+&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
+&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="0" y="4.445" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="2.54" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<smd name="1" x="-1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="NC1" x="-2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<wire x1="1.905" y1="3.937" x2="-1.905" y2="3.937" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.397" x2="-3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0.635" x2="-2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.397" x2="3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0.635" x2="2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3" y1="3.5" x2="-3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3.5" x2="-3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3" x2="3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3.5" x2="3" y2="3.5" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -26896,6 +26895,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.5" y1="5" x2="2.5" y2="8" layer="31"/>
 <rectangle x1="3" y1="5" x2="5" y2="8" layer="31"/>
 </package>
+<package name="SOT523">
+<smd name="1" x="0" y="0.7" dx="0.4" dy="0.51" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.5" y="-0.6" dx="0.4" dy="0.51" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="-0.5" y="-0.6" dx="0.4" dy="0.51" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.25" y1="0.4" x2="0.25" y2="1.01" layer="29"/>
+<rectangle x1="0.25" y1="-0.9" x2="0.75" y2="-0.29" layer="29"/>
+<rectangle x1="-0.75" y1="-0.9" x2="-0.25" y2="-0.29" layer="29"/>
+<rectangle x1="-0.15" y1="0.5" x2="0.15" y2="0.9" layer="31"/>
+<rectangle x1="-0.65" y1="-0.8" x2="-0.35" y2="-0.4" layer="31"/>
+<rectangle x1="0.35" y1="-0.8" x2="0.65" y2="-0.4" layer="31"/>
+<wire x1="-0.8" y1="0.45" x2="-0.8" y2="-0.35" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="-0.35" x2="0.8" y2="-0.35" width="0.05" layer="51"/>
+<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.45" width="0.05" layer="51"/>
+<wire x1="0.8" y1="0.45" x2="-0.8" y2="0.45" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.6" x2="-0.95" y2="0.6" width="0.2" layer="21"/>
+<wire x1="-0.95" y1="0.6" x2="-0.95" y2="-0.3" width="0.2" layer="21"/>
+<wire x1="0.5" y1="0.6" x2="0.95" y2="0.6" width="0.2" layer="21"/>
+<wire x1="0.95" y1="0.6" x2="0.95" y2="-0.3" width="0.2" layer="21"/>
+<text x="-0.9" y="-0.8" size="0.2" layer="51" font="vector">G</text>
+<text x="0.8" y="-0.8" size="0.2" layer="51" font="vector">S</text>
+<text x="0.4" y="0.8" size="0.2" layer="51" font="vector">D</text>
+<text x="-1" y="1.2" size="0.6" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1" y="-1.7" size="0.6" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.9" y1="-0.9" x2="1" y2="1" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -27295,6 +27319,21 @@ Switches electronic signals</description>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-15421"/>
 <attribute name="VALUE" value="100mA/20V/3.8Ω"/>
+</technology>
+</technologies>
+</device>
+<device name="-DMP21D0UT" package="SOT523">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="I_D" value="590Ma"/>
+<attribute name="PROD_ID" value="TRANS-16700"/>
+<attribute name="VALUE" value="DMP21D0UT-7" constant="no"/>
+<attribute name="V_DSS" value="-20v"/>
 </technology>
 </technologies>
 </device>
@@ -29316,7 +29355,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-35V-(20%)" value="4.7uF"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2MM-SMT" value="LiPo"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29330,7 +29369,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M" value="OSHW-LOGOM"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
@@ -29801,7 +29840,7 @@ applications.</text>
 power to D5</text>
 <text x="149.606" y="44.704" size="2.032" layer="97" font="vector">If user cuts JP3,
 they should also cut JP1,
-to prevent backpowering D5</text>
+to prevent powering D5</text>
 <text x="293.878" y="167.386" size="2.032" layer="97" font="vector" align="center-left">*WARNING: To avoid damaging GPIO*
 While uSD card is UN-powered,
 do not write other SPI pins
