@@ -3,11 +3,11 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -17748,6 +17748,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="17.914621875" y="19.603721875" extent="1-16" drill="0.2"/>
 <via x="11.536678125" y="21.612859375" extent="1-16" drill="0.2"/>
 <via x="17.48625625" y="48.09708125" extent="1-16" drill="0.2"/>
+<via x="22.294478125" y="48.23931875" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="V_USB">
 <contactref element="U4" pad="4"/>
@@ -18540,9 +18541,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="8.669021875" y="48.25238125" extent="1-16" drill="0.2"/>
 <wire x1="8.669021875" y1="48.25238125" x2="8.13" y2="47.713359375" width="0.1778" layer="1"/>
 <wire x1="8.13" y1="47.711" x2="8.13" y2="47.713359375" width="0.1778" layer="1"/>
-<wire x1="7.99338125" y1="48.928021875" x2="8.669021875" y2="48.25238125" width="0.1778" layer="16"/>
-<wire x1="9.51991875" y1="52.15381875" x2="7.99338125" y2="50.62728125" width="0.1778" layer="16"/>
-<wire x1="7.99338125" y1="50.62728125" x2="7.99338125" y2="48.928021875" width="0.1778" layer="16"/>
+<wire x1="8.5826625" y1="48.25238125" x2="8.669021875" y2="48.25238125" width="0.1778" layer="16"/>
+<wire x1="8.5826625" y1="48.25238125" x2="7.7317625" y2="49.10328125" width="0.1778" layer="16"/>
+<wire x1="9.51991875" y1="52.15381875" x2="7.7317625" y2="50.3656625" width="0.1778" layer="16"/>
+<wire x1="7.7317625" y1="50.3656625" x2="7.7317625" y2="49.10328125" width="0.1778" layer="16"/>
 </signal>
 <signal name="PA27/SWD_DATA">
 <contactref element="U1" pad="H2"/>
