@@ -7,16 +7,16 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="11" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="5" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -178,11 +178,11 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="LAYER_2" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="LAYER_3" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="LAYER_4" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="LAYER_5" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="LAYER_6" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
@@ -247,6 +247,56 @@ Material: TG155</text>
 <wire x1="13.693140625" y1="9.9314" x2="13.693140625" y2="8.6614" width="0.2032" layer="21"/>
 <wire x1="3.812540625" y1="6.469378125" x2="5.082540625" y2="6.469378125" width="0.2032" layer="22"/>
 <wire x1="11.526515625" y1="11.851640625" x2="11.52905625" y2="11.85418125" width="0.002540625" layer="49"/>
+<wire x1="0" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="49"/>
+<wire x1="22.86" y1="58.42" x2="22.86" y2="11.43" width="0.1524" layer="49"/>
+<wire x1="22.86" y1="11.43" x2="22.86" y2="5.08" width="0.1524" layer="49"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="0" width="0.1524" layer="49"/>
+<wire x1="22.86" y1="0" x2="17.78" y2="0" width="0.1524" layer="49"/>
+<wire x1="17.78" y1="0" x2="5.08" y2="0" width="0.1524" layer="49"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.1524" layer="49"/>
+<wire x1="0" y1="0" x2="0" y2="58.42" width="0.1524" layer="49"/>
+<wire x1="1.27" y1="52.07" x2="1.27" y2="24.13" width="0.1524" layer="49"/>
+<wire x1="21.59" y1="13.97" x2="21.59" y2="52.07" width="0.1524" layer="49"/>
+<circle x="2.54" y="55.88" radius="1.27" width="0.1524" layer="49"/>
+<circle x="20.32" y="55.88" radius="1.27" width="0.1524" layer="49"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.1524" layer="49"/>
+<circle x="20.32" y="2.54" radius="1.27" width="0.1524" layer="49"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="49" style="shortdash"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="22.86" width="0.254" layer="49" style="shortdash"/>
+<wire x1="1.27" y1="22.86" x2="19.05" y2="22.86" width="0.254" layer="49" style="shortdash"/>
+<wire x1="19.05" y1="22.86" x2="19.05" y2="11.43" width="0.254" layer="49" style="shortdash"/>
+<wire x1="19.05" y1="11.43" x2="22.86" y2="11.43" width="0.254" layer="49" style="shortdash"/>
+<wire x1="22.86" y1="5.08" x2="20.32" y2="5.08" width="0.254" layer="49" style="shortdash"/>
+<wire x1="20.32" y1="5.08" x2="17.78" y2="2.54" width="0.254" layer="49" style="shortdash"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.254" layer="49" style="shortdash"/>
+<wire x1="1.27" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="49" style="shortdash"/>
+<text x="23.495" y="16.0528" size="0.8128" layer="49" font="vector" ratio="15">3.3V</text>
+<text x="23.495" y="13.5128" size="0.8128" layer="49" font="vector" ratio="15">RESET</text>
+<text x="23.495" y="21.1328" size="0.8128" layer="49" font="vector" ratio="15">G</text>
+<text x="23.495" y="23.6728" size="0.8128" layer="49" font="vector" ratio="15">A0</text>
+<text x="23.495" y="26.2128" size="0.8128" layer="49" font="vector" ratio="15">0</text>
+<text x="23.495" y="28.7528" size="0.8128" layer="49" font="vector" ratio="15">1</text>
+<text x="23.495" y="31.2928" size="0.8128" layer="49" font="vector" ratio="15">2</text>
+<text x="23.495" y="33.8328" size="0.8128" layer="49" font="vector" ratio="15">3</text>
+<text x="23.495" y="36.3728" size="0.8128" layer="49" font="vector" ratio="15">4</text>
+<text x="23.495" y="38.9128" size="0.8128" layer="49" font="vector" ratio="15">5</text>
+<text x="23.495" y="41.4528" size="0.8128" layer="49" font="vector" ratio="15">6</text>
+<text x="23.495" y="43.9928" size="0.8128" layer="49" font="vector" ratio="15">7</text>
+<text x="23.495" y="46.5328" size="0.8128" layer="49" font="vector" ratio="15">8</text>
+<text x="23.495" y="49.0728" size="0.8128" layer="49" font="vector" ratio="15">9</text>
+<text x="23.495" y="51.6128" size="0.8128" layer="49" font="vector" ratio="15">10</text>
+<text x="-0.635" y="52.5272" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">11</text>
+<text x="-0.635" y="49.9872" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">12</text>
+<text x="-0.635" y="47.4472" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">13</text>
+<text x="-0.635" y="44.9072" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">14</text>
+<text x="-0.635" y="42.3672" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">15</text>
+<text x="-0.635" y="39.8272" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">16</text>
+<text x="-0.635" y="37.2872" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">17</text>
+<text x="-0.635" y="34.7472" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">18</text>
+<text x="-0.635" y="32.2072" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">LD</text>
+<text x="-0.635" y="29.6672" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">VU</text>
+<text x="-0.635" y="27.1272" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">EN</text>
+<text x="-0.635" y="24.5872" size="0.8128" layer="49" font="vector" ratio="15" rot="R180">vbat</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
