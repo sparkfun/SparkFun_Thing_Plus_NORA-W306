@@ -2,7 +2,7 @@ SparkFun Thing Plus - NORA-W306
 ========================================
 
 
-[![SparkFun Thing Plus - NORA-W306](URL for picture of part)](https://www.sparkfun.com/products/21637)
+[![SparkFun Thing Plus - NORA-W306](https://cdn.sparkfun.com/r/600-600/assets/parts/2/1/4/7/0/WRL-21637-Thing-Plus-NORA-W306-feature.jpg)](https://www.sparkfun.com/products/21637)
 
 [*SparkFun Thing Plus - NORA-W306 (WRL-21637)*](https://www.sparkfun.com/products/21637)
 
