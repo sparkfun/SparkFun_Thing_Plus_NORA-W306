@@ -1,12 +1,14 @@
 
 
 
-<center>
-<div class="grid cards" style="width:500px;" markdown>
+The [SparkFun Thing Plus - NORA-W306](https://www.sparkfun.com/products/21637) is a Feather form-factor development board equipped with the u-blox NORA-W306 module. The module contains a Realtek RTL8720DF, which has an integrated single-chip low-power dual-band (2.4GHz and 5GHz) Wireless LAN (WLAN) and Bluetooth&reg; Low Energy (BLE 5.3) communication microcontroller. It also consists of a dual processor core: Arm Cortex-M33 and Cortex-M23. To complement the module's low-power options, we've optimized components and added the ability to depower all subsystems to conserve as much power as possible for remote battery-powered applications.
+
+
+<div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
 -   <a href="https://www.sparkfun.com/products/21637">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Thing Plus NORA-W306">
+        <img src="https://cdn.sparkfun.com/assets/parts/2/1/4/7/0/WRL-21637-Thing-Plus-NORA-W306-feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Thing Plus NORA-W306">
       </figure>
     </a>
 
@@ -21,7 +23,6 @@
     </a>
 
 </div>
-</center>
 
 
 In this tutorial, we'll go over the hardware and how to hookup the development board to an Arduino. We will also go over a basic Arduino example to get started!

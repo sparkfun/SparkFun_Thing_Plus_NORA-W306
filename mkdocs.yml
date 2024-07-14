@@ -166,6 +166,7 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
   - pymdownx.inlinehilite
   - pymdownx.snippets:
       # base_path: ['./docs']
@@ -237,14 +238,14 @@ extra_javascript:
 nav:
   - Getting Started:
     - Introduction: introduction.md
-    # - Hardware Overview: hardware_overview.md
-    # - Hardware Hookup: hardware_hookup.md
+    - Hardware Overview: hardware_overview.md
+    - Hardware Hookup: hardware_hookup.md
     - Installing the CP2102 USB Driver: installing_drivers.md
-    # - Setting Up Arduino: setting_up_arduino.md
+    - Setting Up Arduino: setting_up_arduino.md
     - Installing the Arduino Library: arduino_library.md
-    # - Arduino Examples: arduino_examples.md
+    - Arduino Examples: arduino_examples.md
   - Resources: resources.md
   - Support:
-    # - Troubleshooting: troubleshooting.md
+    - Troubleshooting: troubleshooting.md
     - Submit Issues: github/file_issue.md
     - Contribute: github/contribute.md
