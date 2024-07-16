@@ -13,12 +13,13 @@ Now that you've successfully got your SparkFun Thing Plus - NORA-W306 up and run
     * [MAX17048 LiPo Fuel Gauge (PDF)](../assets/component_documentation/MAX17048.pdf)
     * [WS2812C-2020 RGB Addressable LED (PDF)](../assets/component_documentation/WS2812C-2020.pdf)
 * [Graphical Datasheet](../assets/img/SparkFun_Thing_Plus_NORA-W306_u-blox.pdf)
-* Fritzing Part
+* [Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/21637_sfe_thing_plus_u-blox_NORA-W306_development_board_lipo_charger_fuel_gauge_qwiic_WS2812.fzpz)
 * [Qwiic Info Page](https://www.sparkfun.com/qwiic)
 * [Compare Thing Plus Boards](https://www.sparkfun.com/thing_plus)
 * [CP210X Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 * [Realtek: Arduino Board Support Files](https://github.com/ambiot/ambd_arduino)
 * Arduino Libraries
     * [MAX17048](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library)
+    * [SdFat](https://github.com/greiman/SdFat)
     * [Qwiic OLED](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Thing_Plus_NORA-W306)

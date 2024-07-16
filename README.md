@@ -35,6 +35,7 @@ Documentation
     * **[MAX17048 LiPo Fuel Gauge](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library)**
     * **[SdFat](https://github.com/greiman/SdFat)**
     * **[Qwiic OLED Display](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)**
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/21637_sfe_thing_plus_u-blox_NORA-W306_development_board_lipo_charger_fuel_gauge_qwiic_WS2812.fzpz)**
 * **[Realtek: Arduino Board Support Files](https://github.com/ambiot/ambd_arduino)**
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Thing_Plus_NORA-W306)** - Basic hookup guide for the SparkFun Thing Plus NORA-W306.
 
