@@ -5,7 +5,7 @@ SparkFun Thing Plus - NORA-W306
 
 [*SparkFun Thing Plus - NORA-W306 (WRL-21637)*](https://www.sparkfun.com/products/21637)
 
-The SparkFun Thing Plus - NORA-W306 is a Feather form-factor development board equipped with the u-blox NORA-W306 module. The module contains a Realtek RTL8720DF, which has an integrated single-chip low-power dual-band (2.4GHz and 5GHz) Wireless LAN (WLAN) and Bluetooth&reg; Low Energy (BLE 5.3) communication microcontroller. It also consists of a dual processor core: Arm Cortex-M33 and Cortex-M23. To complement the module's low-power options, we've optimized components and added the ability to depower all subsystems to conserve as much power as possible for remote battery-powered applications. 
+The SparkFun Thing Plus - NORA-W306 is a Feather form-factor development board equipped with the u-blox NORA-W306 module. The module contains a Realtek RTL8720DF, which has an integrated single-chip low-power dual-band (2.4GHz and 5GHz) Wireless LAN (WLAN) and Bluetooth&reg; Low Energy (BLE 5.3) communication microcontroller. It also consists of a dual processor core: Arm Cortex-M33 and Cortex-M23. To complement the module's low-power options, we've optimized components and added the ability to depower all subsystems to conserve as much power as possible for remote battery-powered applications.
 
 Repository Contents
 -------------------
@@ -31,9 +31,11 @@ Documentation
 --------------
 
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* Arduino Libraries
+* **Arduino Libraries**
     * **[MAX17048 LiPo Fuel Gauge](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library)**
+    * **[SdFat](https://github.com/greiman/SdFat)**
     * **[Qwiic OLED Display](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)**
+* **[Realtek: Arduino Board Support Files](https://github.com/ambiot/ambd_arduino)**
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Thing_Plus_NORA-W306)** - Basic hookup guide for the SparkFun Thing Plus NORA-W306.
 
 
@@ -46,14 +48,14 @@ Product Versions
 
 Version History
 ---------------
-* v1.0 - Initial Release 
+* v1.0 - Initial Release
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
 If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 

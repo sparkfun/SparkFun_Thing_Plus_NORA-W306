@@ -12,7 +12,7 @@ Now that you've successfully got your SparkFun Thing Plus - NORA-W306 up and run
     * [MCP73831 LiPo Charger (PDF)](../assets/component_documentation/MCP73831.pdf)
     * [MAX17048 LiPo Fuel Gauge (PDF)](../assets/component_documentation/MAX17048.pdf)
     * [WS2812C-2020 RGB Addressable LED (PDF)](../assets/component_documentation/WS2812C-2020.pdf)
-* Graphical Datasheet
+* [Graphical Datasheet](../assets/img/SparkFun_Thing_Plus_NORA-W306_u-blox.pdf)
 * Fritzing Part
 * [Qwiic Info Page](https://www.sparkfun.com/qwiic)
 * [Compare Thing Plus Boards](https://www.sparkfun.com/thing_plus)

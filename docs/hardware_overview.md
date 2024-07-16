@@ -101,7 +101,7 @@ Note that the pin label might have additional functionality that may not be appa
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-"><img src="../assets/img/" width="600px" height="600px" alt="Graphical Datasheet"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SparkFun_Thing_Plus_NORA-W306_u-blox.pdf"><img src="../assets/img/GraphicalDatasheet_SparkFun_ThingPlus_NORA-W306-v10.jpg" width="1000px" height="667px" alt="Graphical Datasheet"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Graphical Datasheet</i></td>
@@ -110,7 +110,7 @@ Note that the pin label might have additional functionality that may not be appa
 
 
 !!! note
-    While the u-blox integration manual may have pins highlighted to show additional functionality, there are some that are not supported in the Realtek's Arduino core. Some of these features that are not supported in the Arduino core include I2S, IR, and RTC.
+    While the u-blox integration manual may have pins highlighted to show additional functionality, there are some that are not supported in the Realtek's Arduino core. Some of these features that are not supported in the Arduino core include SDIO, I2S, IR, and RTC.
 
 
 
@@ -124,7 +124,7 @@ For advanced users, the SWD pins are broken out on the 2x5 header on the back of
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-21637_Thing_Plus_NORA-W306_SWD-Bottom.jpg"><img src="../assets/img/WRL-21637_Thing_Plus_NORA-W306_SWD-Bottom.jpg" width="600px" height="600px" alt="SWD Pins Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Graphical Datasheet</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SWD Pins Highlighted</i></td>
   </table>
 </div>
 
@@ -169,7 +169,7 @@ The board also includes a user button that is connected pin `2`.
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-21637_Thing_Plus_NORA-W306_User_Button_PTH_Bottom.jpg"><img src="../assets/img/WRL-21637_Thing_Plus_NORA-W306_User_Button_PTH_Bottom.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;" colspan="2"><i>Reset & Boot Pins and Buttons Highlighted (Top & Bottom View)</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;" colspan="2"><i>Reset & Boot Pins and Buttons Highlighted<br />(Top & Bottom View)</i></td>
     </tr>
   </table>
 </div>
@@ -419,17 +419,17 @@ There are a few jumper pads available on the bottom of the board.
 
 
 
-###Board Dimensions
+### Board Dimensions
 
 The board is 0.9" x 2.3" (22.86mm x 58.42mm) and uses the [standard Thing+](https://www.sparkfun.com/thing_plus) footprint. There are 4x mounting holes by each corner of the board. You can use 4-40 standoffs to mount the board to a panel or enclosure.
 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_Thing_Plus_NORA-W306_Board_Dimensions.png"><img src="../assets/img/SparkFun_Thing_Plus_NORA-W306_Board_Dimensions.png" width="600px" height="600px" alt="Board Dimensions"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SparkFun_Thing_Plus_NORA-W306_Board_Dimensions.png"><img src="../assets/img/SparkFun_Thing_Plus_NORA-W306_Board_Dimensions.png" width="600px" height="600px" alt="Board Dimensions"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td align="center">Board Dimensions</td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Board Dimensions</i></td>
     </tr>
   </table>
 </div>
