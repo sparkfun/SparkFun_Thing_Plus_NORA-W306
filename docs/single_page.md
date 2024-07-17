@@ -43,6 +43,8 @@ icon: fontawesome/solid/scroll
 # Example 5b - Bluetooth UART Client
 --8<-- "./docs/arduino_example_5b_bluetooth_uart_client.md"
 
+# Example 6 - MicroSD Card
+--8<-- "./docs/arduino_example_6_microsd.md"
 
 
 # Example 8 - MAX17048 LiPo Fuel Gauge

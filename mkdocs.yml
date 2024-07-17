@@ -250,7 +250,7 @@ nav:
       - Example 4 - Connecing to a WiFi Network: arduino_example_4_connect_wifi.md
       - Example 5a - Bluetooth UART Service: arduino_example_5a_bluetooth_uart_service.md
       - Example 5b - Bluetooth UART Client: arduino_example_5b_bluetooth_uart_client.md
-      # - Example 6 - MicroSD Card: arduino_example_6_microsd.md
+      - Example 6 - MicroSD Card: arduino_example_6_microsd.md
       #- Example 7 - Deep Sleep and MicroSD Power Control: arduino_example_7.md
       - Example 8 - MAX17048 LiPo Fuel Gauge: arduino_example_8_lipo_fuel_gauge.md
       - Example 9 - WS2812 Addressable RGB LED: arduino_example_9_ws2812.md
