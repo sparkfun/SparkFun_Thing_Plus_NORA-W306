@@ -1,4 +1,4 @@
-Now that we have our library and board add-on installed, we can get started playing around with the development board. For the scope of this tutorial, we will highlight a few of the features on the board. From there we will be able to build our own custom code to integrate the development board into a project.
+Now that we have our board add-on installed, we can get started playing around with the development board. For the scope of this tutorial, we will highlight a few of the features on the board. From there we will be able to build our own custom code to integrate the development board into a project.
 
 
 
@@ -1178,6 +1178,8 @@ void test() {
 }
 ```
 
+
+
 Open the Arduino serial monitor at **115200** baud. Send a character through the Arduino Serial Monitor. You should get a prompt in the Serial Monitor. Enter a chararacter (i.e. send <kbd>s</kbd> or any other keyboard character) to start. The example will then read the card. If the card is compatible, the output will provide information about the microSD card type, create a new file, write text to the file, and then close the file. The example will then re-open the file and read the contents of the file. You should see the following text in the file: "_testing 3,4,5 wahoo_". If the example code is run more than once, you may see the same text repeat a few times.
 
 <div style="text-align: center;">
@@ -1203,6 +1205,7 @@ To open using the a file explorer, you can disconnect the SparkFun Thing Plus - 
     </tr>
   </table>
 </div>
+
 
 
 
@@ -1390,17 +1393,72 @@ But wait! If you looked closely at the circuit of the SparkFun Thing Plus NORA-W
 
 The connection is the same as explained earlier in the tutorial. Connect the USB cable to the SparkFun Thing Plus NORA-W306 and the other end to your computer. For the scope of this tutorial, we will be using the built-in WS2812B on the development board.
 
-    insert here
+For those that are interested in connecting additional WS2812, you can follow the table below to daisy chain additional LEDs. This configuration is when users are using USB for power and daisy chaining a small number of WS2812's.
 
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; border: solid 1px #cccccc;">NORA-W306<br />Pinout
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">WS2812 LED<br />Pinout
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VUSB (if powering off USB<br />and low number of WS2812 LEDs)</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VIN</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">LD/LED_D0</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">DI</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#fff3cd"><font color="#000000">GND</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#fff3cd"><font color="#000000">GND</font>
+            </td>
+        </tr>
+    </table>
+</div>
 
+For large number of LEDs, you may want to considering using an [external power supply to power the strip of addressable LEDs](https://learn.sparkfun.com/tutorials/mean-well-led-switching-power-supply-hookup-guide#daisychain).
 
-    USB cable connected to development board
-
-    For users that are interested in connecting additional WS2812...
-    NORAW306       <=>    WS2812 LED Strip
-    VB             <=>    VIN
-    LD/LED_DO      <=>    DI
-    GND            <=>    GND
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; border: solid 1px #cccccc;">NORA-W306<br />Pinout
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">External 5V Power Supply
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">WS2812 LED<br />Pinout
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000"></font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">5V</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VIN</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">LD/LED_D0</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000"></font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">DI</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#fff3cd"><font color="#000000">GND</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#fff3cd"><font color="#000000">GND</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#fff3cd"><font color="#000000">GND</font>
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 
@@ -1521,7 +1579,7 @@ First, you&apos;ll need to download and install the **SparkFun Qwiic Micro OLED 
 
 
 
-### Arduino Code | Example 1: Hello
+### Arduino Code
 
 Let&apos;s upload the sketch to display graphics and characters on the Qwiic Micro OLED. From the menu, select the following: **File** > **Examples** > <font style="color:gray">Examples from Custom Libraries</font> | **SparkFun OLED Graphics Library** > **Example-01_Hello**.
 
@@ -1613,14 +1671,14 @@ Once the code has been uploaded, check the Qwiic Micro OLED screen. You should s
 
 
 
-## LiPo Fuel Gauge (MAX17048) with Micro OLED Display Demo
+## Example 11: LiPo Fuel Gauge (MAX17048) with Micro OLED Display Demo
 
 Based on the examples from the LiPo Fuel Gauge and Micro OLED, we will measure a battery's capacity and display the readings on a micro OLED.
 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Fritzing Diagram Qwiic micro OLED and LiPo Battery"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/NORA-W306_MAX17048_Fuel_Gauge_WS2812_LiPo_Battery_Demo_bb.jpg"><img src="../assets/img/NORA-W306_MAX17048_Fuel_Gauge_WS2812_LiPo_Battery_Demo_bb.jpg" width="400px" height="400px" alt="Fritzing Diagram Qwiic micro OLED and LiPo Battery"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Fritzing Diagram Qwiic micro OLED and LiPo Battery</i></td>
