@@ -23,8 +23,42 @@ icon: fontawesome/solid/scroll
 # Installing the Arduino Library
 --8<-- "./docs/arduino_library.md"
 
-# Arduino Examples
---8<-- "./docs/arduino_examples.md"
+# Arduino
+
+# Example 1 - Blink
+--8<-- "./docs/arduino_example_1_blink.md"
+
+# Example 2: Button
+--8<-- "./docs/arduino_example_2_button.md
+
+# Example 3 - Scanning WiFi Networks
+--8<-- "./docs/arduino_example_3_scan_wifi.md"
+
+# Example 4 - Connecting to a WiFi Network
+--8<-- "./docs/arduino_example_4_connect_wifi.md"
+
+# Example 5a - Bluetooth UART Service
+--8<-- "./docs/arduino_example_5a_bluetooth_uart_service.md"
+
+# Example 5b - Bluetooth UART Client
+--8<-- "./docs/arduino_example_5b_bluetooth_uart_client.md"
+
+
+
+# Example 8 - MAX17048 LiPo Fuel Gauge
+--8<-- "./docs/arduino_example_8_lipo_fuel_gauge.md"
+
+# Example 9 - WS2812 Addressable RGB LED
+--8<-- "./docs/arduino_example_9_ws2812.md"
+
+# Example 10 - Qwiic Micro OLED
+--8<-- "./docs/arduino_example_10_qwiic_micro_oled.md"
+
+# Example 11 - LiPo Fuel Gauge (MAX17048) with Micro OLED Display Demo
+--8<-- "./docs/arduino_example_11_lipo_fuel_gauge_micro_oled_ws2812.md"
+
+# More Examples!!!
+--8<-- "./docs/more_examples.md"
 
 # Troubleshooting
 --8<-- "./docs/troubleshooting.md"

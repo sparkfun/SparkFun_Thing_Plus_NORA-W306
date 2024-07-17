@@ -17,7 +17,7 @@ Bill Greiman has written a library for memory cards formatted to FAT16/FAT32 exF
 <div style="text-align: center"><a href="https://github.com/greiman/SdFat/archive/refs/heads/master.zip" class="md-button">Bill Greiman&apos;s SdFat Arduino Library (ZIP)</a></div>
 
 !!! note
-    At the time of writing, **SdFat** by Bill Greiman **v2.2.3** worked with the SparkFun Thing Plus - NORA-W306. 
+    At the time of writing, **SdFat** by Bill Greiman **v2.2.3** worked with the SparkFun Thing Plus - NORA-W306.
 
 !!! note
     We recommend using some of the built-in libraries for the u-blox NORA-W306 as well after installing the board add-ons: **File** > **Examples** > <font style="color:gray"><b>Examples for SparkFun Thing Plus NORA-W306 (RTL8720DF)</b></font> . Certain examples like the AmebaWS2812B were written specifically for the NORA-W306 architecture.
