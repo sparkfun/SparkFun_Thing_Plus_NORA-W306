@@ -140,7 +140,7 @@ void loop()
 }
 ```
 
-Open the Arduino Serial Monitor and set it to 115200 baud to view the serial output. You should see the voltage, battery percent, alert flag, and several more readings. In this case, the single cell LiPo battery that was connected to the IC was fully charged and at about 4.10V.
+Open the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux) and set it to **115200** baud to view the serial output. You should see the voltage, battery percent, alert flag, and several more readings. In this case, the single cell LiPo battery that was connected to the IC was fully charged and at about 4.10V.
 
 <div style="text-align: center;">
   <table>
@@ -151,7 +151,7 @@ Open the Arduino Serial Monitor and set it to 115200 baud to view the serial out
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Showing the LiPo Battery's Capacity</i></td>
     </tr>
   </table>
-</div>    
+</div>
 
 But wait! If you looked closely at the circuit of the SparkFun Thing Plus NORA-W306, there is also a charge circuit built in. Try closing out the Arduino Serial Monitor, disconnecting the USB, and disconnecting the LiPo battery. Then reinsert the LiPo battery, connect the USB cable, and reopen the Arduino Serial Monitor. The IC will recalculate everything. In the image below, the voltage is a bit misleading since the charge IC is charging the LiPo battery and may not be the true representation of the LiPo battery's voltage. The remaining charge was closer to what was expected.
 
@@ -164,7 +164,7 @@ But wait! If you looked closely at the circuit of the SparkFun Thing Plus NORA-W
       <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Showing the LiPo Battery's Capacity</i></td>
     </tr>
   </table>
-</div>    
+</div>
 
 !!! note
     For development boards that have a built in charge circuit and fuel gauge, you may want to consider using a display to view the LiPo battery's true voltage and remaining charge. Otherwise, you could use a multimeter to measure the LiPo battery's voltage when a USB cable is not plugged in. Below is an example that uses the Qwiic Micro OLED to display the LiPo battery's voltage and remaining charge since the SparkFun Thing Plus NORA-W306 includes a built in charge circuit and fuel gauge (MAX17048). Just make sure to adjust the code for your fuel gauge and display.

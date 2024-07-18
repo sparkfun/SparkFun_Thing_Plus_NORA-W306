@@ -177,7 +177,7 @@ void printEncryptionType(int thisType) {
 }
 ```
 
-Open you Arduino Serial Monitor at **115200**. The SparkFun Thing Plus NORA-W306 will begin scanning your area. Take note of the encryption type of the WiFi network that you are connecting to. In this case, I had set my home WiFi Router's 5GHz network name to "SparkFun_Router_5GHz" and it was using a WPA2 encryption (as highlighted in the Arduino Serial Monitor).
+Open you [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux) at **115200**. The SparkFun Thing Plus NORA-W306 will begin scanning your area. Take note of the encryption type of the WiFi network that you are connecting to. In this case, I had set my home WiFi Router's 5GHz network name to "SparkFun_Router_5GHz" and it was using a WPA2 encryption (as highlighted in the Arduino Serial Monitor).
 
 <div style="text-align: center;">
   <table>

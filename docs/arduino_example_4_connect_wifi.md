@@ -209,7 +209,7 @@ Then adjust the arrays that holed the SSID (i.e. `yourNetwork`) and password  (`
 
 Select the correct board definition from the menu (in this case, **Tools** > **Boards** > **SparkFun Thing Plus NORA-W306 (RTL8720DF)**). Then select the correct COM port that the board enumerated to (in this case, it was COM13). Hit upload button.
 
-Open the Arduino Serial Monitor at **115200**. The SparkFun Thing Plus NORA-W306 will attempt to connect to the network.
+Open the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux) at **115200**. The SparkFun Thing Plus NORA-W306 will attempt to connect to the network.
 
 <div style="text-align: center;">
   <table>
