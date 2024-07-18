@@ -9,6 +9,7 @@
 * This example demonstrates how to put the NORA-W306 into deep sleep mode and
 * wake it up using the AON timer (every 5 seconds). 
 * When awake, it will log the temperature from the BME280 sensor to the uSD card.
+* When awake, it will also blink the stat LED three times to indicate a log has happened.
 * When asleep, the current consumption can be monitored using the MEAS jumper.
 *
 * Hardware Hookup and Instructions:
@@ -50,6 +51,59 @@
 * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
+
+// variables to store the readings from the sensor
+float humidity;
+float pressure;
+float altitude;
+float temperature;
+
+#include "SdFat.h"
+#include "sdios.h"
+
+File myFile;
+
+/*
+  Set DISABLE_CS_PIN to disable a second SPI device.
+  For example, with the Ethernet shield, set DISABLE_CS_PIN
+  to 10 to disable the Ethernet controller.
+*/
+const int8_t DISABLE_CS_PIN = -1;
+/*
+  Change the value of SD_CS_PIN if you are using SPI
+  and your hardware does not use the default value, SS.
+  Common values are:
+  Arduino Ethernet shield: pin 4
+  Sparkfun SD shield: pin 8
+  Adafruit SD shields and modules: pin 10
+  SparkFun Thing Plus NORA-W306: Arduino pin 4 (aka SS/PB_21/SPI0_CS)
+*/
+// SDCARD_SS_PIN is defined for the built-in SD on some boards.
+#ifndef SDCARD_SS_PIN
+const uint8_t SD_CS_PIN = SS;
+#else  // SDCARD_SS_PIN
+const uint8_t SD_CS_PIN = SDCARD_SS_PIN;
+#endif  // SDCARD_SS_PIN
+
+// Try to select the best SD card configuration.
+#if HAS_SDIO_CLASS
+#define SD_CONFIG SdioConfig(FIFO_SDIO)
+#elif ENABLE_DEDICATED_SPI
+#define SD_CONFIG SdSpiConfig(SD_CS_PIN, DEDICATED_SPI, SD_SCK_MHZ(16))
+#else  // HAS_SDIO_CLASS
+#define SD_CONFIG SdSpiConfig(SD_CS_PIN, SHARED_SPI, SD_SCK_MHZ(16))
+#endif  // HAS_SDIO_CLASS
+
+//------------------------------------------------------------------------------
+SdFs sd;
+cid_t cid;
+csd_t csd;
+scr_t scr;
+uint8_t cmd6Data[64];
+uint32_t eraseSize;
+uint32_t ocr;
+static ArduinoOutStream cout(Serial);
+
 
 #include <Wire.h>
 
@@ -121,9 +175,6 @@ void DeepSleep_wakeup(void) {
     //printf("\r\nDeep sleep wakeuped! \r\n");
     uint32_t wakereason_number = PowerSave.AONWakeReason();
 
-    //pinMode(17, OUTPUT); // 17 SDPC uSD power control
-    //digitalWrite(17, LOW); // Turn on uSD power if you'd like to measure its current consumption   
-
     readSensor();
     
     if (wakereason_number == AONWakeReason_AON_GPIO) {
@@ -134,22 +185,21 @@ void DeepSleep_wakeup(void) {
         //printf("AonTimer wakeup. Wait 5s sleep again.    \r\n");
      
         pinMode(LED_BUILTIN, OUTPUT);
-        for(int i = 0 ; i < 5 ; i ++)
+        for(int i = 0 ; i < 3 ; i ++)
         {
           digitalWrite(LED_BUILTIN, HIGH);
-          delay(1000);
+          delay(100);
           digitalWrite(LED_BUILTIN, LOW);
-          delay(1000);
+          delay(100);
         }
         pinMode(LED_BUILTIN, INPUT);
         //delay(5000);
     } else if (wakereason_number == AONWakeReason_RTC) {
-        //printf("RTC wakeup. Wait 5s sleep again.    \r\n");
+
+        printf("RTC wakeup. Wait 5s sleep again.    \r\n");
+
         delay(5000);
     }
-
-    //pinMode(17, INPUT_PULLUP); // 17 SDPC uSD power control (Pullup = off)
-    // Pin configuration - specific to the SparkFun Thing Plus NORA-W306
 
     pinMode(0, INPUT_PULLDOWN); // LOG RX, can backpower the CP2102
     pinMode(1, INPUT_PULLDOWN); // LOG TX, can backpower the CP2102
@@ -157,7 +207,6 @@ void DeepSleep_wakeup(void) {
     pinMode(5, INPUT_PULLDOWN); // SPI0_CLK
     pinMode(6, INPUT_PULLDOWN); // SPI0_PICO
     pinMode(7, INPUT_PULLDOWN); // SPI0_POCI
-
     pinMode(11, INPUT_PULLUP); // SDA
     pinMode(12, INPUT_PULLUP); // SCL
     pinMode(17, INPUT_PULLUP); // 17 SDPC uSD power control
@@ -233,15 +282,12 @@ void setup() {
         break;
     }
 
-    //Serial.end();
-
     PowerSave.enable();
 }
 
 void loop() {
     delay(1000);
 }
-
 
 void readSensor()
 {
@@ -254,8 +300,63 @@ void readSensor()
     pinMode(17, OUTPUT); // 17 SDPC uSD power control
     digitalWrite(17, LOW); // uSD power GND = ON
 
-
     Serial.begin(115200);
+
+    cout << F("SdFat version: ") << SD_FAT_VERSION_STR << endl;
+    printConfig(SD_CONFIG);
+uint32_t t = millis();
+      if (!sd.cardBegin(SD_CONFIG)) {
+    cout << F(
+           "\nSD initialization failed.\n"
+           "Do not reformat the card!\n"
+           "Is the card correctly inserted?\n"
+           "Is there a wiring/soldering problem?\n");
+    if (isSpi(SD_CONFIG)) {
+      cout << F(
+           "Is SD_CS_PIN set to the correct value?\n"
+           "Does another SPI device need to be disabled?\n"
+           );
+    }
+    errorPrint();
+    return;
+  }
+
+    t = millis() - t;
+  cout << F("init time: ") << dec << t << " ms" << endl;
+
+  if (!sd.card()->readCID(&cid) ||
+      !sd.card()->readCSD(&csd) ||
+      !sd.card()->readOCR(&ocr) ||
+      !sd.card()->readSCR(&scr)) {
+    cout << F("readInfo failed\n");
+    errorPrint();
+    return;
+  }
+  printCardType();
+  cout << F("sdSpecVer: ") << 0.01*scr.sdSpecVer() << endl;
+  cout << F("HighSpeedMode: ");
+  if (scr.sdSpecVer() &&
+    sd.card()->cardCMD6(0X00FFFFFF, cmd6Data) && (2 & cmd6Data[13])) {
+    cout << F("true\n");
+  } else {
+    cout << F("false\n");
+  }      
+  cidDmp();
+  csdDmp();
+  cout << F("\nOCR: ") << uppercase << showbase;
+  cout << hex << ocr << dec << endl;
+  if (!mbrDmp()) {
+    return;
+  }
+  if (!sd.volumeBegin()) {
+    cout << F("\nvolumeBegin failed. Is the card formatted?\n");
+    errorPrint();
+    return;
+  }
+  dmpVol();
+  
+
+
 
     Wire.begin();
     Wire.setClock(400000); //Increase to fast I2C speed!
@@ -270,26 +371,223 @@ void readSensor()
     while(mySensor.isMeasuring() == false) ; //Wait for sensor to start measurment
     while(mySensor.isMeasuring() == true) ; //Hang out while sensor completes the reading    
 
-float humidity = mySensor.readFloatHumidity();
-float pressure = mySensor.readFloatPressure();
-float altitude = mySensor.readFloatAltitudeFeet();
+    humidity = mySensor.readFloatHumidity();
+    pressure = mySensor.readFloatPressure();
+    altitude = mySensor.readFloatAltitudeFeet();
+    temperature = mySensor.readTempF();
+
     printf(" Humidity: ");
     printf("%d", int(humidity));
 
-    // printf(" Pressure: ");
-    // printf("%f", mySensor.readFloatPressure());
+    printf(" Pressure: ");
+    printf("%d", int(pressure));
 
-    // printf(" Alt: ");
-    // //printf(mySensor.readFloatAltitudeMeters(), 1);
-    // printf("%f", mySensor.readFloatAltitudeFeet());
+    printf(" Altitude: ");
+    printf("%d", int(altitude));
 
-    // printf(" Temp: ");
-    // //printf(mySensor.readTempC(), 2);
-    // printf("%f", mySensor.readTempF());
-
-    // printf();
+    printf(" Temperature: ");
+    printf("%d", int(temperature));
 
     mySensor.setMode(MODE_SLEEP); //Sleep for now
 
     Wire.end();
+
+    logDataToSd();
+}
+
+//------------------------------------------------------------------------------
+void cidDmp() {
+  cout << F("\nManufacturer ID: ");
+  cout << uppercase << showbase << hex << int(cid.mid) << dec << endl;
+  cout << F("OEM ID: ") << cid.oid[0] << cid.oid[1] << endl;
+  cout << F("Product: ");
+  for (uint8_t i = 0; i < 5; i++) {
+    cout << cid.pnm[i];
+  }
+  cout << F("\nRevision: ") << cid.prvN() << '.' << cid.prvM() << endl;
+  cout << F("Serial number: ") << hex << cid.psn() << dec << endl;
+  cout << F("Manufacturing date: ");
+  cout << cid.mdtMonth() << '/' << cid.mdtYear() << endl;
+  cout << endl;
+}
+//------------------------------------------------------------------------------
+void clearSerialInput() {
+  uint32_t m = micros();
+  do {
+    if (Serial.read() >= 0) {
+      m = micros();
+    }
+  } while (micros() - m < 10000);
+}
+//------------------------------------------------------------------------------
+void csdDmp() {
+  eraseSize = csd.eraseSize();
+  cout << F("cardSize: ") << 0.000512 * csd.capacity();
+  cout << F(" MB (MB = 1,000,000 bytes)\n");
+
+
+  cout << F("flashEraseSize: ") << int(eraseSize) << F(" blocks\n");
+  cout << F("eraseSingleBlock: ");
+  if (csd.eraseSingleBlock()) {
+    cout << F("true\n");
+  } else {
+    cout << F("false\n");
+  }
+  cout << F("dataAfterErase: ");
+  if (scr.dataAfterErase()) {
+    cout << F("ones\n");
+  } else {
+    cout << F("zeros\n");
+  }
+}
+//------------------------------------------------------------------------------
+void errorPrint() {
+  if (sd.sdErrorCode()) {
+    cout << F("SD errorCode: ") << hex << showbase;
+    printSdErrorSymbol(&Serial, sd.sdErrorCode());
+    cout << F(" = ") << int(sd.sdErrorCode()) << endl;
+    cout << F("SD errorData = ") << int(sd.sdErrorData()) << dec << endl;
+  }
+}
+//------------------------------------------------------------------------------
+bool mbrDmp() {
+  MbrSector_t mbr;
+  bool valid = true;
+  if (!sd.card()->readSector(0, (uint8_t*)&mbr)) {
+    cout << F("\nread MBR failed.\n");
+    errorPrint();
+    return false;
+  }
+  cout << F("\nSD Partition Table\n");
+  cout << F("part,boot,bgnCHS[3],type,endCHS[3],start,length\n");
+  for (uint8_t ip = 1; ip < 5; ip++) {
+    MbrPart_t *pt = &mbr.part[ip - 1];
+    if ((pt->boot != 0 && pt->boot != 0X80) ||
+        getLe32(pt->relativeSectors) > csd.capacity()) {
+      valid = false;
+    }
+    cout << int(ip) << ',' << uppercase << showbase << hex;
+    cout << int(pt->boot) << ',';
+    for (int i = 0; i < 3; i++ ) {
+      cout << int(pt->beginCHS[i]) << ',';
+    }
+    cout << int(pt->type) << ',';
+    for (int i = 0; i < 3; i++ ) {
+      cout << int(pt->endCHS[i]) << ',';
+    }
+    cout << dec << getLe32(pt->relativeSectors) << ',';
+    cout << getLe32(pt->totalSectors) << endl;
+  }
+  if (!valid) {
+    cout << F("\nMBR not valid, assuming Super Floppy format.\n");
+  }
+  return true;
+}
+//------------------------------------------------------------------------------
+void dmpVol() {
+  cout << F("\nScanning FAT, please wait.\n");
+  int32_t freeClusterCount = sd.freeClusterCount();
+  if (sd.fatType() <= 32) {
+    cout << F("\nVolume is FAT") << int(sd.fatType()) << endl;
+  } else {
+    cout << F("\nVolume is exFAT\n");
+  }
+  cout << F("sectorsPerCluster: ") << sd.sectorsPerCluster() << endl;
+  cout << F("fatStartSector:    ") << sd.fatStartSector() << endl;
+  cout << F("dataStartSector:   ") << sd.dataStartSector() << endl;
+  cout << F("clusterCount:      ") << sd.clusterCount() << endl;  
+  cout << F("freeClusterCount:  ");
+  if (freeClusterCount >= 0) {
+    cout << freeClusterCount << endl;
+  } else {
+    cout << F("failed\n");
+    errorPrint();    
+  }
+}
+//------------------------------------------------------------------------------
+void printCardType() {
+  cout << F("\nCard type: ");
+  switch (sd.card()->type()) {
+    case SD_CARD_TYPE_SD1:
+      cout << F("SD1\n");
+      break;
+    case SD_CARD_TYPE_SD2:
+      cout << F("SD2\n");
+      break;
+    case SD_CARD_TYPE_SDHC:
+      if (csd.capacity() < 70000000) {
+        cout << F("SDHC\n");
+      } else {
+        cout << F("SDXC\n");
+      }
+      break;
+    default:
+      cout << F("Unknown\n");
+  }
+}
+//------------------------------------------------------------------------------
+void printConfig(SdSpiConfig config) {
+  if (DISABLE_CS_PIN < 0) {
+    cout << F(
+           "\nAssuming the SD is the only SPI device.\n"
+           "Edit DISABLE_CS_PIN to disable an SPI device.\n");
+  } else {
+    cout << F("\nDisabling SPI device on pin ");
+    cout << int(DISABLE_CS_PIN) << endl;
+    pinMode(DISABLE_CS_PIN, OUTPUT);
+    digitalWrite(DISABLE_CS_PIN, HIGH);
+  }
+  cout << F("\nAssuming the SD chip select pin is: ") << int(config.csPin);
+  cout << F("\nEdit SD_CS_PIN to change the SD chip select pin.\n");
+}
+//------------------------------------------------------------------------------
+void printConfig(SdioConfig config) {
+  (void)config;
+  cout << F("Assuming an SDIO interface.\n");
+}
+
+//------------------------------------------------------------------------------
+void logDataToSd()
+{
+  // open the file. note that only one file can be open at a time,
+  // so you have to close this one before opening another.
+  myFile = sd.open("log.txt", FILE_WRITE);
+
+  // if the file opened okay, write to it:
+  if (myFile) {
+    Serial.print("Writing to log.txt...");
+
+    myFile.print("Humidity:");
+    myFile.print(humidity);
+    myFile.print(",Pressure:");
+    myFile.print(pressure);
+    myFile.print(",Altitude:");
+    myFile.print(altitude);
+    myFile.print(",Temperature:");
+    myFile.println(temperature);
+
+    // close the file:
+    myFile.close();
+    Serial.println("done.");
+  } else {
+    // if the file didn't open, print an error:
+    Serial.println("error opening log.txt");
+  }
+
+  // re-open the file for reading:
+  myFile = sd.open("log.txt");
+  if (myFile) {
+    Serial.println("log.txt:");
+
+
+    // read from the file until there's nothing else in it:
+    while (myFile.available()) {
+      Serial.write(myFile.read());
+    }
+    // close the file:
+    myFile.close();
+  } else {
+    // if the file didn't open, print an error:
+    Serial.println("error opening log.txt");
+  }
 }
