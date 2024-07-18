@@ -24,6 +24,10 @@ When ready, connect the board to your computer with the USB C cable.
 
 ### Arduino Library
 
+If you have not already, make sure to install the following library as explained earlier. Keep in mind there is more than one SdFat Arduino Library. We recommend using the SdFat Arduino Library by Bill Greiman.
+
+* [SdFat](https://github.com/greiman/SdFat)
+
 
 
 ### Arduino Code

@@ -84,7 +84,7 @@ Let&apos;s upload the sketch control the WS2812. We recommend using the WS2812B 
 
 
 !!! note
-    This code is modified and not the same as the one in the board-add on!!! A few lines were commented out, a macro was used when making an instance of the WS2812B, and the LED is blinking in the loop. For a comparison, you could view the original code provided in the board support pacakge by heading to: **File** > **Examples** > **File** > **Examples** > <font style="color:gray"><b>Examples for SparkFun Thing Plus NORA-W306 (RTL8720DF)</b></font> | **AmebaWS2812B** > **WS2812B_Basics**.
+    This code is modified and not the same as the one in the board-add on!!! A few lines were commented out, a macro was used when making an instance of the WS2812B, one LED is used, and the red and green colors are blinking in the loop. For a comparison, you could view the original code provided in the board support package by heading to: **File** > **Examples** > **File** > **Examples** > <font style="color:gray"><b>Examples for SparkFun Thing Plus NORA-W306 (RTL8720DF)</b></font> | **AmebaWS2812B** > **WS2812B_Basics**.
 
 Copy and paste the following code in the Arduino IDE. Select the correct board definition from the menu (in this case, **Tools** > **Board** > **Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)** > **SparkFun Thing Plus NORA-W306 (RTL8720DF)**). Then select the correct COM port that the board enumerated to (in this case, it was **COM13**). Hit upload button.  
 

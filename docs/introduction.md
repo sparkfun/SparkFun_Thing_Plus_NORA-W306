@@ -25,7 +25,7 @@ The [SparkFun Thing Plus - NORA-W306](https://www.sparkfun.com/products/21637) i
 </div>
 
 
-In this tutorial, we'll go over the hardware and how to hookup the development board to an Arduino. We will also go over a basic Arduino example to get started!
+In this tutorial, we'll go over the hardware and how to hookup the development board to an Arduino. We will also go over a few Arduino examples to get started!
 
 
 
@@ -33,16 +33,22 @@ In this tutorial, we'll go over the hardware and how to hookup the development b
 
 To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.
 
+<!--
+
+
 * 1x [USB micro-B Cable - 6 Foot [CAB-15425]](https://www.sparkfun.com/products/15425)
 * 1x [SparkFun Thing Plus NORA-W306 [WRL-21637]](https://www.sparkfun.com/products/21637)
 * 1x microSD Card
     * [microSD Card - 1GB (Class 4) [COM-15107]](https://www.sparkfun.com/products/15107) for those that are interested in logging data
 * 1x microSD Card Adapter
-    * [microSD USB Reader [COM-13004]](https://www.sparkfun.com/products/13004) is a good choice if you do not have an adapter or a SD card reader port
 * 1x Qwiic Cable
     * [Flexible Qwiic Cable - 50mm [PRT-17260]](https://www.sparkfun.com/products/17260), for short distances
     * [Flexible Qwiic Cable - 500mm [PRT-17257]](https://www.sparkfun.com/products/17257), for those that need to wire the board farther away from your microcontroller
 * 1x [SparkFun Micro OLED Breakout (Qwiic) [SEN-22495]](https://www.sparkfun.com/products/22495) to Qwiic-ly connect and display readings
+
+-->
+
+
 
 <div class="grid cards col-4" markdown>
 
@@ -63,7 +69,7 @@ To follow along with this tutorial, you will need the following materials. You m
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/21637">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Thing Plus NORA-W306">
+        <img src="https://cdn.sparkfun.com/assets/parts/2/1/4/7/0/WRL-21637-Thing-Plus-NORA-W306-feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Thing Plus NORA-W306">
       </figure>
     </a>
 
@@ -73,20 +79,6 @@ To follow along with this tutorial, you will need the following materials. You m
       <b>SparkFun Thing Plus NORA-W306</b>
       <br />
       WRL-21637
-    </a>
-<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/22495">
-      <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/2/2/5/5/8/22495-_LCD-_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Micro OLED Breakout (Qwiic)">
-      </figure>
-    </a>
-
-    ---
-
-    <a href="https://www.sparkfun.com/products/22858">
-      <b>SparkFun Micro OLED Breakout (Qwiic)</b>
-      <br />
-      SEN-22495
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/15107">
@@ -103,18 +95,18 @@ To follow along with this tutorial, you will need the following materials. You m
       COM-15107
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/13004">
+-   <a href="https://www.sparkfun.com/products/22495">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com//assets/parts/9/9/5/8/13004-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="microSD USB Reader">
+        <img src="https://cdn.sparkfun.com/assets/parts/2/2/5/5/8/22495-OLED-front.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Micro OLED Breakout (Qwiic)">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/13004">
-      <b>microSD USB Reader</b>
+    <a href="https://www.sparkfun.com/products/22858">
+      <b>SparkFun Micro OLED Breakout (Qwiic)</b>
       <br />
-      COM-13004
+      SEN-22495
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/17260">
@@ -135,16 +127,35 @@ To follow along with this tutorial, you will need the following materials. You m
 </div>
 
 
+!!! note
+    Make sure that you have a microSD card reader or adapter as well to read the contents saved on the memory card.
+
+    <div style="text-align: center;">
+      <table>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="https://cdn.sparkfun.com/assets/parts/7/6/3/6/11609-Action.jpg"><img src="https://cdn.sparkfun.com/assets/parts/7/6/3/6/11609-Action.jpg" width="140px" height="140px" alt="MicroSD Card Adapters"></a></td>
+        </tr>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>MicroSD Card Adapters</i></td>
+      </table>
+    </div>
+
+
+
 
 ### Tools (Optional)
 
-You will need a soldering iron, solder, and [general soldering accessories](https://www.sparkfun.com/categories/49) for a secure connection when using the plated through holes.
+You will need a soldering iron, solder, and [general soldering accessories](https://www.sparkfun.com/categories/49) for a secure connection when using the plated through holes. For users that are measuring the current draw, you may want to consider grabbing a digital multimeter or a USB C cable that is able to display the current draw.
+
+<!--
 
 * [Soldering Iron [TOL-14456]](https://www.sparkfun.com/products/14456)
 * [Solder Lead Free - 15-gram Tube [TOL-9163]](https://www.sparkfun.com/products/9163)
-* [Flush Cutters - Xcelite [TOL-14782]](https://www.sparkfun.com/products/14782)
+* [Flush Cutters - Hakko [TOL-11952]](https://www.sparkfun.com/products/11952)
 * [Hook-Up Wire - Assortment (Stranded, 22 AWG) [PRT-11375]](https://www.sparkfun.com/products/11375)
-* [Wire Stripper - 20-30 AWG Solid (22-32 AWG Stranded) [TOL-22263]](https://www.sparkfun.com/products/22263)
+* [Wire Strippers - 30AWG (Hakko) [TOL-12630]](https://www.sparkfun.com/products/12630)
+
+-->
 
 <div class="grid cards col-4" markdown>
 
@@ -190,32 +201,60 @@ You will need a soldering iron, solder, and [general soldering accessories](http
       PRT-11375
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/22263">
+-   <a href="https://www.sparkfun.com/products/12630">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com//assets/parts/2/2/2/0/1/22263-_TOL_Wire_Stripper-_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Wire Stripper - 20-30 AWG Solid (22-32 AWG Stranded)">
+        <img src="https://cdn.sparkfun.com/assets/parts/9/3/1/2/12630-Hakko-Wire-Strippers-30AWG-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Wire Strippers - 30AWG (Hakko)">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/22263">
-      <b>Wire Stripper - 20-30 AWG Solid (22-32 AWG Stranded)</b>
+    <a href="https://www.sparkfun.com/products/12630">
+      <b>Wire Strippers - 30AWG (Hakko)</b>
       <br />
-      TOL-22263
+      TOL-12630
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/14782">
+-   <a href="https://www.sparkfun.com/products/11952">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com//assets/parts/1/3/0/3/6/14782-Flush_Cutters_-_Xcelite-02.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Flush Cutters - Xcelite">
+        <img src="https://cdn.sparkfun.com/assets/parts/8/4/2/2/11952-Hakko-Flush-Cutters-feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Flush Cutters - Hakko">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/14782">
-      <b>Flush Cutters - Xcelite</b>
+    <a href="https://www.sparkfun.com/products/11952">
+      <b>Flush Cutters - Hakko</b>
       <br />
-      TOL-14782
+      TOL-11952
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/12966">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/9/9/0/7/12966-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Digital Multimeter - Basic">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/12966">
+      <b>Digital Multimeter - Basic</b>
+      <br />
+      TOL-12966
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/19718">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/9/4/1/5/19718-USAMS_USB_Type_A_to_Type_C_6A_Fast_Charging_and_Data_Cable_with_LED_Display-02.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Fast Charging USB A to C Cable with LCD - 4ft (6A)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/19718">
+      <b>Fast Charging USB A to C Cable with LCD - 4ft (6A)</b>
+      <br />
+      CAB-19718
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
@@ -226,11 +265,15 @@ You will need a soldering iron, solder, and [general soldering accessories](http
 
 Depending on your setup, you may want to use IC hooks for a temporary connection. However, you will want to solder header pins to connect devices to the plated through holes for a secure connection.
 
+<!--
+
 * [Breadboard - Self-Adhesive (White) [PRT-12002]](https://www.sparkfun.com/products/12002)
 * [IC Hook with Pigtail [CAB-09741]](https://www.sparkfun.com/products/9741)
 * [Break Away Headers - Straight [PRT-00116]](https://www.sparkfun.com/products/116)
 * [Feather Stackable Header Kit [PRT-15187]](https://www.sparkfun.com/products/15187)
 * [Jumper Wires Premium 6" M/M Pack of 10 [PRT-08431]](https://www.sparkfun.com/products/8431)
+
+-->
 
 <div class="grid cards col-4" markdown>
 
@@ -288,6 +331,20 @@ Depending on your setup, you may want to use IC hooks for a temporary connection
       <b>Feather Stackable Header Kit</b>
       <br />
       PRT-15187
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/9044">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/2/4/0/7/09044-04-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper - 2 Pin">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/9044">
+      <b>Jumper - 2 Pin</b>
+      <br />
+      PRT-09044
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/8431">

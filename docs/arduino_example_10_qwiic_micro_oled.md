@@ -28,20 +28,9 @@ When ready, connect the board to your computer with the USB C cable.
 !!! note
     There are two SparkFun Arduino Libraries for the Qwiic micro OLED. We recommend using the SparkFun Qwiic OLED Arduino Library.
 
-First, you&apos;ll need to download and install the **SparkFun Qwiic Micro OLED Arduino Library**. You can install this library automatically in the Arduino IDE&apos;s Library Manager by searching for "**SparkFun Qwiic OLED Graphics Library**". Or you can manually download it from the [GitHub repository](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library).
+If you have not already, make sure to install the following libraries as explained earlier.
 
-<div style="text-align: center"><a href="https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library/archive/refs/heads/main.zip" class="md-button">Download the SparkFun Qwiic OLED Arduino Library (ZIP)</a></div>
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-21637_Thing_Plus_NORA-W306_Qwiic_OLED_Hello_World.jpg"><img src="../assets/img/WRL-21637_Thing_Plus_NORA-W306_Qwiic_OLED_Hello_World.jpg" width="600px" height="600px" alt="Qwiic Micro OLED Connected to SparkFun Thing Plus NORA-W306 and with the Word &quot;hello&quot; Displayed"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Micro OLED Connected to SparkFun Thing Plus NORA-W306 and with the Word &quot;hello&quot; Displayed</i></td>
-    </tr>
-  </table>
-</div>
+* [Qwiic OLED](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)
 
 
 
@@ -134,3 +123,14 @@ void loop()
 ```
 
 Once the code has been uploaded, check the Qwiic Micro OLED screen. You should see the entire screen filled with a rectangle with the "hello" in the middle. Try exploring the other examples in the folder and writing your own code to output on the screen.
+
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-21637_Thing_Plus_NORA-W306_Qwiic_OLED_Hello_World.jpg"><img src="../assets/img/WRL-21637_Thing_Plus_NORA-W306_Qwiic_OLED_Hello_World.jpg" width="600px" height="600px" alt="Qwiic Micro OLED Connected to SparkFun Thing Plus NORA-W306 and with the Word &quot;hello&quot; Displayed"></a></td>
+    </tr>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Micro OLED Connected to SparkFun Thing Plus NORA-W306 and with the Word &quot;hello&quot; Displayed</i></td>
+    </tr>
+  </table>
+</div>
