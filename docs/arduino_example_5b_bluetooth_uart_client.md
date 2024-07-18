@@ -123,7 +123,7 @@ void loop() {
 }
 ```
 
-To test, open the Arduino Serial Monitor for the client device on its respective COM port at **115200**. Then open a second serial terminal (in this case we used TeraTerm) for the previous service device on its respective COM port at **115200**. Type some characters and hit **Send** button from the client device. You should see the same characters received on the service device! Then try typing messages from the service to the client. Again, you should see the same characters on the other end. You may need to turn on the local echo depending on the terminal window that you are using.
+To test, open the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux) for the client device on its respective COM port at **115200**. Then open a second serial terminal (in this case we used TeraTerm) for the previous service device on its respective COM port at **115200**. Type some characters and hit **Send** button from the client device. You should see the same characters received on the service device! Then try typing messages from the service to the client. Again, you should see the same characters on the other end. You may need to turn on the local echo depending on the terminal window that you are using.
 
 <div style="text-align: center;">
   <table>

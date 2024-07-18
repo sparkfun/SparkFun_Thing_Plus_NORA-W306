@@ -27,7 +27,8 @@
 
 /* Word wrap code blocks (no horizontal scroll) */
 pre code {
-  white-space : pre-wrap;
+  white-space : pre-wrap; /* word wrap (this is useful to presrve commands when it is long) */
+  max-height: 120mm;      /* limit code length for long pieces of code*/
 }
 
 

@@ -22,6 +22,8 @@ Make sure to insert a microSD card into the microSD card socket on the back of t
 
 When ready, connect the board to your computer with the USB C cable.
 
+### Arduino Library
+
 
 
 ### Arduino Code
@@ -415,7 +417,7 @@ void test() {
 
 
 
-Open the Arduino serial monitor at **115200** baud. Send a character through the Arduino Serial Monitor. You should get a prompt in the Serial Monitor. Enter a chararacter (i.e. send <kbd>s</kbd> or any other keyboard character) to start. The example will then read the card. If the card is compatible, the output will provide information about the microSD card type, create a new file, write text to the file, and then close the file. The example will then re-open the file and read the contents of the file. You should see the following text in the file: "_testing 3,4,5 wahoo_". If the example code is run more than once, you may see the same text repeat a few times.
+Open the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux) at **115200** baud. Send a character through the Arduino Serial Monitor. You should get a prompt in the Serial Monitor. Enter a chararacter (i.e. send <kbd>s</kbd> or any other keyboard character) to start. The example will then read the card. If the card is compatible, the output will provide information about the microSD card type, create a new file, write text to the file, and then close the file. The example will then re-open the file and read the contents of the file. You should see the following text in the file: "_testing 3,4,5 wahoo_". If the example code is run more than once, you may see the same text repeat a few times.
 
 <div style="text-align: center;">
   <table>
