@@ -46,20 +46,22 @@ icon: fontawesome/solid/scroll
 # Example 6 - MicroSD Card
 --8<-- "./docs/arduino_example_6_microsd.md"
 
-# Example 7 - Deep Sleep and MicroSD Power Control
+# Example 7 - Deep Sleep and Blink
 --8<-- "./docs/arduino_example_7_deep_sleep_blink.md"
 
-# Example 8 - MAX17048 LiPo Fuel Gauge
---8<-- "./docs/arduino_example_8_lipo_fuel_gauge.md"
 
-# Example 9 - WS2812 Addressable RGB LED
---8<-- "./docs/arduino_example_9_ws2812.md"
 
-# Example 10 - Qwiic Micro OLED
---8<-- "./docs/arduino_example_10_qwiic_micro_oled.md"
+# Example 9 - MAX17048 LiPo Fuel Gauge
+--8<-- "./docs/arduino_example_9_lipo_fuel_gauge.md"
 
-# Example 11 - LiPo Fuel Gauge (MAX17048) with Micro OLED Display Demo
---8<-- "./docs/arduino_example_11_lipo_fuel_gauge_micro_oled_ws2812.md"
+# Example 10 - WS2812 Addressable RGB LED
+--8<-- "./docs/arduino_example_10_ws2812.md"
+
+# Example 11 - Qwiic Micro OLED
+--8<-- "./docs/arduino_example_11_qwiic_micro_oled.md"
+
+# Example 12 - LiPo Fuel Gauge (MAX17048) with Micro OLED Display Demo
+--8<-- "./docs/arduino_example_12_lipo_fuel_gauge_micro_oled_ws2812.md"
 
 # More Examples!!!
 --8<-- "./docs/more_examples.md"

@@ -50,7 +50,7 @@ To upload code, connect the USB cable to the SparkFun Thing Plus NORA-W306. Of c
 This example builds upon Realtek's deep sleep mode. Once the deep sleep modes are set up, the NORA-W306 goes into deep sleep. In this particular example, we will use the timer (i.e. `SET_DS_AON_TIMER_WAKEUP`) as the source. After 5 seconds, the board wakes up with the user LED also blinking five times before going back to deep sleep for 5 seconds.
 
 !!! note
-    The serial UART is disabled to reduce amount the peripherals that are turned on. To save more power, you can cut the JP3 and PWR LED jumpers. There is also a fancy circuit to disable power to the CP2102 when there is no USB power. Users that decide to
+    The serial UART is disabled to reduce amount the peripherals that are turned on. To save more power, you can cut the JP3 and PWR LED jumpers. There is also a fancy circuit to disable power to the CP2102 when there is no USB power. As an alternative to USB power, users can power the board with a LiPo battery.
 
 Copy and paste the following code in the Arduino IDE. Select your Board (in this case the **SparkFun Thing Plus NORA-W306 (RTL8720DF)**), and associated COM port (in this case **COM13**). Then hit the upload button.
 
@@ -305,20 +305,3 @@ Below are a few diagrams showing two possible to measure the current draw when t
     </tr>
   </table>
 </div>
-
-
-!!! note
-    For the SD power control (SDPC), make sure to cut the trace on the back of the board and add a solder blob between the center pad and pad labelled as `17`. Head back to the Arduino code and uncomment the lines for the SD power control (i.e. where SDPC).
-
-    <div style="text-align: center;">
-      <table>
-        <tr style="vertical-align:middle;">
-         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/WRL-21637_Thing_Plus_NORA-W306_SDPC_Jumper_Modification.jpg"><img src="../assets/img/WRL-21637_Thing_Plus_NORA-W306_SDPC_Jumper_Modification.jpg" width="600px" height="600px" alt="MicroSD Card Power Control Jumper Modified"></a></td>
-        </tr>
-        <tr style="vertical-align:middle;">
-         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>MicroSD Card Power Control Jumper Modified</i></td>
-        </tr>
-      </table>
-    </div>
-
-    For those that are reading and writing to the microSD card, you will need to write just a bit more code as well. Check out the code for the [microSD card example](../arduino_example_6_microsd/#arduino-code). Besides setting up the microSD card, you will need to open a file, write/read, and close the file where the LED blinks before turning power off the SDPC pin. Make sure to insert a microSD card into the socket on the back of the board before powering up the board.

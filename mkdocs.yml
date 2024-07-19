@@ -251,11 +251,12 @@ nav:
       - Example 5a - Bluetooth UART Service: arduino_example_5a_bluetooth_uart_service.md
       - Example 5b - Bluetooth UART Client: arduino_example_5b_bluetooth_uart_client.md
       - Example 6 - MicroSD Card: arduino_example_6_microsd.md
-      - Example 7 - Deep Sleep and MicroSD Power Control: arduino_example_7_deep_sleep_blink.md
-      - Example 8 - MAX17048 LiPo Fuel Gauge: arduino_example_8_lipo_fuel_gauge.md
-      - Example 9 - WS2812 Addressable RGB LED: arduino_example_9_ws2812.md
-      - Example 10 - Qwiic Micro OLED: arduino_example_10_qwiic_micro_oled.md
-      - Example 11 - MAX17048 LiPo Fuel Gauge with Micro OLED Display Demo: arduino_example_11_lipo_fuel_gauge_micro_oled_ws2812.md
+      - Example 7 - Deep Sleep and Blink: arduino_example_7_deep_sleep_blink.md
+      # - Example 8 - Deep Sleep and MicroSD Temperature DataLogging: arduino_example_8_deep_sleep_microSD_datalogging.md
+      - Example 9 - MAX17048 LiPo Fuel Gauge: arduino_example_9_lipo_fuel_gauge.md
+      - Example 10 - WS2812 Addressable RGB LED: arduino_example_10_ws2812.md
+      - Example 11 - Qwiic Micro OLED: arduino_example_11_qwiic_micro_oled.md
+      - Example 12 - MAX17048 LiPo Fuel Gauge with Micro OLED Display Demo: arduino_example_12_lipo_fuel_gauge_micro_oled_ws2812.md
       - More Examples!!!: more_examples.md
   - Resources: resources.md
   - Support:
