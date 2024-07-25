@@ -49,7 +49,8 @@ icon: fontawesome/solid/scroll
 # Example 7 - Deep Sleep and Blink
 --8<-- "./docs/arduino_example_7_deep_sleep_blink.md"
 
-
+# Example 8 - Deep Sleep and MicroSD Power Control
+--8<-- "./docs/arduino_example_8_deep_sleep_temperature_datalogging_BME280.md"
 
 # Example 9 - MAX17048 LiPo Fuel Gauge
 --8<-- "./docs/arduino_example_9_lipo_fuel_gauge.md"

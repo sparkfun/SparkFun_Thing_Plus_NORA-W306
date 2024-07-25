@@ -252,7 +252,7 @@ nav:
       - Example 5b - Bluetooth UART Client: arduino_example_5b_bluetooth_uart_client.md
       - Example 6 - MicroSD Card: arduino_example_6_microsd.md
       - Example 7 - Deep Sleep and Blink: arduino_example_7_deep_sleep_blink.md
-      # - Example 8 - Deep Sleep and MicroSD Temperature DataLogging: arduino_example_8_deep_sleep_microSD_datalogging.md
+      - Example 8 - Deep Sleep and MicroSD Temperature DataLogging: arduino_example_8_deep_sleep_temperature_datalogging_BME280.md
       - Example 9 - MAX17048 LiPo Fuel Gauge: arduino_example_9_lipo_fuel_gauge.md
       - Example 10 - WS2812 Addressable RGB LED: arduino_example_10_ws2812.md
       - Example 11 - Qwiic Micro OLED: arduino_example_11_qwiic_micro_oled.md
