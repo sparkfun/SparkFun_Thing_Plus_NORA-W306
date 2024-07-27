@@ -41,7 +41,38 @@ There are a variety of power and power-related nets broken out to connectors and
     You will notice the pads of the SWD pins are also highlighted! 3.3V and ground are also connected to these pads. Users can easily access these pins using a SWD header and cable. Of course, you could also solder wire to those pads if you needed another way to connect to the traces.
 
 !!! tip
-    To complement the module's low-power options, we've optimized components and added the ability to depower all subsystems to conserve as much power as possible for remote battery-powered applications. Without a battery attached or charging, the current draw was as low as14&micro;A in low power mode and cutting the power to WS2812 (i.e. jumper JP3)! Amazing! Under normal conditions, we measured the current draw as low as 30mA.
+    To complement the module's low-power options, we've optimized components and added the ability to depower all subsystems to conserve as much power as possible for remote battery-powered applications. Without a battery attached or charging, and cutting the power to WS2812 (i.e. jumper JP3); the current draw was as low as 14&micro;A in low power mode! Amazing! Under normal conditions, we measured the current draw as low as 30mA.
+
+    Let's compare the Thing Plus ESP32 (USB-C) against the Thing Plus NORA-W306. The power LED jumper was cut on the Thing Plus ESP32. A microSD card was inserted in the microSD card socket (which does not have a way to turn off power through a GPIO) and the board was powered via a single cell LiPo battery. The current draw was 884&micro;A in deep sleep mode while it was 40mA when awake.
+
+    For the Thing Plus NORA-W306, we cut the power LED and WS28112 LED jumpers. The SDPC (microSD Power Control) jumper was modified so power to the microSD card can be controlled through GPIO 17. A microSD card was inserted in the microSD card socket. With the MEAS jumper cut, a multimeter (set to measure current) was connected to monitor the current draw. Power was also provided via a single cell LiPo battery. The current draw was 115&microA in deep sleep mode while it was 21mA when awake.
+
+    <!--
+    <div style="text-align: center;">
+      <table>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Component</td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Power Usage Current [ &micro;A ]</td>
+        </tr>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">CP2102</td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">199</td>
+        </tr>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">microSD</td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">179</td>
+        </tr>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">3.3V VREG<br />(Powered with 4V at VBATT)</td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">93</td>
+        </tr>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">NORA-W306<br />(Powered with 3.3V at 3V3 net)</td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">10 to 11</td>
+        </tr>
+      </table>
+    </div>
+    -->
 
 
 
@@ -79,6 +110,7 @@ The board includes the MCP73831 LiPo charger IC (the little black IC with 5 pins
         </a>
     <!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->
     </div>
+
 
 
 ### GPIO
@@ -401,7 +433,7 @@ There are a few jumper pads available on the bottom of the board.
 * **LED_D0** &mdash; By default, this jumper is closed. Cut this trace to disable the WS2812 addressable RGB LED's output pin labeled as `D0`.
 * **JP1** &mdash; By default, this jumper is closed. Cut this trace to disable the WS2812 addressable RGB LED's input pin that is connected to pin `14`.
 * **JP2** &mdash; By default, this jumper is closed. Cut this trace to disable the user LED that is connected to pin `18`.
-* **JP3** &mdash; By default, this jumper is closed. Cut this trace to disable power connected to the WS2812's addressable LED's 3.3V pin.
+* **JP3** &mdash; By default, this jumper is closed. Cut this trace to disable power connected to the WS2812 addressable LED's 3.3V pin.
 * **CUR** &mdash; This three way jumper sets the charge IC's charge rate. By default, it's connected to the pad labeled **500** so the charge rate is set to 500mA. Cutting a trace and adding a solder jumper between the center pad and the pad labeled as **100** will set the charge rate to 100mA.
 * **I2C** &mdash; By default, this three-pad jumper is closed and located on the bottom of teh board. The three way jumper labeled I2C connect the two 2.2k&ohm ;pull-up resistors to the I<sup>2</sup>C data and clock lines. If multiple devices are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, [disable all but one pair of pull-up resistors](https://learn.sparkfun.com/tutorials/i2c/all#i2c-at-the-hardware-level) if multiple devices are connected to the bus.
 * **SDPC** &mdash; By default, this jumper is closed and for the microSD card's power control circuit. Cut this trace on the **GND/ON** side to disable power to the microSD card's socket. For users that want to control the transistor via a GPIO, add a solder blob between the center pad and the pad that is labeled **17**. Make sure to also define the pin in code to toggle power to the microSD card.
