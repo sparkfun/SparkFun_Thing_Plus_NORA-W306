@@ -24,6 +24,11 @@ The [SparkFun Thing Plus - NORA-W306](https://www.sparkfun.com/products/21637) i
 
 </div>
 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sLkoSZ7Aepk?si=EVbyI7tt1I8poK95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 In this tutorial, we'll go over the hardware and how to hookup the development board to an Arduino. We will also go over a few Arduino examples to get started!
 

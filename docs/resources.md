@@ -23,3 +23,4 @@ Now that you've successfully got your SparkFun Thing Plus - NORA-W306 up and run
     * [SdFat](https://github.com/greiman/SdFat)
     * [Qwiic OLED](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Thing_Plus_NORA-W306)
+* [SFE Product Showcase](https://youtu.be/sLkoSZ7Aepk?si=6z98aLXZULI_bts6)
