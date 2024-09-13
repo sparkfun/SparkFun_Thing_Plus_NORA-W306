@@ -45,7 +45,13 @@ There are a variety of power and power-related nets broken out to connectors and
 
     Let's compare the Thing Plus ESP32 (USB-C) against the Thing Plus NORA-W306. The power LED jumper was cut on the Thing Plus ESP32. A microSD card was inserted in the microSD card socket (which does not have a way to turn off power through a GPIO) and the board was powered via a single cell LiPo battery. The current draw was 884&micro;A in deep sleep mode while it was 40mA when awake.
 
-    For the Thing Plus NORA-W306, we cut the power LED and WS28112 LED jumpers. The SDPC (microSD Power Control) jumper was modified so power to the microSD card can be controlled through GPIO 17. A microSD card was inserted in the microSD card socket. With the MEAS jumper cut, a multimeter (set to measure current) was connected to monitor the current draw. Power was also provided via a single cell LiPo battery. The current draw was 115&microA in deep sleep mode while it was 21mA when awake.
+    For the Thing Plus NORA-W306, we cut the power LED and WS28112 LED jumpers. The SDPC (microSD Power Control) jumper was modified so power to the microSD card can be controlled through GPIO 17. A microSD card was inserted in the microSD card socket. With the MEAS jumper cut, a multimeter (set to measure current) was connected to monitor the current draw. Power was also provided via a single cell LiPo battery. The current draw was 115&micro;A in deep sleep mode while it was 21mA when awake.
+
+    For more information, check out the demo video below with current draw for the board in low power mode!
+
+    <div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ElCYbEnyYH4?si=EVBnWnvqqZ6KBMxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
     <!--
     <div style="text-align: center;">

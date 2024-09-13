@@ -291,7 +291,7 @@ void loop() {
 
 Once connected, choose a power source to connect to the SparkFun Thing Plus NORA-W306. This can be through the PTHs on the edge of the board (VU, VB, or 3V3) or the connectors (USB C, 2-pin JST, or Qwiic). Note that the board will draw more power through the USB C connector and VU PTH as this will power the CP2102. Power will also be drawn with the LiPo charger and 3.3V voltage regulator.
 
-Below are a few diagrams showing two possible to measure the current draw when the board is in deep sleep mode.
+Below are a few diagrams showing two possible ways to measure the current draw when the board is in deep sleep mode.
 
 <div style="text-align: center;">
   <table>
@@ -304,4 +304,10 @@ Below are a few diagrams showing two possible to measure the current draw when t
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Fritzing Diagram of Multimeter Measuring Current LiPo Battery and Board</i></td>
     </tr>
   </table>
+</div>
+
+If you haven't already, check out the demo video that was linked earlier in the hardware overview showing the current draw for the board in low power mode!
+
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElCYbEnyYH4?si=EVBnWnvqqZ6KBMxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
