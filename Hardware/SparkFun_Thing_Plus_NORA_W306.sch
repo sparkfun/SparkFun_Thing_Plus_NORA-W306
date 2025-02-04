@@ -28655,12 +28655,12 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XC6222" prefix="U">
+<deviceset name="V_REG_RT9080" prefix="U">
 <gates>
 <gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="B331MR-G" package="SOT23-5">
+<device name="" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -28669,9 +28669,8 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IOUT" value="700mA" constant="no"/>
-<attribute name="PROD_ID" value="VREG-16775" constant="no"/>
-<attribute name="VOUT" value="3.3V" constant="no"/>
+<attribute name="PROD_ID" value="VREG-19034"/>
+<attribute name="VALUE" value="RT9080-33GJ5"/>
 </technology>
 </technologies>
 </device>
@@ -29361,7 +29360,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
-<part name="U3" library="SparkFun-IC-Power" deviceset="XC6222" device="B331MR-G" value="XC6222B331MR-G"/>
+<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_RT9080" device="" value="RT9080-33GJ5"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
@@ -29501,8 +29500,8 @@ R_PROG=2k : I_CHG=500mA (DEFAULT)
 R_PROG=10k : I_CHG=100mA</text>
 <text x="60.96" y="271.78" size="2.54" layer="94" font="vector" align="bottom-center">Voltage Regulator</text>
 <text x="177.8" y="271.78" size="2.54" layer="94" font="vector" align="bottom-center">Lithium-Polymer Battery Charger (1-cell)</text>
-<text x="81.28" y="205.74" size="1.778" layer="97" font="vector" align="top-center">700mA out
-6V max in</text>
+<text x="81.28" y="205.74" size="1.778" layer="97" font="vector" align="top-center">600mA out
+5.5V max in</text>
 <wire x1="0" y1="182.88" x2="121.92" y2="182.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="182.88" x2="121.92" y2="182.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="182.88" x2="228.6" y2="182.88" width="0.2032" layer="97" style="longdash"/>
@@ -29519,13 +29518,13 @@ R_PROG=10k : I_CHG=100mA</text>
 <wire x1="279.4" y1="106.68" x2="279.4" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">u-blox NORA-W306 Module</text>
 <text x="182.88" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Thing Plus Headers</text>
-<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v10</text>
+<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v10.1</text>
 <text x="411.48" y="172.72" size="2.54" layer="94" font="vector" align="bottom-center">QWIIC Connector 
 &amp; I2C Pullups</text>
 <text x="353.314" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="304.8" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Power &amp; GPIO LEDs</text>
 <text x="331.47" y="6.604" size="1.778" layer="94" font="vector">Based on designs by: M. Hord, A. Wende</text>
-<text x="60.96" y="264.16" size="1.778" layer="97" font="vector" align="bottom-center">V_USB - 6V MAX
+<text x="60.96" y="264.16" size="1.778" layer="97" font="vector" align="bottom-center">V_USB - 5.5V MAX
 V_BATT - Single Cell (4.2V MAX)</text>
 <text x="191.516" y="232.156" size="1.27" layer="97" font="vector">100mA</text>
 <text x="179.07" y="231.902" size="1.27" layer="97" font="vector">500mA</text>

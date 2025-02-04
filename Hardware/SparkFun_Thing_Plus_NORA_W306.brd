@@ -17002,11 +17002,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-15343" x="49.53" y="66.04" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" value="4.7k" x="11.4173" y="32.21481875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="6.57351875" y="25.626059375" smashed="yes" rot="R270">
-<attribute name="IOUT" value="700mA" x="6.57351875" y="25.626059375" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="RT9080-33GJ5" x="6.57351875" y="25.626059375" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.73251875" y="26.515059375" size="0.4064" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="VREG-16775" x="-30.25648125" y="61.186059375" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VOUT" value="3.3V" x="6.57351875" y="25.626059375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="VREG-19034" x="-30.25648125" y="61.186059375" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="RT9080-33GJ5" x="6.57351875" y="25.626059375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.9888" y="19.8374" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.8143" y="18.0594" size="0.4064" layer="25" rot="R180"/>
